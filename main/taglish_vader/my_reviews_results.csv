@@ -1,28 +1,67 @@
-﻿review,rating,text_label,text_score,sarcasm,final_label,final_score,rating_label,agrees
-Super nice and JBL airpods thanks seller,5,GOOD,0.714,,GOOD,0.7484,GOOD,yes
-Sobrang lakas ng sound effects grabe legit jbl sya. Salamat shopee and seller ang ganda ng binigay nyo sakin kahit na 0 ko lng syang nakuha.Order po ulit ako para makabawi naman hehe,5,GOOD,0.886,,GOOD,0.8516,GOOD,yes
-the earbuds works good & good for 3 hrs these earbuds connect quickly w/ my other devices . Very impressive for the low price but high quality in sounds. I loveeee it !,5,GOOD,0.9252,,GOOD,0.8751,GOOD,yes
-the sound is very good and clear these earbuds is quick to connect,5,GOOD,0.5705,,GOOD,0.6623,GOOD,yes
-solid maganda ang tunog matagal malobat,5,GOOD,0.6808,,GOOD,0.7285,GOOD,yes
-Ganda ng sounds matagal din malowbat Incase na malowbat siya nachacharge niya rin sarili niya,5,GOOD,0.3182,,GOOD,0.5109,GOOD,yes
-"15 mins lang lifespan , nakaka dismiya! Product: Poor quality, Counterfeit product, Item Not as Described",1,BAD,-0.2003,,BAD,-0.4402,BAD,yes
-"WAG NA KAYONG BUMILI DITO SCAMMER ITO, WALANG LAMAN ANG EAR PODS NA PINA DELIVER",1,BAD,-0.6705,,BAD,-0.7223,BAD,yes
-Parang nag tinda lang si seller ng kakanin na plastic lang nilagyan haynaku bakit ba ina allow ng shopee yungila di naman pinupulot ang pera namin dapat e value nyo din hindi yung binta lang kayo ng binta ng mga basura 😡,1,BAD,-0.8121,,BAD,-0.8073,BAD,yes
-Hmm sira yung isa hindi nag chcharge ayaw dn mag on ni hindi nagrerespond ang seller ano ba yan!!,1,BAD,-0.6229,,BAD,-0.6937,BAD,yes
-sabog yung tunog kapag naka full volume pero okay naman kapag naka medium yung volume Product: Poor quality,1,GOOD,0.1901,,BAD,-0.2059,BAD,NO
-Ang bilis ma lobat wala pang 30 minutes nag wawarning na palowbat na🤨,1,GOOD,0.4215,,BAD,-0.0671,BAD,NO
-mali yung item pangit ng audio ambilis malowbatt minutes lang tinagal,1,BAD,-0.5859,,BAD,-0.6715,BAD,yes
-hindi gumagana ang isang pods 👎,1,BAD,-0.7717,,BAD,-0.783,BAD,yes
-"tagal magcharge, bilis malowbat, hirap magconnect",1,GOOD,0.0772,,BAD,-0.2737,BAD,NO
-"Fake not a true product, i paid with my own money, not worth it!",1,BAD,-0.8108,,BAD,-0.8065,BAD,yes
-Hindi siya ma connect sa mga device ko.,1,NEUTRAL,0.0,,BAD,-0.8,BAD,NO
-the left earbuds is not working. i tried to fix it but still no sound. Product: Defective/Damaged Item,1,BAD,-0.899,,BAD,-0.8594,BAD,yes
-"Maganda nman sna KASO Hindi lm Ang pagkakaiba ng ""purple"" sa ""pink"" 🤪 Purple Ang order q Hindi Po pink pero salamat",1,GOOD,0.7391,,GOOD,0.1235,BAD,NO
-pag suka ko nahulog yung isa cempre diko na kinuha kasi puro suka na grabe aberya nyo,1,NEUTRAL,0.0,,BAD,-0.8,BAD,NO
-parang nakapast forward nagmamadali yung sounds😂 very poor Product: Poor quality,1,BAD,-0.5845,,BAD,-0.6707,BAD,yes
-The one airpod is not working. I will request a refund,1,BAD,-0.3612,,BAD,-0.5367,BAD,yes
-Matagal mag connect kilangan i unforgat,1,BAD,-0.296,,BAD,-0.4976,BAD,yes
-"Only one earbud function. I charged the 2 earbuds this morning at 10am since I received the parcel. It took almost 10hrs to be charged. I tested it this evening around 7pm and it disappointed me with the item. Seller, why this?",1,BAD,-0.5719,,BAD,-0.6631,BAD,yes
-bat di po na gana to maam? Pangit di na gana sakin siguro fake to,1,BAD,-0.8316,,BAD,-0.819,BAD,yes
-Tanginang rider Yan kinuha Yung parcel KO pinicturan Lang SA labas Ng bahay namin tangina mo rider kahh,1,NEUTRAL,0.0,,BAD,-0.8,BAD,NO
-yung isang earpods basag yung tunig okay sana yung lakas ng quality ng tunog kaso basag yung isa,1,BAD,-0.6542,,BAD,-0.7125,BAD,yes
+﻿review,text_label,text_score,sarcasm
+Super nice and JBL airpods thanks seller,GOOD,0.6542,
+Sobrang lakas ng sound effects grabe legit jbl sya. Salamat shopee and seller ang ganda ng binigay nyo sakin kahit na 0 ko lng syang nakuha.Order po ulit ako para makabawi naman hehe,GOOD,0.8625,
+the earbuds works good & good for 3 hrs these earbuds connect quickly w/ my other devices . Very impressive for the low price but high quality in sounds. I loveeee it !,GOOD,0.9468,
+the sound is very good and clear these earbuds is quick to connect,GOOD,0.7343,
+solid maganda ang tunog matagal malobat,GOOD,0.8779,
+Ganda ng sounds matagal din malowbat Incase na malowbat siya nachacharge niya rin sarili niya,GOOD,0.6486,
+"15 mins lang lifespan , nakaka dismiya!",BAD,-0.6239,
+"WAG NA KAYONG BUMILI DITO SCAMMER ITO, WALANG LAMAN ANG EAR PODS NA PINA DELIVER",BAD,-0.6705,
+Parang nag tinda lang si seller ng kakanin na plastic lang nilagyan haynaku bakit ba ina allow ng shopee yungila di naman pinupulot ang pera namin dapat e value nyo din hindi yung binta lang kayo ng binta ng mga basura 😡,BAD,-0.8121,
+Hmm sira yung isa hindi nag chcharge ayaw dn mag on ni hindi nagrerespond ang seller ano ba yan!!,BAD,-0.6229,
+sabog yung tunog kapag naka full volume pero okay naman kapag naka medium yung volume,GOOD,0.09,
+Ang bilis ma lobat wala pang 30 minutes nag wawarning na palowbat na🤨,BAD,-0.6486,
+mali yung item pangit ng audio ambilis malowbatt minutes lang tinagal,BAD,-0.8442,
+hindi gumagana ang isang pods 👎,BAD,-0.7717,
+"tagal magcharge, bilis malowbat, hirap magconnect",BAD,-0.8402,
+"Fake not a true product, i paid with my own money, not worth it!",BAD,-0.8108,
+Hindi siya ma connect sa mga device ko.,BAD,-0.5106,
+the left earbuds is not working. i tried to fix it but still no sound.,BAD,-0.7845,
+"Maganda nman sna KASO Hindi lm Ang pagkakaiba ng ""purple"" sa ""pink"" 🤪 Purple Ang order q Hindi Po pink pero salamat",GOOD,0.431,
+pag suka ko nahulog yung isa cempre diko na kinuha kasi puro suka na grabe aberya nyo,NEUTRAL,0.0,
+parang nakapast forward nagmamadali yung sounds😂 very poor,BAD,-0.509,
+The one airpod is not working. I will request a refund,BAD,-0.7269,
+Matagal mag connect kilangan i unforgat,BAD,-0.296,
+"Only one earbud function. I charged the 2 earbuds this morning at 10am since I received the parcel. It took almost 10hrs to be charged. I tested it this evening around 7pm and it disappointed me with the item. Seller, why this?",BAD,-0.5719,
+bat di po na gana to maam? Pangit di na gana sakin siguro fake to,BAD,-0.8316,
+Tanginang rider Yan kinuha Yung parcel KO pinicturan Lang SA labas Ng bahay namin tangina mo rider kahh,BAD,-0.8481,
+yung isang earpods basag yung tunig okay sana yung lakas ng quality ng tunog kaso basag yung isa,BAD,-0.7269,
+---------brown+black maganda ang TILA at maganda sya suotin,GOOD,0.7906,
+very nice oka lang madaling matuyo,GOOD,0.4749,
+"Maganda ang cloth, medyo nga lang manipis pero sulit nman sa price nya.",GOOD,0.7906,
+"black,white&khaki maganda",GOOD,0.5423,
+Material 8 10 9 Manipis lang sya.pero ok Naman for the price.hehe,GOOD,0.3612,
+Black & white Good quality,GOOD,0.5106,
+silky texture glossy type. allgoodss and affordable 👍. Looks great,GOOD,0.872,
+very good nice 👍 I love it. SULLLIT!!!!!!,GOOD,0.9658,
+good Material good good,GOOD,0.8807,
+👍👍👍 Orange and white is good 👍👍👍Looking young 👍👍👍,GOOD,0.9825,
+correct color pwede na,NEUTRAL,0.0,
+goods nice Sure,GOOD,0.4215,
+good nice,GOOD,0.7351,
+quality goods,NEUTRAL,0.0,
+nice the color s prjdvjznxncks x bcbxks dkdc,GOOD,0.4215,
+good good,GOOD,0.7783,
+goods na goods apakasulit Ng tela,NEUTRAL,0.0,
+good polyster,GOOD,0.5267,
+nice ang gnda true size and quality tx seller,GOOD,0.743,
+10/10 10+/10,NEUTRAL,0.0,
+Tama Ang dumating maganda,GOOD,0.5423,
+color black at light brown Okiee Po sana Yung TILA Kaso Hindi Po naka lagay sa plastic,NEUTRAL,0.0,
+Very good seller and rider,GOOD,0.5705,
+"match naman yung color na pinili ko maganda yung design niya simple lang Legit maganda yung tela, ang smooth sa balat",GOOD,0.9231,
+ayuss sya palamig Ang TILA nya,NEUTRAL,0.0,
+nice color 9/9 Medyo manipis pla pro ok nman sa price,GOOD,0.5859,
+10/10,NEUTRAL,0.0,
+nagustahan ko ang kanyang kulay kasi sakto ang dumating sobrang nipis pala nya pero ok na din sa presyo,GOOD,0.4404,
+Legit at maganda Ang kalidad,GOOD,0.7906,
+good maganda ang tela,GOOD,0.7845,
+true color,NEUTRAL,0.0,
+Napakaganda ng tila niya,GOOD,0.5994,
+Sulit ang ibinayad ko..👍👍👍 Thank you!!,GOOD,0.9335,
+good,GOOD,0.5267,
+maganda,GOOD,0.5423,
+nice Very good,GOOD,0.7572,
+Dry fit Pala Ang clothes piro maganda na din,GOOD,0.5423,
+goods naman kaso akala ko cotton material polyester pala ampanget neto pag pinawisan,BAD,-0.7351,
+Super nice,GOOD,0.4854,

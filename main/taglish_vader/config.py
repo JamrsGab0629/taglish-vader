@@ -46,9 +46,37 @@ NORMALIZE_ALPHA = 15
 QUESTION_POS_FACTOR = 0.0   # praise inside a question is ignored
 QUESTION_NEG_FACTOR = 0.7   # complaints stay (often rhetorical: "Bakit ang tagal?")
 
-# Star ratings
-STAR_STRENGTH = 0.8         # 5 stars = +0.8, 1 star = -0.8 (on the -1..+1 scale)
-STAR_WEIGHT = 0.4           # if the text has sentiment: 60% text + 40% stars
+# ---------------------------------------------------------------------------
+# "pero" rule: the part after it counts 1.5x. Politeness is not a verdict,
+# so these words are NOT boosted ("basag yung item pero salamat" is still bad).
+# ---------------------------------------------------------------------------
+POLITE_WORDS = {"salamat", "maraming salamat", "thank", "thanks", "po"}
+POLITE_AFTER_BUT = 0.5
+
+# ---------------------------------------------------------------------------
+# Things that are supposed to WORK. If they are negated ("hindi ma connect",
+# "not working", "di gumana") the review is negative even though the word
+# itself is not in the lexicon.
+# ---------------------------------------------------------------------------
+NEEDS_TO_WORK = {
+    "connect", "maconnect", "makaconnect", "magconnect", "mag-connect",
+    "pair", "mag-pair", "gumana", "umandar", "tumunog",
+    "work", "works", "working", "worked",
+}
+FAIL_SCORE = -2.3
+NEGATION_WINDOW = 4
+
+# ---------------------------------------------------------------------------
+# "Ang bilis malowbat" = fast, but a BAD thing happens fast. The speed word
+# must not count as praise when one of these words follows within 2 words.
+# (Each of them has its own negative score in lexicon.py.)
+# ---------------------------------------------------------------------------
+SPEED_WORD = re.compile(r"^(?:am|ang)?(?:ma)?bilis$|^(?:fast|quick|quickly)$")
+NEGATIVE_EVENTS = {
+    "malowbat", "lowbat", "maubos", "maubusan", "masira", "mabasag", "mapunit",
+    "kumupas", "uminit", "umiinit", "mag-init", "mapudpod", "kalawangin",
+    "mawala", "madrain", "ma-drain",
+}
 
 # ---------------------------------------------------------------------------
 # SARCASM DETECTOR settings
@@ -109,5 +137,5 @@ UNIT_DAYS = {
     "month": 30, "months": 30, "buwan": 30,
     "year": 365, "years": 365, "taon": 365,
 }
-QUOTE_PATTERN = re.compile(r"[\"\u201c\u201d]([^\"\u201c\u201d]+)[\"\u201c\u201d]")
+QUOTE_PATTERN = re.compile(r"[\"“”]([^\"“”]+)[\"“”]")
 HEARSAY_PATTERN = re.compile(r"\b([\w'-]+)\s+(?:daw|raw)\b")

@@ -30,4 +30,13 @@ NORMALIZE = {
     "okie": "ok", "okey": "okay", "oks": "ok", "okz": "ok",
     # slang spellings
     "waley": "wala", "wrpa": "werpa",
+    # typos seen in real Shopee reviews
+    "nman": "naman", "sna": "sana", "dismiya": "dismaya", "dismay": "dismaya",
+    "nakakadismiya": "nakakadismaya", "nakakadismay": "nakakadismaya",
+    # battery
+    "lobat": "lowbat", "lowbatt": "lowbat", "malobat": "malowbat",
+    "malowbatt": "malowbat", "ma-lowbat": "malowbat", "ma-lobat": "malowbat",
+    "palowbat": "malowbat",
+    # connect / working
+    "ma-connect": "maconnect", "connected": "connect", "connecting": "connect",
 }

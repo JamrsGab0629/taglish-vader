@@ -1,25 +1,33 @@
 """
-batch.py - read a CSV of reviews (and their star ratings) and label them all.
-Ratings are read from the file itself, so nobody has to type them.
+batch.py - read a CSV of reviews and label them all, from the TEXT ONLY.
+
+No star ratings are used anywhere: stars are a guess about what the review says,
+so they are not allowed to influence (or grade) the labels.
+
+To measure accuracy honestly, add a column called  human_label  to the CSV and
+fill it in yourself with GOOD / NEUTRAL / BAD for each review (a second person
+labeling too is even better). Then run again: the report compares the analyzer
+against YOUR labels.
 """
 
 import csv
 import os
-import re
 from collections import Counter, defaultdict
 
 from analyzer import TaglishSentimentAnalyzer, label_from_compound
 from config import BOOSTERS, NEGATORS, BUT_WORDS
-from ratings import parse_rating
 
 TEXT_COLUMN_NAMES = [
     "review", "reviews", "review_text", "reviewtext", "text", "comment",
     "comments", "content", "feedback", "body", "message",
 ]
-STAR_COLUMN_NAMES = [
-    "rating", "ratings", "stars", "star", "star_rating", "review_rating",
-    "score", "rate",
-]
+HUMAN_COLUMN_NAMES = ["human_label", "label", "my_label", "gold", "gold_label"]
+LABELS = ("GOOD", "NEUTRAL", "BAD")
+LABEL_ALIASES = {
+    "good": "GOOD", "positive": "GOOD", "pos": "GOOD", "g": "GOOD", "p": "GOOD",
+    "neutral": "NEUTRAL", "neu": "NEUTRAL", "n": "NEUTRAL", "mixed": "NEUTRAL",
+    "bad": "BAD", "negative": "BAD", "neg": "BAD", "b": "BAD",
+}
 # common filler words (ignored when hunting for unknown slang)
 STOPWORDS = set(
     "ang ng sa na ay at ko mo yung yong ito to ba naman lang po pa din rin si ni "
@@ -66,14 +74,12 @@ def _pick_column(fields, wanted, candidates):
     return None
 
 
-def find_unknown_words(analyzer, texts, ratings=None, top=25, min_count=2):
+def find_unknown_words(analyzer, texts, top=25, min_count=2):
     """
     Words the analyzer doesn't know yet (possible new slang), most common first.
-    If ratings are given, shows the average rating of the reviews using each word:
-    a word that shows up mostly in 5-star reviews is probably positive.
-    Returns a list of (word, number_of_reviews, average_stars_or_None).
-
-    Tip: run this on your TRAIN split only, never on dev/test.
+    Returns a list of (word, number_of_reviews).
+    Look at them yourself and decide: positive, negative, or neutral. Do this on your
+    TRAIN reviews only, never on the reviews you test on.
     """
     seen = defaultdict(set)
     for idx, text in enumerate(texts):
@@ -85,62 +91,40 @@ def find_unknown_words(analyzer, texts, ratings=None, top=25, min_count=2):
             if w in analyzer.lexicon or analyzer._valence(w) != 0:
                 continue
             seen[w].add(idx)
-    rows = []
-    for w, idxs in seen.items():
-        if len(idxs) < min_count:
-            continue
-        vals = [ratings[i] for i in idxs if ratings and ratings[i] is not None]
-        rows.append((w, len(idxs), sum(vals) / len(vals) if vals else None))
+    rows = [(w, len(idxs)) for w, idxs in seen.items() if len(idxs) >= min_count]
     rows.sort(key=lambda r: (-r[1], r[0]))
     return rows[:top]
 
 
-def analyze_file(path, text_col=None, stars_col=None, out_path=None,
-                 max_rating=5.0, use_stars=True, detect_sarcasm=True):
-    """
-    Label every review in a CSV file. Writes <file>_results.csv and prints a summary.
-    Report text_label (not final_label) as your accuracy: final_label blends in
-    the star rating, so scoring it against the same rating is circular.
-    """
+def _clean_label(value):
+    return LABEL_ALIASES.get((value or "").strip().lower())
+
+
+def analyze_file(path, text_col=None, out_path=None, detect_sarcasm=True):
+    """Label every review in a CSV file. Writes <file>_results.csv and prints a summary."""
     rows, fields = _read_csv(path)
     text_key = _pick_column(fields, text_col, TEXT_COLUMN_NAMES) or fields[0]
-    star_key = _pick_column(fields, stars_col, STAR_COLUMN_NAMES)
+    human_key = _pick_column(fields, None, HUMAN_COLUMN_NAMES)
 
-    text_an = TaglishSentimentAnalyzer(detect_sarcasm=detect_sarcasm, use_stars=False)
-    final_an = (
-        TaglishSentimentAnalyzer(detect_sarcasm=detect_sarcasm, use_stars=True)
-        if use_stars and star_key else text_an
-    )
+    analyzer = TaglishSentimentAnalyzer(detect_sarcasm=detect_sarcasm)
 
-    out_rows, texts, ratings = [], [], []
+    out_rows, texts = [], []
     for row in rows:
         review = (row.get(text_key) or "").strip()
-        stars = parse_rating(row.get(star_key), max_rating) if star_key else None
-        t = text_an.polarity_scores(review)
-        f = final_an.polarity_scores(review, stars) if final_an is not text_an else t
-        rating_label = None
-        if stars is not None:
-            rating_label = "GOOD" if stars >= 4 else "BAD" if stars <= 2 else "NEUTRAL"
-        text_label = label_from_compound(t["compound"])
+        r = analyzer.polarity_scores(review)
         out = dict(row)
         out.update({
-            "text_label": text_label,
-            "text_score": t["compound"],
-            "sarcasm": "yes" if t["sarcasm"]["is_sarcastic"] else "",
-            "final_label": label_from_compound(f["compound"]),
-            "final_score": f["compound"],
-            "rating_label": rating_label or "",
-            "agrees": "" if rating_label is None else ("yes" if rating_label == text_label else "NO"),
+            "text_label": label_from_compound(r["compound"]),
+            "text_score": r["compound"],
+            "sarcasm": "yes" if r["sarcasm"]["is_sarcastic"] else "",
         })
         out_rows.append(out)
         texts.append(review)
-        ratings.append(stars)
 
     if out_path is None:
         base, _ = os.path.splitext(path)
         out_path = base + "_results.csv"
-    extra = ["text_label", "text_score", "sarcasm", "final_label", "final_score",
-             "rating_label", "agrees"]
+    extra = ["text_label", "text_score", "sarcasm"]
     with open(out_path, "w", newline="", encoding="utf-8-sig") as f:
         w = csv.DictWriter(f, fieldnames=fields + extra, extrasaction="ignore")
         w.writeheader()
@@ -149,47 +133,40 @@ def analyze_file(path, text_col=None, stars_col=None, out_path=None,
     # ----- summary -----
     n = len(out_rows)
     print(f"\nFile      : {path}   ({n} reviews)")
-    print(f"Columns   : review = '{text_key}',  rating = '{star_key or 'none found'}'")
-    mode = "text + star ratings" if final_an is not text_an else "text only"
-    print(f"Mode      : {mode}")
-    counts = Counter(r["final_label"] for r in out_rows)
-    print("Final     : " + "   ".join(
-        f"{k} {counts.get(k, 0)} ({counts.get(k, 0) / max(n, 1):.0%})"
-        for k in ("GOOD", "NEUTRAL", "BAD")))
-    sarcastic = sum(1 for r in out_rows if r["sarcasm"])
-    print(f"Sarcastic : {sarcastic}")
+    print(f"Column    : review = '{text_key}'   (text only, no star ratings used)")
+    counts = Counter(r["text_label"] for r in out_rows)
+    print("Labels    : " + "   ".join(
+        f"{k} {counts.get(k, 0)} ({counts.get(k, 0) / max(n, 1):.0%})" for k in LABELS))
+    print(f"Sarcastic : {sum(1 for r in out_rows if r['sarcasm'])}")
 
-    rated = [r for r in out_rows if r["rating_label"]]
-    if rated:
-        agree = sum(1 for r in rated if r["agrees"] == "yes")
-        print(f"\nText vs star rating: they agree on {agree}/{len(rated)} ({agree / len(rated):.0%})")
+    # ----- accuracy against YOUR labels (only if you filled human_label) -----
+    if human_key:
+        graded = [(r, _clean_label(r.get(human_key))) for r in out_rows]
+        graded = [(r, h) for r, h in graded if h]
+        if graded:
+            agree = sum(1 for r, h in graded if r["text_label"] == h)
+            print(f"\nvs your labels ('{human_key}'): {agree}/{len(graded)} correct "
+                  f"({agree / len(graded):.0%})")
+            print("\nRows = your label, columns = analyzer:")
+            print(f"{'':10}" + "".join(f"{l:>9}" for l in LABELS))
+            for h_lab in LABELS:
+                cells = [sum(1 for r, h in graded if h == h_lab and r["text_label"] == p)
+                         for p in LABELS]
+                print(f"{h_lab:10}" + "".join(f"{c:>9}" for c in cells))
+            wrong = [(r, h) for r, h in graded if r["text_label"] != h]
+            if wrong:
+                print("\nSome mistakes (look at these to improve lexicon.py):")
+                for r, h in wrong[:10]:
+                    print(f"  you={h:7} analyzer={r['text_label']:7} | {(r.get(text_key) or '')[:70]}")
+        else:
+            print(f"\nColumn '{human_key}' is empty - fill it with GOOD / NEUTRAL / BAD to get accuracy.")
+    else:
+        print("\nTo measure accuracy: add a column  human_label  and label the reviews yourself.")
 
-        labels = ("GOOD", "NEUTRAL", "BAD")
-        print("\nRows = star rating, columns = text prediction:")
-        print(f"{'':10}" + "".join(f"{l:>9}" for l in labels))
-        for t in labels:
-            row = [sum(1 for r in rated
-                       if r["rating_label"] == t and r["text_label"] == p)
-                   for p in labels]
-            print(f"{t:10}" + "".join(f"{c:>9}" for c in row))
-
-        conflicts = [r for r in rated
-                     if {r["rating_label"], r["text_label"]} == {"GOOD", "BAD"}]
-        if conflicts:
-            print("\nDirect conflicts (rating says one thing, the text says the opposite):")
-            for r in conflicts[:8]:
-                print(f"  rating={r['rating_label']:4} text={r['text_label']:4} | {(r.get(text_key) or '')[:70]}")
-
-    unknown = find_unknown_words(text_an, texts, ratings)
+    unknown = find_unknown_words(analyzer, texts)
     if unknown:
         print("\nWords the analyzer doesn't know (in 2+ reviews) - possible new slang:")
-        print(f"  {'word':14}{'reviews':>8}{'avg stars':>11}   guess")
-        for word, cnt, avg in unknown:
-            guess = ""
-            if avg is not None:
-                guess = "+ likely positive" if avg >= 4.2 else "- likely negative" if avg <= 2.3 else ""
-            avg_s = f"{avg:.1f}" if avg is not None else "-"
-            print(f"  {word:14}{cnt:>8}{avg_s:>11}   {guess}")
+        print("  " + ", ".join(f"{w} ({c})" for w, c in unknown))
         print("  -> add real slang to lexicon.py (misspellings go in normalizer.py).")
     print(f"\nSaved     : {out_path}")
     return out_rows

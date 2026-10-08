@@ -15,7 +15,7 @@ LEXICON = {
     "malinis": 1.8, "masarap": 2.6, "sarap": 2.5, "masaya": 2.5,
     "saya": 2.3, "nakakatuwa": 2.3, "gusto": 1.8, "nagustuhan": 2.3,
     "gusto ko": 2.3, "mahal ko": 3.0, "mahal na mahal": 3.2,
-    "salamat": 2.0, "maraming salamat": 2.5, "maasikaso": 2.3,
+    "salamat": 1.2, "maraming salamat": 1.6, "maasikaso": 2.3,
     "magalang": 2.0, "kuntento": 2.2, "nakakabilib": 2.5,
     "mapagkakatiwalaan": 2.3, "maaasahan": 2.2, "komportable": 2.0,
     "presko": 1.5, "mabango": 2.0, "maaliwalas": 1.8, "mahal ang quality": 1.0,
@@ -29,10 +29,10 @@ LEXICON = {
     "good": 2.4, "great": 3.1, "amazing": 3.2, "awesome": 3.1,
     "excellent": 3.2, "best": 3.2, "nice": 1.8, "perfect": 3.0,
     "love": 3.0, "loved": 3.0, "like": 1.5, "ok": 1.0, "okay": 1.0,
-    "fast": 1.8, "legit": 2.5, "trusted": 2.0, "recommended": 2.5,
-    "recommend": 2.2, "worth it": 2.8, "worth": 2.0, "quality": 1.5,
+    "fast": 1.8, "quick": 1.5, "quickly": 1.5, "legit": 2.5, "trusted": 2.0, "recommended": 2.5,
+    "recommend": 2.2, "worth it": 2.8, "worth": 2.0,
     "original": 1.5, "helpful": 2.0, "friendly": 2.0, "accommodating": 2.0,
-    "satisfied": 2.2, "happy": 2.7, "thank": 1.5, "thanks": 1.8,
+    "satisfied": 2.2, "happy": 2.7, "thank": 1.0, "thanks": 1.2,
     "smooth": 1.8, "durable": 2.2, "affordable": 1.8, "cute": 1.8,
     "beautiful": 2.7, "delicious": 2.8, "yummy": 2.6, "clean": 1.8,
     "comfortable": 2.0, "wow": 2.2, "salute": 2.0, "lodi": 2.0,
@@ -112,6 +112,39 @@ LEXICON = {
     "walang hiya": -3.0, "walanghiya": -3.0, "buwisit": -2.8, "peste": -2.5,
     "overrated": -2.0, "underwhelming": -2.0, "yikes": -1.5,
     "waste of money": -3.0,
+
+    # ---------- "quality" alone is NOT praise: only with a word next to it ----------
+    "good quality": 2.3, "great quality": 3.0, "high quality": 2.3,
+    "best quality": 3.0, "nice quality": 2.0, "excellent quality": 3.0,
+    "poor quality": -2.8, "bad quality": -2.8, "low quality": -2.5,
+    "worst quality": -3.2, "mababang quality": -2.5, "pangit na quality": -2.8,
+    "short lifespan": -2.5,
+
+    # ---------- BATTERY / WORKING (a long battery is praise, a draining one is not) ----------
+    "malowbat": -1.5, "lowbat": -1.8, "madrain": -1.8, "ma-drain": -1.8,
+    "maubos": -1.5, "maubusan": -1.5, "masira": -2.5, "mabasag": -2.3,
+    "mapunit": -1.8, "kumupas": -2.0, "mag-init": -1.8, "mapudpod": -2.0,
+    "kalawangin": -2.0, "mawala": -1.5,
+    "bilis malowbat": -2.5, "bilis ma-lowbat": -2.5,
+    "matagal malowbat": 2.3, "matagal ma-lowbat": 2.3, "matagal din malowbat": 2.3,
+    "matagal maubos": 2.3, "matagal masira": 2.3, "tumatagal": 1.8,
+    "long battery life": 2.5, "good battery": 2.2, "mahaba ang battery": 2.3,
+
+    # ---------- NOT WORKING / WRONG ITEM ----------
+    "not working": -2.6, "doesn't work": -2.6, "doesnt work": -2.6,
+    "stopped working": -2.8, "no sound": -2.4, "walang sound": -2.4,
+    "walang tunog": -2.4, "sabog": -2.3, "hirap mag connect": -2.0,
+    "hirap magconnect": -2.0, "hindi ma connect": -2.3, "di ma connect": -2.3,
+    "hindi maconnect": -2.3, "di maconnect": -2.3,
+    "wrong item": -2.5, "wrong product": -2.5, "wrong color": -2.3,
+    "wrong size": -2.0, "maling item": -2.5, "maling kulay": -2.3,
+    "maling size": -2.0, "iba ang dumating": -2.5, "not as described": -2.5,
+    "not original": -2.5, "counterfeit": -3.0, "peke": -3.0,
+
+    # ---------- PROFANITY / HEAVY INSULTS (negative) ----------
+    "tangina": -3.0, "tanginang": -3.0, "putangina": -3.2, "tangina mo": -3.2,
+    "gago": -2.8, "gagong": -2.8, "tarantado": -3.0, "ulol": -2.8,
+    "leche": -2.5, "bobo": -2.5,
 
     # ---------- EMOJIS ----------
     "😍": 3.0, "😊": 2.0, "😀": 2.2, "😄": 2.3, "😁": 2.2, "🥰": 3.0,

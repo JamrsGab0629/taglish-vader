@@ -1,30 +1,22 @@
 """
 hotkey_helper.py - find the "Next" button, copy the page, click "Next".
-Two ways to use it:
+(Normally you start it through start_collecting.py, which also saves the reviews.)
 
-  MANUAL  (F8)   one key press = copy this page + click Next. 2-second cooldown.
-  AUTO    (F10)  press F10 once to START, press F10 again (or Esc) to STOP.
-                 It repeats copy + click Next, with a fixed pause between pages
-                 (default 8 seconds).
-
-Keys:  F7  = learn the Next button (hover exactly over its center first)
-       F8  = manual: find Next (scrolls up if needed), copy the page, click Next
-       F9  = copy the page only (use on the LAST page when doing it manually)
-       F10 = start / stop AUTO mode
-       Esc = stop auto mode and quit
+  F7  = learn the Next button (hover exactly over its center first). MANUAL step.
+  F8  = manual: find Next (scrolls up if needed), copy the page, click Next. 2 s cooldown.
+  F9  = copy the page only (use on the LAST page when doing it manually)
+  F10 = AUTO mode: press once to START, press again (or Esc) to STOP.
+        It repeats copy + click Next with a fixed pause per page (default 8 seconds).
+  Esc = stop auto mode and quit
 
 AUTO mode stops by itself when:
   - the Next button can't be found  (last page: it copies that page first)
-  - the copied page is the same twice in a row (the click didn't work / stuck)
+  - the copied page is the same 3 times in a row (the click didn't work / stuck)
   - it reaches --max-pages
   - you move the mouse to the top-left corner of the screen (pyautogui fail-safe)
   - a keyboard / mouse error happens
 
-Usage:  python hotkey_helper.py                          # 8 s per page, max 100 pages
-        python hotkey_helper.py --interval 10 --max-pages 40
-Run clip_collect.py in another terminal first (it saves what gets copied).
 Keep the browser window in front and DON'T touch the mouse while AUTO is running.
-
 Needs: pip install pyautogui pynput pillow opencv-python pyperclip
 Mac:   allow your terminal in System Settings > Privacy & Security >
        Accessibility AND Screen Recording.
@@ -40,8 +32,9 @@ import pyautogui
 import pyperclip
 from pynput import keyboard
 
+HERE = os.path.dirname(os.path.abspath(__file__))
 MOD = "command" if sys.platform == "darwin" else "ctrl"
-TEMPLATE = "next_button.png"
+TEMPLATE = os.path.join(HERE, "next_button.png")
 BOX_W, BOX_H = 36, 28      # size of the picture taken of the Next button (pixels)
 COOLDOWN = 2.0             # seconds between MANUAL presses
 MIN_INTERVAL = 5.0         # AUTO will never go faster than this
@@ -206,6 +199,17 @@ def on_press(key):
         print("Error:", e)
 
 
+def run(interval=8.0, max_pages=100):
+    """Listen for the hotkeys until Esc."""
+    settings["interval"] = max(float(interval), MIN_INTERVAL)
+    settings["max_pages"] = max(int(max_pages), 1)
+    print("F7 = learn Next button (manual step), F8 = copy + Next, F9 = copy only,")
+    print(f"F10 = AUTO start/stop ({settings['interval']:g} s per page, "
+          f"max {settings['max_pages']} pages), Esc = quit")
+    with keyboard.Listener(on_press=on_press) as listener:
+        listener.join()
+
+
 def main():
     ap = argparse.ArgumentParser(description="Copy + Next helper (manual F8 / auto F10)")
     ap.add_argument("--interval", type=float, default=8.0,
@@ -213,12 +217,7 @@ def main():
     ap.add_argument("--max-pages", type=int, default=100,
                     help="AUTO mode: stop after this many pages (default 100)")
     a = ap.parse_args()
-    settings["interval"] = max(a.interval, MIN_INTERVAL)
-    settings["max_pages"] = max(a.max_pages, 1)
-    print("F7 = learn Next button, F8 = copy + Next (manual), F9 = copy only,")
-    print(f"F10 = AUTO start/stop ({settings['interval']:g} s per page, max {settings['max_pages']} pages), Esc = quit")
-    with keyboard.Listener(on_press=on_press) as listener:
-        listener.join()
+    run(a.interval, a.max_pages)
 
 
 if __name__ == "__main__":

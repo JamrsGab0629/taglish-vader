@@ -1,7 +1,7 @@
 """
 analyzer.py - the main Taglish VADER sentiment analyzer.
 
-Works like VADER:
+Works like VADER, from the TEXT ONLY (star ratings are never used):
   1. Lexicon of words with scores (-4 to +4)
   2. Boosters / dampeners (sobra, grabe, medyo...)
   3. Negators (hindi, wala, di...)
@@ -9,8 +9,8 @@ Works like VADER:
   5. ALL CAPS and "!" add emphasis
   6. Emojis / emoticons count too
   7. compound = score / sqrt(score^2 + 15)  ->  value from -1 to +1
-Extras: spelling normalizer, question rule, domain phrases, star ratings,
-sarcasm detector.
+Extras: spelling normalizer, question rule, domain phrases, "fast + bad thing",
+"hindi ma connect" rule, sarcasm detector.
 """
 
 import math
@@ -20,12 +20,13 @@ from config import (
     BOOSTERS, NEGATORS, BUT_WORDS, BREAKERS,
     NEGATION_FACTOR, CAPS_BOOST, EXCLAIM_BOOST,
     POS_THRESHOLD, NEG_THRESHOLD, NORMALIZE_ALPHA,
-    QUESTION_POS_FACTOR, QUESTION_NEG_FACTOR,
-    STAR_STRENGTH, STAR_WEIGHT, SARCASM_MIN_NEG,
+    QUESTION_POS_FACTOR, QUESTION_NEG_FACTOR, SARCASM_MIN_NEG,
+    POLITE_WORDS, POLITE_AFTER_BUT,
+    NEEDS_TO_WORK, FAIL_SCORE, NEGATION_WINDOW,
+    SPEED_WORD, NEGATIVE_EVENTS,
 )
 from lexicon import LEXICON, EMOTICONS
 from normalizer import NORMALIZE
-from ratings import detect_stars
 from sarcasm import SarcasmDetector
 
 
@@ -42,18 +43,17 @@ def _sign(x):
 
 
 class TaglishSentimentAnalyzer:
-    def __init__(self, lexicon=None, detect_sarcasm=True, use_stars=True):
+    def __init__(self, lexicon=None, detect_sarcasm=True):
         self.lexicon = dict(LEXICON if lexicon is None else lexicon)
         # longest multi-word phrase length (so "sulit na sulit" is matched first)
         self.max_phrase = max(len(k.split()) for k in self.lexicon)
         self.detect_sarcasm = detect_sarcasm
-        self.use_stars = use_stars
         self.detector = SarcasmDetector(self)
 
     # ------------------------------------------------------------------
     def _tokenize(self, text):
         """Return list of (original_word, normalized_word)."""
-        text = text.replace("\u2019", "'")
+        text = text.replace("’", "'")
         raw = re.findall(r"\w+(?:['-]\w+)*|[^\w\s]", text, flags=re.UNICODE)
         tokens = []
         for w in raw:
@@ -61,7 +61,23 @@ class TaglishSentimentAnalyzer:
             norm = re.sub(r"(.)\1{2,}", r"\1", norm)  # gandaaaa -> ganda
             norm = NORMALIZE.get(norm, norm)          # pngit -> pangit, d -> hindi
             tokens.append((w, norm))
-        return self._merge_phrases(tokens)
+        return self._merge_phrases(self._join_prefixes(tokens))
+
+    def _join_prefixes(self, tokens):
+        """'nakaka dismaya' -> 'nakakadismaya', 'napaka ganda' -> 'napakaganda'."""
+        out, i = [], 0
+        while i < len(tokens):
+            w = tokens[i][1]
+            if (w in ("nakaka", "napaka", "pinaka") and i + 1 < len(tokens)
+                    and tokens[i + 1][1].isalpha()):
+                joined = w + tokens[i + 1][1]
+                if self._valence(joined) != 0:
+                    out.append((tokens[i][0] + " " + tokens[i + 1][0], joined))
+                    i += 2
+                    continue
+            out.append(tokens[i])
+            i += 1
+        return out
 
     def _merge_phrases(self, tokens):
         merged, i = [], 0
@@ -119,6 +135,28 @@ class TaglishSentimentAnalyzer:
 
     # ------------------------------------------------------------------
     @staticmethod
+    def _negated(tokens, i, window):
+        """Is there a negator in the `window` words before token i (same clause)?"""
+        for dist in range(1, window + 1):
+            j = i - dist
+            if j < 0 or tokens[j][1] in BREAKERS or tokens[j][1] in BUT_WORDS:
+                return False
+            if tokens[j][1] in NEGATORS:
+                return True
+        return False
+
+    @staticmethod
+    def _bad_event_follows(tokens, i):
+        """'ang bilis malowbat': a bad event within the next 2 words (same clause)."""
+        for dist in (1, 2):
+            j = i + dist
+            if j >= len(tokens) or tokens[j][1] in BREAKERS or tokens[j][1] in BUT_WORDS:
+                return False
+            if tokens[j][1] in NEGATIVE_EVENTS:
+                return True
+        return False
+
+    @staticmethod
     def _is_question(words, end):
         joined = " ".join(words)
         # tag questions like "diba?" ask for agreement, they are not real doubts
@@ -143,7 +181,7 @@ class TaglishSentimentAnalyzer:
                 start = i + 1
 
     def _check_sarcasm(self, text, result):
-        """Flip sarcastic reviews to negative. Runs on the text score, before stars."""
+        """Flip sarcastic reviews to negative."""
         if self.detect_sarcasm:
             sarcasm = self.detector.detect(text, result["matched"])
         else:
@@ -155,31 +193,9 @@ class TaglishSentimentAnalyzer:
             result["pos"], result["neg"] = result["neg"], result["pos"]
         return result
 
-    def _apply_stars(self, text, result, stars):
-        if not self.use_stars:
-            return result
-        if stars is None:
-            stars = detect_stars(text)
-        if stars is None:
-            return result
-        stars = min(max(float(stars), 1.0), 5.0)
-        star_value = round((stars - 3) / 2 * STAR_STRENGTH, 4)
-        result["stars"] = stars
-        result["text_compound"] = result["compound"]
-        result["star_compound"] = star_value
-        if result["matched"]:
-            blended = (1 - STAR_WEIGHT) * result["compound"] + STAR_WEIGHT * star_value
-        else:  # no sentiment words in the text -> the stars decide
-            blended = star_value
-        result["compound"] = round(blended, 4)
-        return result
-
     # ------------------------------------------------------------------
-    def polarity_scores(self, text, stars=None):
-        """
-        text  : the review
-        stars : optional rating from 1 to 5 (if None, tries to find "5 stars" in the text)
-        """
+    def polarity_scores(self, text):
+        """text: the review. Returns neg/neu/pos, compound (-1..+1), matched words, sarcasm."""
         tokens = self._tokenize(text)
         letters = [t[0] for t in tokens if t[0].isalpha()]
         has_mixed_case = any(w.isupper() for w in letters) and not all(
@@ -192,8 +208,19 @@ class TaglishSentimentAnalyzer:
         for i, (orig, word) in enumerate(tokens):
             if word in BUT_WORDS:
                 but_index = i
+
+            # "hindi ma connect", "not working": something that must work, but doesn't
+            if word in NEEDS_TO_WORK and self._negated(tokens, i, NEGATION_WINDOW):
+                scores.append(FAIL_SCORE)
+                continue
+
             v = self._valence(word)
             if v == 0:
+                scores.append(0.0)
+                continue
+
+            # "ang bilis malowbat": fast + a bad event is not praise
+            if v > 0 and SPEED_WORD.match(word) and self._bad_event_follows(tokens, i):
                 scores.append(0.0)
                 continue
 
@@ -227,7 +254,8 @@ class TaglishSentimentAnalyzer:
                 if idx < but_index:
                     scores[idx] = s * 0.5
                 elif idx > but_index:
-                    scores[idx] = s * 1.5
+                    polite = tokens[idx][1] in POLITE_WORDS
+                    scores[idx] = s * (POLITE_AFTER_BUT if polite else 1.5)
 
         # question rule
         self._apply_question_rule(tokens, scores)
@@ -276,10 +304,8 @@ class TaglishSentimentAnalyzer:
             "pos": round(pos_r, 3),
             "compound": compound,
             "matched": matched,
-            "stars": None,
         }
-        result = self._check_sarcasm(text, result)
-        return self._apply_stars(text, result, stars)
+        return self._check_sarcasm(text, result)
 
-    def classify(self, text, stars=None):
-        return label_from_compound(self.polarity_scores(text, stars)["compound"])
+    def classify(self, text):
+        return label_from_compound(self.polarity_scores(text)["compound"])
