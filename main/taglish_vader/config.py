@@ -15,7 +15,7 @@ BOOSTERS = {
     "ubod": 0.35, "apaka": 0.40, "lubos": 0.30, "extremely": 0.40, "really": 0.25,
     "so": 0.20, "totally": 0.30, "sobra-sobra": 0.40, "ang": 0.0,
     "omg": 0.70, "good god": 0.25, "nice": .20, "diyos ko": 0.8,
-    "significant": 0.50,
+    "significant": 0.40, "extremely": 0.35,
     # dampeners
     "medyo": -0.25, "konti": -0.20, "konting": -0.20, "slightly": -0.25,
     "somewhat": -0.25, "kinda": -0.25, "parang": -0.20, "slight": -0.25,
@@ -57,7 +57,7 @@ QUESTION_NEG_FACTOR = 0.7   # complaints stay (often rhetorical: "Bakit ang taga
 # "pero" rule: the part after it counts 1.5x. Politeness is not a verdict,
 # so these words are NOT boosted ("basag yung item pero salamat" is still bad).
 # ---------------------------------------------------------------------------
-POLITE_WORDS = {"salamat", "maraming salamat", "thank", "thanks", "po"}
+POLITE_WORDS = {"salamat", "maraming salamat", "thank", "thanks", "po", "thank you"}
 POLITE_AFTER_BUT = 0.25
 
 # ---------------------------------------------------------------------------
@@ -75,7 +75,7 @@ WISH_MIN = 0.8        # even a weak praise word ("ok sana") counts as a wish
 #   8/10 or better = praise, 4/10 or worse = complaint, in between = ignored.
 # ---------------------------------------------------------------------------
 RATING_IN_TEXT = re.compile(r"(?<![\w./])(\d{1,2}(?:\.\d)?)\s*\+?\s*/\s*(\d{1,2})(?![\w/])")
-RATING_SCORE = 2.5
+RATING_SCORE = 2.0
 
 # ---------------------------------------------------------------------------
 # Things that are supposed to WORK. If they are negated ("hindi ma connect",
@@ -172,3 +172,4 @@ UNIT_DAYS = {
 }
 QUOTE_PATTERN = re.compile(r"[\"“”]([^\"“”]+)[\"“”]")
 HEARSAY_PATTERN = re.compile(r"\b([\w'-]+)\s+(?:daw|raw)\b")
+RATING_PATTERN = re.compile(r"\b\d+/10\b")

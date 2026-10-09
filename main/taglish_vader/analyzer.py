@@ -27,7 +27,7 @@ from config import (
     WISH_WORDS, WISH_SKIP, WISH_SCORE, WISH_MIN, RATING_IN_TEXT, RATING_SCORE,
     NEGATION_WINDOW_NEG,
 )
-from lexicon import LEXICON, EMOTICONS
+from lexicon import LEXICON, EMOJIS, EMOTICONS
 from normalizer import NORMALIZE
 from sarcasm import SarcasmDetector
 
@@ -45,12 +45,13 @@ def _sign(x):
 
 
 class TaglishSentimentAnalyzer:
-    def __init__(self, lexicon=None, detect_sarcasm=True):
+    def __init__(self, lexicon=None, detect_sarcasm=True, emoji__max=5):
         self.lexicon = dict(LEXICON if lexicon is None else lexicon)
         # longest multi-word phrase length (so "sulit na sulit" is matched first)
         self.max_phrase = max(len(k.split()) for k in self.lexicon)
         self.detect_sarcasm = detect_sarcasm
         self.detector = SarcasmDetector(self)
+        self.emoji_max = emoji__max
 
     # ------------------------------------------------------------------
     def _tokenize(self, text):
@@ -295,6 +296,13 @@ class TaglishSentimentAnalyzer:
         matched = [
             (tokens[i][0], round(s, 2)) for i, s in enumerate(scores) if s != 0
         ]
+
+        # check for emojis, emoji_max like 😊 😡 😐
+        for emo, val in EMOJIS.items():
+            c = min(text.count(emo), self.emoji_max)
+            if c:
+                scores.extend([val] * c)
+                matched.append((emo, val))
 
         # text emoticons like :) :(
         for emo, val in EMOTICONS.items():

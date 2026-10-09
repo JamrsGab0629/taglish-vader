@@ -25,12 +25,12 @@ NORMALIZE = {
     "grbe": "grabe", "grabeh": "grabe",
     # thanks
     "salmat": "salamat", "slmat": "salamat", "tnx": "thanks", "tnks": "thanks",
-    "thx": "thanks", "ty": "thanks", "tysm": "thanks",
+    "thx": "thanks", "ty": "thanks", "tysm": "thanks", "thankyou": "thank you",
     # English shortcuts
     "gud": "good", "gd": "good", "nc": "nice", "gr8": "great", "amazin": "amazing",
     "okie": "ok", "okey": "okay", "oks": "ok", "okz": "ok",
     # slang spellings
-    "waley": "wala", "wrpa": "werpa",
+    "waley": "wala", "wrpa": "werpa", "liget": "legit",
     # typos seen in real Shopee reviews
     "nman": "naman", "sna": "sana", "dismiya": "dismaya", "dismay": "dismaya",
     "nakakadismiya": "nakakadismaya", "nakakadismay": "nakakadismaya",
@@ -61,5 +61,7 @@ NORMALIZE = {
     "false advertisement": "false advertising", "false adverticement": "false advertising",
     "ibng store": "ibang store", "other store": "ibang store", "decieving": "deceive", "decieve": "deveive",
     "deceiving": "deceive", "fck": "fuck", "f*ck": "fuck", "maliit": "liit", "work well": "works well",
-    "aestheticly" : "aesthetic", "aestetically": "aesthetic", "estetik": "astetik",
+    "aestheticly" : "aesthetic", "aestetically": "aesthetic", "estetik": "astetik", "verygood": "very good",
+    "working": "work", "damages": "damage", "damaged": "damage", "22o": "totoo", "tooto": "totoo", "toto": "totoo",
+    
 }
