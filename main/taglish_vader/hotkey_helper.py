@@ -7,7 +7,13 @@ hotkey_helper.py - find the "Next" button, copy the page, click "Next".
   F9  = copy the page only (use on the LAST page when doing it manually)
   F10 = AUTO mode: press once to START, press again (or Esc) to STOP.
         It repeats copy + click Next with a fixed pause per page (default 8 seconds).
+  F11 = change the scroll direction used to find Next: up -> down -> both (any time)
   Esc = stop auto mode and quit
+
+SCROLL DIRECTION (--scroll up|down|both, default up): if the Next button is not on screen,
+the helper scrolls to look for it. Use "down" when the page jumps to the TOP after you
+click Next (the pager is then below you). Use "up" when it lands past the pager.
+"both" scrolls down first, then back up past where it started.
 
 AUTO mode stops by itself when:
   - the Next button can't be found  (last page: it copies that page first)
@@ -42,7 +48,9 @@ last_press = 0.0
 
 auto_thread = None
 auto_stop = threading.Event()
-settings = {"interval": 8.0, "max_pages": 100}
+SCROLL_STEP = 360          # one scroll step (about 3 mouse-wheel notches)
+SCROLL_MODES = ("up", "down", "both")
+settings = {"interval": 8.0, "max_pages": 100, "scroll": "up"}
 
 
 def grab():
@@ -85,15 +93,37 @@ def find_next():
     return (b.left + b.width / 2) / scale, (b.top + b.height / 2) / scale
 
 
+def _scroll(direction):
+    pyautogui.scroll(SCROLL_STEP if direction == "up" else -SCROLL_STEP)  # + = up, - = down
+    time.sleep(0.5)
+
+
 def find_next_scrolling(max_steps=10):
-    """Look on screen; if the pager isn't visible, scroll UP in small steps and look again."""
-    for _ in range(max_steps):
+    """
+    Look on screen; if the pager isn't visible, scroll in small steps and look again.
+    Direction comes from settings["scroll"]: up, down, or both (down first, then back up
+    past the starting point).
+    """
+    pos = find_next()
+    if pos:
+        return pos
+    mode = settings["scroll"]
+    if mode == "both":
+        plan = ["down"] * max_steps + ["up"] * (2 * max_steps)
+    else:
+        plan = [mode] * max_steps
+    for direction in plan:
+        _scroll(direction)
         pos = find_next()
         if pos:
             return pos
-        pyautogui.scroll(360)    # positive = scroll up (about 3 mouse-wheel notches)
-        time.sleep(0.5)
     return None
+
+
+def cycle_scroll():
+    i = SCROLL_MODES.index(settings["scroll"])
+    settings["scroll"] = SCROLL_MODES[(i + 1) % len(SCROLL_MODES)]
+    print(f"Scroll direction for finding Next: {settings['scroll'].upper()}")
 
 
 def do_copy():
@@ -169,6 +199,8 @@ def on_press(key):
             return False
         if key == keyboard.Key.f10:
             toggle_auto()
+        elif key == keyboard.Key.f11:
+            cycle_scroll()
         elif key == keyboard.Key.f7:
             if auto_running():
                 print("AUTO is running. Press F10 to stop it first.")
@@ -199,13 +231,15 @@ def on_press(key):
         print("Error:", e)
 
 
-def run(interval=8.0, max_pages=100):
+def run(interval=8.0, max_pages=100, scroll="up"):
     """Listen for the hotkeys until Esc."""
     settings["interval"] = max(float(interval), MIN_INTERVAL)
     settings["max_pages"] = max(int(max_pages), 1)
+    settings["scroll"] = scroll if scroll in SCROLL_MODES else "up"
     print("F7 = learn Next button (manual step), F8 = copy + Next, F9 = copy only,")
     print(f"F10 = AUTO start/stop ({settings['interval']:g} s per page, "
           f"max {settings['max_pages']} pages), Esc = quit")
+    print(f"F11 = change scroll direction (now: {settings['scroll'].upper()})")
     with keyboard.Listener(on_press=on_press) as listener:
         listener.join()
 
@@ -216,8 +250,10 @@ def main():
                     help="AUTO mode: seconds per page (default 8, minimum 5)")
     ap.add_argument("--max-pages", type=int, default=100,
                     help="AUTO mode: stop after this many pages (default 100)")
+    ap.add_argument("--scroll", choices=SCROLL_MODES, default="up",
+                    help="which way to scroll to find Next: up, down, or both (default up)")
     a = ap.parse_args()
-    run(a.interval, a.max_pages)
+    run(a.interval, a.max_pages, a.scroll)
 
 
 if __name__ == "__main__":
