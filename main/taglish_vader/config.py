@@ -14,9 +14,12 @@ BOOSTERS = {
     "talaga": 0.20, "talagang": 0.25, "masyado": 0.25, "masyadong": 0.25,
     "ubod": 0.35, "apaka": 0.40, "lubos": 0.30, "extremely": 0.40, "really": 0.25,
     "so": 0.20, "totally": 0.30, "sobra-sobra": 0.40, "ang": 0.0,
+    "omg": 0.70, "good god": 0.25, "nice": .20, "diyos ko": 0.8,
+    "significant": 0.50,
     # dampeners
     "medyo": -0.25, "konti": -0.20, "konting": -0.20, "slightly": -0.25,
     "somewhat": -0.25, "kinda": -0.25, "parang": -0.20, "slight": -0.25,
+    "against": -0.70, "warning": -0.70,
 }
 
 # Words that FLIP the meaning of the next feeling
@@ -24,10 +27,11 @@ NEGATORS = {
     "hindi", "hindi'", "di", "hnd", "hndi", "wala", "walang", "ayaw",
     "not", "no", "never", "dont", "don't", "didn't", "isn't", "wasn't",
     "cant", "can't", "won't", "doesn't", "aint", "ain't", "diko", "dko",
+    "wag", "huwag", "unlike", "not like",
 }
 
 # "But" words: what comes AFTER matters more
-BUT_WORDS = {"pero", "kaso", "ngunit", "subalit", "but", "however", "datapero", "kayalang"}
+BUT_WORDS = {"pero", "kaso", "ngunit", "subalit", "but", "however", "datapero", "kayalang", "sana", "wish"}
 
 # Punctuation that stops a negation / booster from reaching further
 BREAKERS = {".", "!", "?", ";", ","}
@@ -60,7 +64,7 @@ POLITE_AFTER_BUT = 0.25
 # "Maganda sana ..." = "it WOULD have been nice": a wish, so the item was NOT nice.
 # A praise word followed by "sana" (allowing naman/po/din in between) turns negative.
 # ---------------------------------------------------------------------------
-WISH_WORDS = {"sana"}
+WISH_WORDS = {"sana", "wish", "kala", "pala", "should", "shouldve", "should've, should have"}
 WISH_SKIP = {"naman", "po", "din", "rin", "na", "pa", "lang", "nga"}   # "maganda na sana"
 WISH_SCORE = -2.0
 WISH_MIN = 0.8        # even a weak praise word ("ok sana") counts as a wish
@@ -98,7 +102,7 @@ SPEED_WORD = re.compile(r"^(?:am|ang)?(?:ma)?bilis$|^(?:fast|quick|quickly)$")
 NEGATIVE_EVENTS = {
     "malowbat", "lowbat", "maubos", "maubusan", "masira", "mabasag", "mapunit",
     "kumupas", "uminit", "umiinit", "mag-init", "mapudpod", "kalawangin",
-    "mawala", "madrain", "ma-drain",
+    "mawala", "madrain", "ma-drain", "hindi" 
 }
 
 # ---------------------------------------------------------------------------
@@ -134,6 +138,12 @@ SARCASM_MARKERS = {
     "wow": 0.5,
     "great job": 1.0,
     "good job": 1.0,
+    "why": 0.5,
+    "haha": 0.75,
+    "daw": 0.5,
+    "ang sabi": 0.5,
+    "sabi": 0.25,
+    "talaga": 0.7,
 }
 
 SARCASM_EMOJIS = {"🙄": 2.0, "🙃": 2.0, "🤡": 2.0, "😒": 1.5, "👏": 1.0}

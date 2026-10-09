@@ -6,13 +6,14 @@ One word -> one word. Add your own!
 NORMALIZE = {
     # negation shortcuts
     "d": "hindi", "ndi": "hindi", "nde": "hindi", "hnd": "hindi", "hndi": "hindi",
-    "wla": "wala", "wlang": "walang", "wlng": "walang",
+    "wla": "wala", "wlang": "walang", "wlng": "walang", "hwag": "huwag", 
     # negative words
     "pngit": "pangit", "pangt": "pangit", "pngt": "pangit", "pnget": "panget",
     "msama": "masama", "mbagal": "mabagal", "nkakainis": "nakakainis",
     "nkakabwisit": "nakakabwisit", "nkakadismaya": "nakakadismaya",
     "dismayd": "dismayado", "dissapointed": "disappointed",
     "disapointed": "disappointed", "disappointd": "disappointed",
+    "lier": "liar", "lie": "liar", "lying": "lie", "maling": "mali",
     # positive words
     "gnda": "ganda", "mganda": "maganda", "mgnda": "maganda", "magnda": "maganda",
     "mbait": "mabait", "msarap": "masarap", "mhusay": "mahusay",
@@ -20,7 +21,7 @@ NORMALIZE = {
     "recomended": "recommended", "reccomended": "recommended",
     "rcmmnded": "recommended", "recommnded": "recommended",
     # intensifiers
-    "sbrang": "sobrang", "sobrng": "sobrang", "sbra": "sobra",
+    "sbrang": "sobrang", "sobrng": "sobrang", "sbra": "sobra", "subrang": "sobrang", "skbrang": "sobrang",
     "grbe": "grabe", "grabeh": "grabe",
     # thanks
     "salmat": "salamat", "slmat": "salamat", "tnx": "thanks", "tnks": "thanks",
@@ -40,11 +41,25 @@ NORMALIZE = {
     # more typos seen in real Shopee reviews
     "ayuss": "ayos", "ayus": "ayos", "ayuz": "ayos", "nagustahan": "nagustuhan",
     "kpanget": "panget", "kpangit": "pangit", "lng": "lang", "oka": "okay", "okiee": "ok",
+    "peru": "pero", 
     # typos + Cebuano seen in the watch-case / phone / shorts reviews
     "nuce": "nice", "medo": "medyo", "ayw": "ayaw", "mgkasya": "magkasya",
     "sayng": "sayang", "waisting": "wasting", "good's": "goods", "goodss": "goods",
     "makadissapoint": "nakakadisappoint", "makadisappoint": "nakakadisappoint",
-    "dissapoint": "disappoint", "dili": "hindi", "dli": "hindi",
+    "nakakalungkot": "lungkot", "sadly": "sad", 
+    "dissapoint": "disappoint", "dili": "hindi", "dli": "hindi", "dna": "hindi",
+    "madaya": "daya", "ntapon": "natapon",
     # connect / working
     "ma-connect": "maconnect", "connected": "connect", "connecting": "connect",
+
+    #new added
+    "i wish" : "i wished", "akala": "kala", "mabango": "bango", "mabaho": "baho",
+    "natapon": "tapon", "binudol": "budol", "bdol": "budol", "dyos" : "diyos ko",
+    "jusko": "diyos ko", "jsko": "diyos ko", "expired" : "expire", "xpire": "expire",
+    "frustrating": "frustrate", "frustration": "frustrate", "non-responsive": "unresponsive",
+    "non responsive": "unresponsive", "nonresponsive": "unresponsive", "irresponsable": "irresponsible",
+    "false advertisement": "false advertising", "false adverticement": "false advertising",
+    "ibng store": "ibang store", "other store": "ibang store", "decieving": "deceive", "decieve": "deveive",
+    "deceiving": "deceive", "fck": "fuck", "f*ck": "fuck", "maliit": "liit", "work well": "works well",
+    "aestheticly" : "aesthetic", "aestetically": "aesthetic", "estetik": "astetik",
 }
