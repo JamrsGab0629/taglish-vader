@@ -28,7 +28,7 @@ LEXICON = {
     # ---------- POSITIVE (English / Taglish slang) ----------
     "good": 2.4, "great": 3.1, "amazing": 3.2, "awesome": 3.1,
     "excellent": 3.2, "best": 3.2, "nice": 1.8, "perfect": 3.0,
-    "love": 3.0, "loved": 3.0, "like": 1.5, "ok": 1.0, "okay": 1.0,
+    "love": 3.0, "loved": 3.0, "ok": 1.0, "okay": 1.0,
     "fast": 1.8, "quick": 1.5, "quickly": 1.5, "legit": 2.5, "trusted": 2.0, "recommended": 2.5,
     "recommend": 2.2, "worth it": 2.8, "worth": 2.0,
     "original": 1.5, "helpful": 2.0, "friendly": 2.0, "accommodating": 2.0,
@@ -37,6 +37,37 @@ LEXICON = {
     "beautiful": 2.7, "delicious": 2.8, "yummy": 2.6, "clean": 1.8,
     "comfortable": 2.0, "wow": 2.2, "salute": 2.0, "lodi": 2.0,
     "gumagana": 1.5,
+
+    # ---------- "like" alone is NOT praise ("ndi same like sa picture"), only these ----------
+    "i like": 1.8, "i liked": 2.0, "like it": 1.8, "like this": 1.8, "liked": 1.8,
+
+    # ---------- found in real Shopee reviews (clothes + earbuds) ----------
+    "goods": 2.0,                       # Filipino "goods" = good ("goods na goods")
+    "true color": 1.5, "true size": 1.5, "true to size": 1.5,
+    "manipis": -1.5, "nipis": -1.5,     # thin fabric = complaint
+    "mainit": -1.2,                     # hot to wear / overheating
+    "aberya": -2.0, "disappoint": -2.3, "disappointment": -2.5,
+    "malayo sa advertisement": -2.2, "malayo sa picture": -2.2, "iba sa picture": -2.2,
+    "not what in the picture": -2.3, "not like the picture": -2.3,
+    "not as pictured": -2.3, "not as shown": -2.3,
+    "hindi same": -1.8, "not same": -1.8, "hindi pareho": -1.8,
+    "not received": -2.5, "did not receive": -2.5, "did not received": -2.5,
+    "didn't receive": -2.5, "hindi dumating": -2.5, "di dumating": -2.5,
+    "hindi natanggap": -2.5, "isa lang dumating": -2.0,
+
+    # ---------- fit / size / wasted money (watch cases, clothes) ----------
+    "unfit": -2.3, "incorrect size": -2.3, "too small": -2.0, "too big": -2.0,
+    "too large": -2.0, "too tight": -2.0, "too loose": -2.0, "sikip": -1.0,
+    "maliit": -1.5, "ma liit": -1.5, "maiksi": -1.2,
+    "not as advertised": -2.3, "misleading": -2.3, "unresponsive": -2.0, "gasgas": -2.0,
+    "sinayang": -2.3, "nasayang": -2.3, "wasted": -2.3, "wasted money": -2.8,
+    "wasting": -2.0, "waste money": -2.8,
+    "kasyang kasya": 2.0, "fits well": 2.0, "fit well": 2.0, "well fit": 2.0,
+    "fit me well": 2.2, "fit na fit": 2.0, "bagay": 1.5, "tama": 1.0,
+    "magaganda": 2.3, "gaganda": 2.3,
+    # same words, other meaning: weather is hot / "galing" = "from" (not "skilled")
+    "mainit ang panahon": 0.0, "mainit na panahon": 0.0,
+    "galing pang": 0.0, "galing sa": 0.0, "galing china": 0.0,
 
     # ---------- IDIOMS (look negative, but are praise) ----------
     "cant be this good": 2.8, "can't be this good": 2.8,

@@ -12,7 +12,7 @@ BOOSTERS = {
     "sobra": 0.35, "sobrang": 0.35, "grabe": 0.40, "grabeng": 0.40,
     "super": 0.35, "very": 0.29, "napaka": 0.40, "pinaka": 0.40,
     "talaga": 0.20, "talagang": 0.25, "masyado": 0.25, "masyadong": 0.25,
-    "ubod": 0.35, "lubos": 0.30, "extremely": 0.40, "really": 0.25,
+    "ubod": 0.35, "apaka": 0.40, "lubos": 0.30, "extremely": 0.40, "really": 0.25,
     "so": 0.20, "totally": 0.30, "sobra-sobra": 0.40, "ang": 0.0,
     # dampeners
     "medyo": -0.25, "konti": -0.20, "konting": -0.20, "slightly": -0.25,
@@ -23,11 +23,11 @@ BOOSTERS = {
 NEGATORS = {
     "hindi", "hindi'", "di", "hnd", "hndi", "wala", "walang", "ayaw",
     "not", "no", "never", "dont", "don't", "didn't", "isn't", "wasn't",
-    "cant", "can't", "won't", "doesn't", "aint", "ain't",
+    "cant", "can't", "won't", "doesn't", "aint", "ain't", "diko", "dko",
 }
 
 # "But" words: what comes AFTER matters more
-BUT_WORDS = {"pero", "kaso", "ngunit", "subalit", "but", "however", "datapero"}
+BUT_WORDS = {"pero", "kaso", "ngunit", "subalit", "but", "however", "datapero", "kayalang"}
 
 # Punctuation that stops a negation / booster from reaching further
 BREAKERS = {".", "!", "?", ";", ","}
@@ -36,6 +36,9 @@ BREAKERS = {".", "!", "?", ";", ","}
 # Scoring numbers
 # ---------------------------------------------------------------------------
 NEGATION_FACTOR = -0.74
+# A negator reaches 3 words ahead for praise ("hindi talaga maganda") but only 2 words for
+# complaints: "not worth waste of money" must NOT turn "waste of money" into praise.
+NEGATION_WINDOW_NEG = 2
 CAPS_BOOST = 0.733
 EXCLAIM_BOOST = 0.292
 POS_THRESHOLD = 0.05
@@ -51,7 +54,24 @@ QUESTION_NEG_FACTOR = 0.7   # complaints stay (often rhetorical: "Bakit ang taga
 # so these words are NOT boosted ("basag yung item pero salamat" is still bad).
 # ---------------------------------------------------------------------------
 POLITE_WORDS = {"salamat", "maraming salamat", "thank", "thanks", "po"}
-POLITE_AFTER_BUT = 0.5
+POLITE_AFTER_BUT = 0.25
+
+# ---------------------------------------------------------------------------
+# "Maganda sana ..." = "it WOULD have been nice": a wish, so the item was NOT nice.
+# A praise word followed by "sana" (allowing naman/po/din in between) turns negative.
+# ---------------------------------------------------------------------------
+WISH_WORDS = {"sana"}
+WISH_SKIP = {"naman", "po", "din", "rin", "na", "pa", "lang", "nga"}   # "maganda na sana"
+WISH_SCORE = -2.0
+WISH_MIN = 0.8        # even a weak praise word ("ok sana") counts as a wish
+
+# ---------------------------------------------------------------------------
+# A score the reviewer wrote in the text: "10/10", "9/9", "10+/10", "2/10", "4/5".
+# This is the reviewer's own words, not the platform's star rating.
+#   8/10 or better = praise, 4/10 or worse = complaint, in between = ignored.
+# ---------------------------------------------------------------------------
+RATING_IN_TEXT = re.compile(r"(?<![\w./])(\d{1,2}(?:\.\d)?)\s*\+?\s*/\s*(\d{1,2})(?![\w/])")
+RATING_SCORE = 2.5
 
 # ---------------------------------------------------------------------------
 # Things that are supposed to WORK. If they are negated ("hindi ma connect",
@@ -62,6 +82,9 @@ NEEDS_TO_WORK = {
     "connect", "maconnect", "makaconnect", "magconnect", "mag-connect",
     "pair", "mag-pair", "gumana", "umandar", "tumunog",
     "work", "works", "working", "worked",
+    # fit / size (accessories, clothes): "hindi kasya", "doesn't fit", "d magamit"
+    "kasya", "makasya", "magkasya", "mag-kasya", "fit", "fits", "fitted", "pumasok",
+    "mapindot", "malapat", "nalapat", "lapat", "magamit", "magagamit", "nagamit",
 }
 FAIL_SCORE = -2.3
 NEGATION_WINDOW = 4

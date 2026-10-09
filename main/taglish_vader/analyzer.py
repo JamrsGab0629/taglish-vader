@@ -24,6 +24,8 @@ from config import (
     POLITE_WORDS, POLITE_AFTER_BUT,
     NEEDS_TO_WORK, FAIL_SCORE, NEGATION_WINDOW,
     SPEED_WORD, NEGATIVE_EVENTS,
+    WISH_WORDS, WISH_SKIP, WISH_SCORE, WISH_MIN, RATING_IN_TEXT, RATING_SCORE,
+    NEGATION_WINDOW_NEG,
 )
 from lexicon import LEXICON, EMOTICONS
 from normalizer import NORMALIZE
@@ -112,7 +114,7 @@ class TaglishSentimentAnalyzer:
             if v:
                 return v + 0.5 * _sign(v)
         w = word.replace("-", "")
-        for prefix in ("napaka", "pinaka"):
+        for prefix in ("napaka", "pinaka", "apaka"):
             if w.startswith(prefix) and len(w) > len(prefix) + 2:
                 rest = w[len(prefix):]
                 v = self.lexicon.get(rest, self.lexicon.get("ma" + rest))
@@ -154,6 +156,20 @@ class TaglishSentimentAnalyzer:
                 return False
             if tokens[j][1] in NEGATIVE_EVENTS:
                 return True
+        return False
+
+    @staticmethod
+    def _wish_follows(tokens, i):
+        """'maganda sana', 'maganda naman sana': a wish, not praise."""
+        for dist in (1, 2, 3):
+            j = i + dist
+            if j >= len(tokens):
+                return False
+            w = tokens[j][1]
+            if w in WISH_WORDS:
+                return True
+            if w not in WISH_SKIP:
+                return False
         return False
 
     @staticmethod
@@ -203,11 +219,11 @@ class TaglishSentimentAnalyzer:
         )
 
         scores = []
-        but_index = None
+        but_positions = []
 
         for i, (orig, word) in enumerate(tokens):
             if word in BUT_WORDS:
-                but_index = i
+                but_positions.append(i)
 
             # "hindi ma connect", "not working": something that must work, but doesn't
             if word in NEEDS_TO_WORK and self._negated(tokens, i, NEGATION_WINDOW):
@@ -224,6 +240,11 @@ class TaglishSentimentAnalyzer:
                 scores.append(0.0)
                 continue
 
+            # "maganda sana ...": it would have been nice = it was NOT nice
+            if v >= WISH_MIN and word not in POLITE_WORDS and self._wish_follows(tokens, i):
+                scores.append(WISH_SCORE)
+                continue
+
             # ALL CAPS emphasis
             if has_mixed_case and orig.isupper() and len(orig) > 1:
                 v += CAPS_BOOST * _sign(v)
@@ -237,18 +258,29 @@ class TaglishSentimentAnalyzer:
                 if b:
                     v += b * _sign(v) * scalar
 
-            # negators in the previous 3 words
-            for dist in (1, 2, 3):
-                j = i - dist
-                if j < 0 or tokens[j][1] in BREAKERS or tokens[j][1] in BUT_WORDS:
-                    break
-                if tokens[j][1] in NEGATORS:
-                    v *= NEGATION_FACTOR
-                    break
+            # negators in the previous 3 words (2 for a complaint word). A negator belongs
+            # to the nearest sentiment word: "not worth waste of money" negates "worth" only.
+            # Politeness ("thanks") is never negated.
+            if word not in POLITE_WORDS:
+                for dist in range(1, (3 if v > 0 else NEGATION_WINDOW_NEG) + 1):
+                    j = i - dist
+                    if j < 0 or tokens[j][1] in BREAKERS or tokens[j][1] in BUT_WORDS:
+                        break
+                    if tokens[j][1] in NEGATORS:
+                        v *= NEGATION_FACTOR
+                        break
+                    if self._valence(tokens[j][1]) != 0:
+                        break
 
             scores.append(v)
 
-        # "pero" / "but" rule
+        # "pero" / "but" rule. A "but" only counts when a real opinion follows it:
+        # "...doesn't fit, i dunno why but ty seller" -> the verdict is the first "but".
+        but_index = None
+        for b in but_positions:
+            if any(scores[k] != 0 and tokens[k][1] not in POLITE_WORDS
+                   for k in range(b + 1, len(scores))):
+                but_index = b
         if but_index is not None:
             for idx, s in enumerate(scores):
                 if idx < but_index:
@@ -270,6 +302,17 @@ class TaglishSentimentAnalyzer:
             if c:
                 scores.extend([val] * c)
                 matched.append((emo, val))
+
+        # a score the reviewer wrote: "10/10", "9/9", "2/10"
+        for m in RATING_IN_TEXT.finditer(text):
+            num, den = float(m.group(1)), float(m.group(2))
+            if den <= 0 or num > den or not (den in (5, 10) or num == den):
+                continue
+            ratio = num / den
+            val = RATING_SCORE if ratio >= 0.8 else -RATING_SCORE if ratio <= 0.4 else 0
+            if val:
+                scores.append(val)
+                matched.append((m.group(0), val))
 
         total = sum(scores)
 

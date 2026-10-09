@@ -52,6 +52,20 @@ DEMO_REVIEWS = [
     'Yung "maganda" na packaging, basag lahat.',
     "Mabilis ang delivery, 3 days lang dumating.",  # NOT sarcastic
     "Wow, galing naman ng seller!",                 # NOT sarcastic
+    # found in real reviews
+    "Maganda sana pero ang nipis ng tela",
+    "goods na goods, apakasulit ng tela",
+    "10/10 would buy again",
+    "2/10 hindi ko nagustuhan",
+    "I did not received the item",
+    "khaki ndi same ung package like sa picture",
+    # fit / size / wasted money
+    "Hindi kasya sa relo ko, sayang pera",
+    "Kasyang kasya sa akin, ang ganda",
+    "It doesn't fit my watch. Good quality but useless to me",
+    "Product not worth waste of money not available easily broken",
+    "Hindi siya manipis, ang ganda ng tela",
+    "Hindi rin makapal ty seller",
 ]
 
 

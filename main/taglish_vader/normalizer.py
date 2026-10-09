@@ -37,6 +37,14 @@ NORMALIZE = {
     "lobat": "lowbat", "lowbatt": "lowbat", "malobat": "malowbat",
     "malowbatt": "malowbat", "ma-lowbat": "malowbat", "ma-lobat": "malowbat",
     "palowbat": "malowbat",
+    # more typos seen in real Shopee reviews
+    "ayuss": "ayos", "ayus": "ayos", "ayuz": "ayos", "nagustahan": "nagustuhan",
+    "kpanget": "panget", "kpangit": "pangit", "lng": "lang", "oka": "okay", "okiee": "ok",
+    # typos + Cebuano seen in the watch-case / phone / shorts reviews
+    "nuce": "nice", "medo": "medyo", "ayw": "ayaw", "mgkasya": "magkasya",
+    "sayng": "sayang", "waisting": "wasting", "good's": "goods", "goodss": "goods",
+    "makadissapoint": "nakakadisappoint", "makadisappoint": "nakakadisappoint",
+    "dissapoint": "disappoint", "dili": "hindi", "dli": "hindi",
     # connect / working
     "ma-connect": "maconnect", "connected": "connect", "connecting": "connect",
 }

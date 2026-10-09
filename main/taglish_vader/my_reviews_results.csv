@@ -1,67 +1,226 @@
-﻿review,text_label,text_score,sarcasm
-Super nice and JBL airpods thanks seller,GOOD,0.6542,
-Sobrang lakas ng sound effects grabe legit jbl sya. Salamat shopee and seller ang ganda ng binigay nyo sakin kahit na 0 ko lng syang nakuha.Order po ulit ako para makabawi naman hehe,GOOD,0.8625,
-the earbuds works good & good for 3 hrs these earbuds connect quickly w/ my other devices . Very impressive for the low price but high quality in sounds. I loveeee it !,GOOD,0.9468,
-the sound is very good and clear these earbuds is quick to connect,GOOD,0.7343,
-solid maganda ang tunog matagal malobat,GOOD,0.8779,
-Ganda ng sounds matagal din malowbat Incase na malowbat siya nachacharge niya rin sarili niya,GOOD,0.6486,
-"15 mins lang lifespan , nakaka dismiya!",BAD,-0.6239,
-"WAG NA KAYONG BUMILI DITO SCAMMER ITO, WALANG LAMAN ANG EAR PODS NA PINA DELIVER",BAD,-0.6705,
-Parang nag tinda lang si seller ng kakanin na plastic lang nilagyan haynaku bakit ba ina allow ng shopee yungila di naman pinupulot ang pera namin dapat e value nyo din hindi yung binta lang kayo ng binta ng mga basura 😡,BAD,-0.8121,
-Hmm sira yung isa hindi nag chcharge ayaw dn mag on ni hindi nagrerespond ang seller ano ba yan!!,BAD,-0.6229,
-sabog yung tunog kapag naka full volume pero okay naman kapag naka medium yung volume,GOOD,0.09,
-Ang bilis ma lobat wala pang 30 minutes nag wawarning na palowbat na🤨,BAD,-0.6486,
-mali yung item pangit ng audio ambilis malowbatt minutes lang tinagal,BAD,-0.8442,
-hindi gumagana ang isang pods 👎,BAD,-0.7717,
-"tagal magcharge, bilis malowbat, hirap magconnect",BAD,-0.8402,
-"Fake not a true product, i paid with my own money, not worth it!",BAD,-0.8108,
-Hindi siya ma connect sa mga device ko.,BAD,-0.5106,
-the left earbuds is not working. i tried to fix it but still no sound.,BAD,-0.7845,
-"Maganda nman sna KASO Hindi lm Ang pagkakaiba ng ""purple"" sa ""pink"" 🤪 Purple Ang order q Hindi Po pink pero salamat",GOOD,0.431,
-pag suka ko nahulog yung isa cempre diko na kinuha kasi puro suka na grabe aberya nyo,NEUTRAL,0.0,
-parang nakapast forward nagmamadali yung sounds😂 very poor,BAD,-0.509,
-The one airpod is not working. I will request a refund,BAD,-0.7269,
-Matagal mag connect kilangan i unforgat,BAD,-0.296,
-"Only one earbud function. I charged the 2 earbuds this morning at 10am since I received the parcel. It took almost 10hrs to be charged. I tested it this evening around 7pm and it disappointed me with the item. Seller, why this?",BAD,-0.5719,
-bat di po na gana to maam? Pangit di na gana sakin siguro fake to,BAD,-0.8316,
-Tanginang rider Yan kinuha Yung parcel KO pinicturan Lang SA labas Ng bahay namin tangina mo rider kahh,BAD,-0.8481,
-yung isang earpods basag yung tunig okay sana yung lakas ng quality ng tunog kaso basag yung isa,BAD,-0.7269,
----------brown+black maganda ang TILA at maganda sya suotin,GOOD,0.7906,
-very nice oka lang madaling matuyo,GOOD,0.4749,
-"Maganda ang cloth, medyo nga lang manipis pero sulit nman sa price nya.",GOOD,0.7906,
-"black,white&khaki maganda",GOOD,0.5423,
-Material 8 10 9 Manipis lang sya.pero ok Naman for the price.hehe,GOOD,0.3612,
-Black & white Good quality,GOOD,0.5106,
-silky texture glossy type. allgoodss and affordable 👍. Looks great,GOOD,0.872,
-very good nice 👍 I love it. SULLLIT!!!!!!,GOOD,0.9658,
-good Material good good,GOOD,0.8807,
-👍👍👍 Orange and white is good 👍👍👍Looking young 👍👍👍,GOOD,0.9825,
-correct color pwede na,NEUTRAL,0.0,
-goods nice Sure,GOOD,0.4215,
-good nice,GOOD,0.7351,
-quality goods,NEUTRAL,0.0,
-nice the color s prjdvjznxncks x bcbxks dkdc,GOOD,0.4215,
-good good,GOOD,0.7783,
-goods na goods apakasulit Ng tela,NEUTRAL,0.0,
-good polyster,GOOD,0.5267,
-nice ang gnda true size and quality tx seller,GOOD,0.743,
-10/10 10+/10,NEUTRAL,0.0,
-Tama Ang dumating maganda,GOOD,0.5423,
-color black at light brown Okiee Po sana Yung TILA Kaso Hindi Po naka lagay sa plastic,NEUTRAL,0.0,
-Very good seller and rider,GOOD,0.5705,
-"match naman yung color na pinili ko maganda yung design niya simple lang Legit maganda yung tela, ang smooth sa balat",GOOD,0.9231,
-ayuss sya palamig Ang TILA nya,NEUTRAL,0.0,
-nice color 9/9 Medyo manipis pla pro ok nman sa price,GOOD,0.5859,
-10/10,NEUTRAL,0.0,
-nagustahan ko ang kanyang kulay kasi sakto ang dumating sobrang nipis pala nya pero ok na din sa presyo,GOOD,0.4404,
-Legit at maganda Ang kalidad,GOOD,0.7906,
-good maganda ang tela,GOOD,0.7845,
-true color,NEUTRAL,0.0,
-Napakaganda ng tila niya,GOOD,0.5994,
-Sulit ang ibinayad ko..👍👍👍 Thank you!!,GOOD,0.9335,
-good,GOOD,0.5267,
-maganda,GOOD,0.5423,
-nice Very good,GOOD,0.7572,
-Dry fit Pala Ang clothes piro maganda na din,GOOD,0.5423,
-goods naman kaso akala ko cotton material polyester pala ampanget neto pag pinawisan,BAD,-0.7351,
-Super nice,GOOD,0.4854,
+﻿no,review,text_score,text_label,sarcasm,words
+1,Super nice and JBL airpods thanks seller,0.6542,GOOD,,nice +2.1; thanks +1.2
+2,Sobrang lakas ng sound effects grabe legit jbl sya. Salamat shopee and seller ang ganda ng binigay nyo sakin kahit na 0 ko lng syang nakuha.Order po ulit ako para makabawi naman hehe,0.8625,GOOD,,legit +2.9; Salamat +1.2; ganda +2.5
+3,the earbuds works good & good for 3 hrs these earbuds connect quickly w/ my other devices . Very impressive for the low price but high quality in sounds. I loveeee it !,0.9468,GOOD,,good +1.2; good +1.2; quickly +0.8; high quality +3.5; loveeee +4.5
+4,the sound is very good and clear these earbuds is quick to connect,0.7343,GOOD,,good +2.7; quick +1.5
+5,solid maganda ang tunog matagal malobat,0.8779,GOOD,,solid +2.3; maganda +2.5; matagal malobat +2.3
+6,Ganda ng sounds matagal din malowbat Incase na malowbat siya nachacharge niya rin sarili niya,0.6486,GOOD,,Ganda +2.5; matagal din malowbat +2.3; malowbat -1.5
+7,"15 mins lang lifespan , nakaka dismiya!",-0.6239,BAD,,nakaka dismiya -2.8
+8,"WAG NA KAYONG BUMILI DITO SCAMMER ITO, WALANG LAMAN ANG EAR PODS NA PINA DELIVER",-0.6705,BAD,,SCAMMER -3.5
+9,Parang nag tinda lang si seller ng kakanin na plastic lang nilagyan haynaku bakit ba ina allow ng shopee yungila di naman pinupulot ang pera namin dapat e value nyo din hindi yung binta lang kayo ng binta ng mga basura 😡,-0.8121,BAD,,haynaku -1.1; basura -2.2; 😡 -2.1
+10,Hmm sira yung isa hindi nag chcharge ayaw dn mag on ni hindi nagrerespond ang seller ano ba yan!!,-0.6229,BAD,,sira -2.5
+11,sabog yung tunog kapag naka full volume pero okay naman kapag naka medium yung volume,0.09,GOOD,,sabog -1.1; okay +1.5
+12,Ang bilis ma lobat wala pang 30 minutes nag wawarning na palowbat na🤨,-0.6486,BAD,,lobat -1.8; palowbat -1.5
+13,mali yung item pangit ng audio ambilis malowbatt minutes lang tinagal,-0.8442,BAD,,mali -1.8; pangit -2.8; malowbatt -1.5
+14,hindi gumagana ang isang pods 👎,-0.7717,BAD,,hindi gumagana -2.5; 👎 -2.2
+15,"tagal magcharge, bilis malowbat, hirap magconnect",-0.8402,BAD,,tagal -1.5; bilis malowbat -2.5; hirap magconnect -2.0
+16,"Fake not a true product, i paid with my own money, not worth it!",-0.8108,BAD,,Fake -3.0; worth it -2.1
+17,Hindi siya ma connect sa mga device ko.,-0.5106,BAD,,connect -2.3
+18,the left earbuds is not working. i tried to fix it but still no sound.,-0.7845,BAD,,not working -1.3; no sound -3.6
+19,"Maganda nman sna KASO Hindi lm Ang pagkakaiba ng ""purple"" sa ""pink"" 🤪 Purple Ang order q Hindi Po pink pero salamat",-0.2023,BAD,,Maganda -2.0; salamat +1.2
+20,pag suka ko nahulog yung isa cempre diko na kinuha kasi puro suka na grabe aberya nyo,-0.5267,BAD,,aberya -2.4
+21,parang nakapast forward nagmamadali yung sounds😂 very poor,-0.509,BAD,,poor -2.3
+22,The one airpod is not working. I will request a refund,-0.7269,BAD,,not working -2.6; refund -1.5
+23,Matagal mag connect kilangan i unforgat,-0.296,BAD,,Matagal -1.2
+24,"Only one earbud function. I charged the 2 earbuds this morning at 10am since I received the parcel. It took almost 10hrs to be charged. I tested it this evening around 7pm and it disappointed me with the item. Seller, why this?",-0.5719,BAD,,disappointed -2.7
+25,bat di po na gana to maam? Pangit di na gana sakin siguro fake to,-0.8316,BAD,,Pangit -2.8; fake -3.0
+26,Tanginang rider Yan kinuha Yung parcel KO pinicturan Lang SA labas Ng bahay namin tangina mo rider kahh,-0.8481,BAD,,Tanginang -3.0; tangina mo -3.2
+27,yung isang earpods basag yung tunig okay sana yung lakas ng quality ng tunog kaso basag yung isa,-0.8225,BAD,,basag -1.1; okay -1.0; basag -3.5
+28,---------brown+black maganda ang TILA at maganda sya suotin,0.7906,GOOD,,maganda +2.5; maganda +2.5
+29,very nice oka lang madaling matuyo,0.4749,GOOD,,nice +2.1
+30,"Maganda ang cloth, medyo nga lang manipis pero sulit nman sa price nya.",0.7478,GOOD,,Maganda +1.2; manipis -0.6; sulit +3.8
+31,"black,white&khaki maganda",0.5423,GOOD,,maganda +2.5
+32,Material 8 10 9 Manipis lang sya.pero ok Naman for the price.hehe,0.1901,GOOD,,Manipis -0.8; ok +1.5
+33,Black & white Good quality,0.5106,GOOD,,Good quality +2.3
+34,silky texture glossy type. allgoodss and affordable 👍. Looks great,0.872,GOOD,,affordable +1.8; 👍 +2.0; great +3.1
+35,very good nice 👍 I love it. SULLLIT!!!!!!,0.9658,GOOD,,good +2.7; nice +2.1; 👍 +2.3; love +3.0; SULLLIT +3.2
+36,good Material good good,0.8807,GOOD,,good +2.4; good +2.4; good +2.4
+37,👍👍👍 Orange and white is good 👍👍👍Looking young 👍👍👍,0.9825,GOOD,,👍 +2.0; 👍 +2.0; 👍 +2.0; good +2.4; 👍 +2.0; 👍 +2.0; 👍 +2.0; 👍 +2.0; 👍 +2.0; 👍 +2.0
+38,correct color pwede na,0.0,NEUTRAL,,
+39,goods nice Sure,0.7003,GOOD,,goods +2.0; nice +1.8
+40,good nice,0.7351,GOOD,,good +2.4; nice +1.8
+41,quality goods,0.4588,GOOD,,goods +2.0
+42,nice the color s prjdvjznxncks x bcbxks dkdc,0.4215,GOOD,,nice +1.8
+43,good good,0.7783,GOOD,,good +2.4; good +2.4
+44,goods na goods apakasulit Ng tela,0.8126,GOOD,,goods na goods +2.5; apakasulit +2.9
+45,good polyster,0.5267,GOOD,,good +2.4
+46,nice ang gnda true size and quality tx seller,0.8316,GOOD,,nice +1.8; gnda +2.5; true size +1.5
+47,10/10 10+/10,0.7906,GOOD,,10/10 +2.5; 10+/10 +2.5
+48,Tama Ang dumating maganda,0.6705,GOOD,,Tama +1.0; maganda +2.5
+49,color black at light brown Okiee Po sana Yung TILA Kaso Hindi Po naka lagay sa plastic,-0.4588,BAD,,Okiee -2.0
+50,Very good seller and rider,0.5705,GOOD,,good +2.7
+51,"match naman yung color na pinili ko maganda yung design niya simple lang Legit maganda yung tela, ang smooth sa balat",0.9231,GOOD,,maganda +2.5; Legit +2.5; maganda +2.5; smooth +1.8
+52,ayuss sya palamig Ang TILA nya,0.4215,GOOD,,ayuss +1.8
+53,nice color 9/9 Medyo manipis pla pro ok nman sa price,0.7227,GOOD,,nice +1.8; manipis -1.2; ok +1.0; 9/9 +2.5
+54,10/10,0.5423,GOOD,,10/10 +2.5
+55,nagustahan ko ang kanyang kulay kasi sakto ang dumating sobrang nipis pala nya pero ok na din sa presyo,0.481,GOOD,,nagustahan +1.1; sakto +0.4; nipis -0.9; ok +1.5
+56,Legit at maganda Ang kalidad,0.7906,GOOD,,Legit +2.5; maganda +2.5
+57,good maganda ang tela,0.7845,GOOD,,good +2.4; maganda +2.5
+58,true color,0.3612,GOOD,,true color +1.5
+59,Napakaganda ng tila niya,0.5994,GOOD,,Napakaganda +2.9
+60,Sulit ang ibinayad ko..👍👍👍 Thank you!!,0.9335,GOOD,,Sulit +2.5; 👍 +2.0; 👍 +2.0; 👍 +2.0; Thank +1.0
+61,good,0.5267,GOOD,,good +2.4
+62,maganda,0.5423,GOOD,,maganda +2.5
+63,nice Very good,0.7572,GOOD,,nice +1.8; good +2.7
+64,Dry fit Pala Ang clothes piro maganda na din,0.5423,GOOD,,maganda +2.5
+65,goods naman kaso akala ko cotton material polyester pala ampanget neto pag pinawisan,-0.6369,BAD,,goods +1.0; ampanget -4.2
+66,Super nice,0.4854,GOOD,,nice +2.1
+67,tama.un.color.but un.items.sabe.buy one take.one. but isa.lng dumating??,0.25,GOOD,,tama +1.0
+68,"Buti nalang isa lang inorder ko,kpanget ng tela mainit",-0.7184,BAD,,kpanget -2.8; mainit -1.2
+69,Ang pangit ng tela🥺🥺 Kala ko ok sya para lang syang Manipis na tela na madaling mapunit,-0.836,BAD,,pangit -2.8; ok +1.0; Manipis -1.5; madaling mapunit -2.6
+70,"ok just ok Material not good for me Not worth the price,",-0.3085,BAD,,ok +1.0; ok +1.0; good -1.8; worth -1.5
+71,Dli liger Kay small na abot Sako Large unta akong order,0.0,NEUTRAL,,
+72,"Manipis, parang ordinary T-shirt lang. malayo sa advertisement nila...",-0.6908,BAD,,Manipis -1.5; malayo sa advertisement -2.2
+73,tama kulay sobrang nipis,-0.2144,BAD,,tama +1.0; nipis -1.9
+74,I did not received the item Delivered not received,-0.7906,BAD,,did not received -2.5; not received -2.5
+75,same color manipis,-0.3612,BAD,,manipis -1.5
+76,Pangit Yung tela,-0.5859,BAD,,Pangit -2.8
+77,2/10,-0.5423,BAD,,2/10 -2.5
+78,Quality is not what in the picture,-0.5106,BAD,,not what in the picture -2.3
+79,manipis yung tila,-0.3612,BAD,,manipis -1.5
+80,law ay..,0.0,NEUTRAL,,
+81,Ang nipis ng tela,-0.3612,BAD,,nipis -1.5
+82,nice maganda naman Maganda sana kasi yung tela manipis,0.2023,GOOD,,nice +1.8; maganda +2.5; Maganda -2.0; manipis -1.5
+83,Good quality 👌 maganda ang print at tela maginhawa s katawan Fast delivery! Thank you seller and rider 👍,0.9312,GOOD,,Good quality +2.3; maganda +2.5; Fast +1.8; Thank +1.0; 👍 +2.0
+84,khaki ndi same ung package like sa picture medyo naka disappoint,-0.7061,BAD,,ndi same -1.8; disappoint -2.1
+85,10/10,0.5423,GOOD,,10/10 +2.5
+86,5/10The phone runs smoothly even during heavy gaming sessions Smooth scrolling and vibrant colors make it enjoto use Build The build feels premium and solid in hand maganda ang phone very smooth na gustu han ng anak ko,0.9134,GOOD,,Smooth +1.8; solid +2.3; maganda +2.5; smooth +2.1
+87,"Solid performance; definitely can multitask and can do heavy gaming fr (tried playing where winds meet and it can!!) Product Feels premium (even yung free case haha), wanted to get the black one first pero ang ganda rin ng color blue!! definitely worth the risk and money haha sobrang kaba pa mag-order nito online kasi very pricey (pero super worth it sa specs na ng phone). a huge phone upgrade from my itel s23 to this phone (may features din siya na magmumukha siyang iphone haha). recommended din na update kaagad para ma-optimized yung system and debloat para iwas sa unnecessary ads (YT tutorials can help you with this).",0.9528,GOOD,,Solid +1.1; ganda +1.2; worth +1.0; pricey -0.9; worth it +4.7; recommended +3.8
+88,"The device delivers flagship-level performance. Demanding games such as ZZZ and NTE run smoothly, maintaining stable frame rates without noticeable lag or frame drops. The screen is bright, vibrant, and highly detailed, making photos, videos, and everyday use enjoyable. Its 120Hz refresh rate provides fluid animations and responsive scrolling throughout the system. Build Construction feels sturdy and premium, comparable to much more expensive devices. The matte back panel enhances grip and aesthetics, while the display comes with a pre-installed protective film for added convenience. Security & The ultrasonic fingerprint scanner is quick and reliable, unlocking the device almost instantly. Powered by the MediaTek Dimensity 9500s, the phone achieved an impressive 2,245,440 score in AnTuTu benchmarking. Navigation, multitasking, and app switching remain consistently smooth. Additional highlights include IP69 and IP69K water and dust resistance, eSIM support, and excellent gaming capabilities. Considering its price segment, it offers outstanding value by combining strong performance, premium design, useful features, and dependable durability. This is an excellent all-around smartphone that balances power, display quality, durability, and affordability. It stands out as one of the best value-for-money options in its class.",0.9578,GOOD,,quick +1.5; smooth +1.8; excellent +3.2; excellent +3.2; best +3.2
+89,"a beast in performance simply lovely, the 9500s rivals that of the 8 elite(gen4) but half the price. Product The frame is metal it feels very premium, the back is very good too. buttons feel crisps and the screen is simple flagship level with those things bezels. Simply the most bang for your buck phone/gaming phone at the moment, camera is decent nothing ground breaking, but what you're really paying for is performance and build quality this phone simply is above all competition at it's price range. My first phone ordered off shoppe and it didn't disappoint thanks to poco as well.",0.735,GOOD,,good +1.3; disappoint +2.5; thanks +0.3
+90,"Very Smooth Product the Design is sleek, very good! Super Sulit, Get mine for almost 17300, highest variant. Im very happy I chose thus phone .Super worth it specialy yung battery nya. Ang kunat ng battery. Maganda ang design.",0.9737,GOOD,,Smooth +2.1; good +2.7; Sulit +2.9; happy +3.0; worth it +3.1; Maganda +2.5
+91,Dimensity CPU 120hz Build superb quality Delivered fast and very well-packed. The item is correct and works perfectly. The quality is excellent for the price. Highly recommended and very sulit!,0.9391,GOOD,,fast +1.8; excellent +3.2; recommended +2.5; sulit +2.8
+92,"Product Top-notch User-friendly Crystal clear Absolutely impressed with both the product and the service! The packaging was neat, strong, and carefully prepared, making sure the X7 Pro 5G Global Version arrived safely. The seller’s professionalism and attention to detail were outstanding. The phone is powerful, stylish, and performs flawlessly. Without hesitation, I would recommend this to my relatives, friends, and anyone searching for an amazing smartphone.",0.8977,GOOD,,User-friendly +2.2; recommend +2.2; amazing +3.2
+93,"Outstanding quality Product Premium quality Superior nice Everything about this purchase deserves five stars! The packaging was secure, clean, and professionally done, showing the seller truly cares about customer satisfaction. The X7 Pro 5G performs smoothly with impressive speed and storage capacity. The service was exceptional from start to finish, and I’m grateful for such a positive experience. Highly recommended, and I’ll definitely tell my family and friends about it.",0.8553,GOOD,,nice +1.8; clean +1.8; recommended +2.5
+94,"Stable performance Product Excellent customer service Quick delivery From the moment I placed the order until the package arrived, everything was perfect. The X7 Pro 5G (8GB+256GB) was packed with great care, and the delivery was fast. Customer support was excellent and answered every question politely. The phone exceeded all my expectations in speed and performance. I’m very satisfied and will definitely recommend this product and seller to my family and close friends.",0.9826,GOOD,,Excellent +3.2; Quick +1.5; perfect +3.0; great +3.1; fast +1.8; excellent +3.2; satisfied +2.5; recommend +2.2
+95,"High-quality Exceptional craftsmanship Product Solid build A fantastic buying experience from beginning to end! The X7 Pro 5G (Dimensity 8400-Ultra) was delivered quickly and packaged so well that it arrived in perfect condition. The seller’s customer service was responsive, friendly, and reliable. The phone is powerful, beautiful, and easy to use. I’m extremely satisfied and will confidently recommend this product to everyone around me, especially my family and friends.",0.9738,GOOD,,Solid +2.3; quickly +1.5; perfect +3.0; friendly +2.0; beautiful +2.7; satisfied +2.6; recommend +2.2
+96,"100% legit 100% legit Product 100% legit Outstanding product and outstanding seller! The X7 Pro 5G Global Version was carefully packaged with great attention to detail, ensuring everything arrived safely and in perfect condition. The seller offered excellent service with clear communication and fast delivery. The phone is smooth, powerful, and an incredible value for the price. I’m beyond satisfied and will enthusiastically recommend it to my family, friends, and anyone looking for a dependable smartphone. ⭐⭐⭐⭐⭐",0.9883,GOOD,,legit +2.5; legit +2.5; legit +2.5; great +3.1; perfect +3.0; excellent +3.2; fast +1.8; smooth +1.8; satisfied +2.2; recommend +2.2
+97,"Product 10/10 10/10 10/10 I rarely leave reviews, but this purchase truly deserves one. The X7 Pro 5G exceeded my expectations in every way. The packaging was incredibly secure, the shipping was fast, and the customer service was attentive and professional. The phone runs flawlessly and feels premium in every aspect. I highly recommend both the seller and this amazing smartphone to all my friends and family.",0.9783,GOOD,,fast +2.7; recommend +3.3; amazing +4.8; 10/10 +2.5; 10/10 +2.5; 10/10 +2.5
+98,"Good quality tablet, cheap price, very easy to use, bought for children, works well, watching movies and listening to music is fun, recommend it, will stop by and buy another device The store also offers very good service for anyone who wants to have a good quality tablet. The price is tangible, I recommend you to buy and use it.",0.9493,GOOD,,Good quality +2.3; recommend +2.2; good +2.7; good quality +2.3; recommend +2.2
+99,"Good quality tablet, cheap price, very easy to use, bought for children, works well, watching movies and listening to music is fun, recommend it, will stop by and buy another device The store also offers very good service for anyone who wants to have a good quality tablet. The price is tangible, I recommend you to buy and use it.😊😊😊",0.9769,GOOD,,Good quality +2.3; recommend +2.2; good +2.7; good quality +2.3; recommend +2.2; 😊 +2.0; 😊 +2.0; 😊 +2.0
+100,1. The package is intact and high-end; 2. Exquisite workmanship and comfortable wearing; 3. Friendly interface and full color; 4. Sensitive and powerful; 5. Easy operation and clear communication.,0.7184,GOOD,,comfortable +2.0; Friendly +2.0
+101,"First of all, the style is very beautiful, the appearance is very good, and it is so high-end atmosphere. The boot is fast, not sluggish at all, it runs very well, and the performance is very strong. The display screen is also large enough, the screen is clear and saturated, the screen is very good,",0.9345,GOOD,,beautiful +3.0; good +2.7; fast +1.8; good +2.7
+102,The assorted colours look vibrant and match. The shorts look good and fit well. Maganda to pati design at kulay nagustuhan ng anak ko order p daw sya ibang design hopefully sana may pand 7years old din.,0.9217,GOOD,,good +2.4; fit well +2.0; Maganda +2.5; nagustuhan +2.3
+103,"What you see is what you get, sulit ang presyu sa quality NG shorts❤️",0.7906,GOOD,,sulit +2.5; ❤ +2.5
+104,10/10 Material Good assorted Thanks po kuya rider,0.8442,GOOD,,Good +2.4; Thanks +1.2; 10/10 +2.5
+105,"Ang ganda ganda Material Hindi Siya manipis ang Ganda nya Nag order ako ulit Kase ang bilis naubos hehe , sana tatlong white at dalawang black hehe🥰",0.9607,GOOD,,ganda +2.5; ganda +2.5; manipis +1.1; Ganda +2.5; bilis +1.8; 🥰 +3.0
+106,assorted colors good and fit me well Material 10/10 Thank u seller ❤️ sa magandang products niyo order ako sa susunod na order ko,0.9393,GOOD,,good +2.4; fit me well +2.2; Thank +1.0; ❤ +2.5; 10/10 +2.5
+107,asstd good Material good,0.7783,GOOD,,good +2.4; good +2.4
+108,good ok Nice,0.802,GOOD,,good +2.4; ok +1.0; Nice +1.8
+109,assorted colors and look good fits well,0.7506,GOOD,,good +2.4; fits well +2.0
+110,assorted Ganda po ubos binta ko Nagustohan Ng customer ko,0.5423,GOOD,,Ganda +2.5
+111,"goods goods Maganda Ang short nagustohan nag partner ko, sakto lng sa kanya magaganda Rin Ang mga color",0.9153,GOOD,,goods +2.0; goods +2.0; Maganda +2.5; magaganda +2.3
+112,assorted mganda . hindi sya masyadong manipis hindi rin makapal ty,0.4497,GOOD,,mganda +2.5; manipis -1.8; ty +1.2
+113,maganda ka naubos nga kaagad ang dating po.thank you sieler,0.6705,GOOD,,maganda +2.5; thank +1.0
+114,"Material 10 10 10 Perfect lahatt, makapal at mura",0.7579,GOOD,,Perfect +3.0; mura +1.5
+115,Material 85% 85% 85% Ok namn nagustuhan Ng pamangkin ko,0.6486,GOOD,,Ok +1.0; nagustuhan +2.3
+116,ok na ok maganda na short Salamat sa rider,0.8481,GOOD,,ok na ok +2.5; maganda +2.5; Salamat +1.2
+117,ganda po bili na kayo,0.5423,GOOD,,ganda +2.5
+118,good good Good,0.8807,GOOD,,good +2.4; good +2.4; Good +2.4
+119,"6colors yellow,green, blue,black,red,dark green, light blue",0.0,NEUTRAL,,
+120,"Watch see is wag u gets, gaganda ng design at manipis lang ung tela nya, tsaka ung size nya pang bata lang kasya.",0.2023,GOOD,,gaganda +2.3; manipis -1.5
+121,"Your device is trying to connect to the internet without a promo. Reply with 1 to continue browsing at P5/500MB (valid for 1 hour), or 2 to register to Go59 and get 5GB (valid for 3 days).",0.0,NEUTRAL,,
+122,nice color manipis bagay ngayong mainit ang panahon,0.4215,GOOD,,nice +1.8; manipis -1.5; bagay +1.5
+123,super Ganda niya thank you seller muwa,0.7323,GOOD,,Ganda +2.9; thank +1.3
+124,nuce good,0.7351,GOOD,,nuce +1.8; good +2.4
+125,nice good,0.7351,GOOD,,nice +1.8; good +2.4
+126,maganda na gustohan ko,0.5423,GOOD,,maganda +2.5
+127,nice and great,0.7845,GOOD,,nice +1.8; great +3.1
+128,okay naman ma liit sya pang bata lang,-0.128,BAD,,okay +1.0; ma liit -1.5
+129,all goods,0.4588,GOOD,,goods +2.0
+130,Manipis lang Pala ...pero salamat pa din,-0.0772,BAD,,Manipis -1.5; salamat +1.2
+131,good's,0.4588,GOOD,,good's +2.0
+132,Good item,0.5267,GOOD,,Good +2.4
+133,Sakto sa anak ko. Presko kasi di siya makapal.,0.5106,GOOD,,Sakto +0.8; Presko +1.5
+134,assorted too small,-0.4588,BAD,,too small -2.0
+135,assorted good 👍😊 Thanks seller medyo maexsi lng an tella pero ayos naren po 💙🙏,0.9001,GOOD,,good +1.2; 👍 +1.0; 😊 +1.0; Thanks +0.6; ayos +2.7; 🙏 +1.5
+136,the assorted colors look vibrant and match well the shorts look good and fits well Ang Ganda ng product na to sakto lang Ang kasal Hindi rin manipis bagay sa mga binata at Hindi sya mahaba,0.9261,GOOD,,good +2.4; fits well +2.0; Ganda +2.5; manipis +1.1; bagay +1.5
+137,ok naman kayalang medo maiksi Pala sya gamitin nalang Kong mainit ang panahon,-0.2323,BAD,,ok +0.5; maiksi -1.4
+138,assorted good Maganda ang tela at mapreskong suotin,0.7845,GOOD,,good +2.4; Maganda +2.5
+139,Ganda po Ng tela hndi kana ma lulugi sa binyad mo good quality,0.7783,GOOD,,Ganda +2.5; good quality +2.3
+140,assorted colour and matches what i expected the shorts are good and fit well on me Received my order well packed salamat seller at Kay kuyang rider,0.8225,GOOD,,good +2.4; fit well +2.0; salamat +1.2
+141,10 10 Thank u seller and sa rider Ang bilis lng dumating..subrang na gustuhan Ng anak q order ulit ako...thank u,0.7003,GOOD,,Thank +1.0; bilis +1.8; thank +1.0
+142,the colour selection is assorted and matches what I expected the shorts look good and well fit on me Ang Ganda talaga Legit na legit ... Kasyang kasya,0.9524,GOOD,,good +2.4; well fit +2.0; Ganda +2.5; Legit na legit +3.2; Kasyang kasya +2.0
+143,Thank you. :),0.6124,GOOD,,Thank +1.0; :) +2.0
+144,"Product Good Fair enough Maganda sana ung quality ng item kaso, hindi fit na fit, hindi malapat yung screen ng case sa screen ng relo so ayon d na ta-touch pag naka lagay yung case! sayang lang tagal pa nmn dumating gawa ng galing pang china.",-0.9434,BAD,,Good +1.2; Maganda -1.0; fit na fit -2.2; malapat -3.5; sayang -3.0; tagal -2.2
+145,1 Product 1 Very poor to large from my watch..,-0.509,BAD,,poor -2.3
+146,it did not fit on my smartwatch as expected... sakto naman yung binigay na size pero maganda 😍😍😍 sayang itatapon ko lang din kaagad diko din magagamit,0.9331,GOOD,,fit -1.1; sakto +0.4; maganda +3.8; 😍 +4.5; 😍 +4.5; 😍 +4.5; sayang -3.0; magagamit -3.5
+147,Fair hindi sya kasya sa Ultra T20 model.,-0.5106,BAD,,kasya -2.3
+148,Kakadating lang ng nya.. ayun na test ko.. kaso d sya fit dun sa iwatch ultrat900 49mm ko.. ewan tama naman yung sukat d lang talaga fit naka angat.. sayang lang pera ko.. ayun may gasgas yung iwatch kaya d ko na pinilet d kase lapat e. Masisira lang,-0.9676,BAD,,fit -3.5; tama +1.5; fit -3.5; sayang -3.0; gasgas -3.0; lapat -3.5
+149,Product good good Pero hindi sya sakto d ko nagamit,-0.4475,BAD,,good +1.2; good +1.2; sakto -0.9; nagamit -3.5
+150,not value for money sayang lang di magagamit makapal sya at mukhang matibay Product Hindi sya fit sa 49mm watch ko maliit sya Disappointed Ako sayang lang sa Pera Hindi nmn magagamit,-0.9578,BAD,,sayang -2.0; magagamit -2.3; matibay +2.2; fit -2.3; maliit -1.5; Disappointed -2.7; sayang -2.0; magagamit -2.3
+151,Product 0 0 0 Not as advertised. Does not fit,-0.765,BAD,,Not as advertised -2.3; fit -2.3
+152,mat a gal na ng Du mat ing late na nakapag review sa in is tama talaga yung may nag review dito hindi talaga ito k as y a sa 49 MM misleading sayang pera,-0.8225,BAD,,late -1.5; tama +1.0; misleading -2.3; sayang pera -2.8
+153,"di po sya ok not good item sayng pera ko, di pla sya kasya sa smart watch ko na ultra T900 49mm kaya nga ako ng order sa store na ito dhl yan ang discription doon na.tempered glass case compatible with apple watch ultra, bkit gnun ayw mgkasya.. sa smart watch ko, sna marefund pra di sayang ang pera at para mgamit ang item na inoorder ko🥺😔 un lng ang concern ko..",-0.9088,BAD,,ok -0.7; good -1.8; sayng pera -2.8; kasya -2.3; mgkasya -2.3; sayang +1.5
+154,Hindi makasya sa relo ko. Tama nman pinili ko 49mm,-0.3182,BAD,,makasya -2.3; Tama +1.0
+155,good good Product good Ok naman sya maganda at mukhang matibay kaso lang d sya fit sa watch ng anak ko d kna pinilit kasi baka masira pa yung watch.. sayang pera d naman pala kasya sobrang sikip at naka angat sa kabilang side..🤧,-0.9374,BAD,,good +1.2; good +1.2; good +1.2; Ok +0.5; maganda +1.2; matibay +1.1; fit -3.5; masira -3.8; sayang pera -4.2; kasya -3.5; sikip -2.0
+156,Product not worth waste of money not available easily broken its because not fit to 49mm in which indicated before placing my order unlike others reviews i dont recommend this shop,-0.9433,BAD,,worth -1.5; waste of money -3.0; broken -2.6; fit -2.3; recommend -1.6
+157,"INCORRECT SIZE Waste of MONEY Product BAD Seller unresponsive Sent wrong size Buti nlang dalawa lang binili planning to buy pa nman sana lahat ng kulay. Ok lang manloko basta magka pera, makabenta! A BIG NO SA STORE AT SELLER!!!",-0.9658,BAD,,INCORRECT SIZE -3.0; Waste of MONEY -3.0; BAD -3.2; unresponsive -2.0; wrong size -2.0
+158,Wag kayong bumili baka ma scam kayo bago lang ito ay nabasag na wala pa ako nakaka gamit at tsaka hindi ito pantay?,-0.7236,BAD,,scam -2.5; nabasag -1.6
+159,Touch screen not working when installed. Useless. Hindi gumagana touch screen pag install. useless.,-0.9442,BAD,,not working -2.6; Useless -3.0; Hindi gumagana -2.5; useless -3.0
+160,1/10 Product 1/10 1/10 The item doesn’t fit the watch.,-0.93,BAD,,fit -2.3; 1/10 -2.5; 1/10 -2.5; 1/10 -2.5
+161,not good Product poor waisting,-0.8306,BAD,,good -1.8; poor -2.0; waisting -2.0
+162,"It doesn't fit into my smartwatch [ DO NOT RECOMMEND THIS PRODUCT!!! ] counterfeit product plus when i attached it into my smartwatch i can't use touchscreen anymore because the case won't even fit, waste of money!",-0.9635,BAD,,fit -2.3; RECOMMEND -2.2; counterfeit -3.0; fit -2.3; waste of money -3.0
+163,"waste of money Product good quality but it does not fit 49mm..it doesn't fit..what a waste of money! Matagal na ngang dumating, hindi pa fit, nasira nalang pagpilit ko. Tsk tsk..",-0.9837,BAD,,waste of money -1.5; good quality +1.1; fit -3.5; fit -3.5; waste of money -4.5; Matagal -1.8; fit -3.5; nasira -3.9
+164,di kayo nakakatawa..sinayang nio lng pera ko at effort nio..,-0.5106,BAD,,sinayang -2.3
+165,"wala Product pwede na hindi hindi magkasya sa relo ko,pareho naman ng size pero hindi parin magkasya kaya ayon nasira ang tempered glass",-0.91,BAD,,magkasya -1.1; magkasya -3.5; nasira -3.9
+166,Waste of money HINDI FIT SA WATCH Ko KAKA SAD NMAN,-0.8074,BAD,,Waste of money -3.0; FIT -2.3
+167,didn't fit for my smart watch Product I never used because it didn't fit for my watch wasted if money,-0.872,BAD,,fit -2.3; fit -2.3; wasted -2.3
+168,D kasya sa relo Sayang pera Product Maganda Sana kaso maliit 49mm naman order,-0.8316,BAD,,kasya -1.1; Sayang pera -1.4; Maganda -1.0; maliit -2.2
+169,Kulang ng isang case wala ung kulay pula mganda na sana kaso kulang binigay,-0.7184,BAD,,Kulang -0.8; mganda -1.0; kulang -2.2
+170,"unfit Product very poor Basag, yung dineliver sa akin sayang ang pera... Sad, 🥴im disappointed.. No good talaga...",-0.962,BAD,,unfit -2.3; poor -2.3; Basag -2.6; sayang -2.0; disappointed -2.7; good -1.8
+171,it didn't fit to my 49 mm smart watch good but not fit so I just wasted my money for it..,-0.8784,BAD,,fit -1.1; good +1.2; fit -3.5; wasted -3.7
+172,"The product does not fit my smartwatch. I bought the right size though, 49mm.",-0.5106,BAD,,fit -2.3
+173,not good good pero Hindi gumagana Product good but not working Hindi gumagana pag pipindutin mo not good,-0.9331,BAD,,good -0.9; good +1.2; Hindi gumagana -1.2; good +1.2; not working -3.9; Hindi gumagana -3.8; good -2.7
+174,Product hindi kasya...ok sna kung flexible huhuhuh,-0.743,BAD,,kasya -2.3; ok -2.0
+175,kasya naman sya sa Ultra watch ko 49mm pero di mo mapindot ang touch screen di sya nalapat sa screen niya,-0.872,BAD,,mapindot -3.5; nalapat -3.5
+176,never again hindi sakto/fit yung tempered sa watch ko,-0.5983,BAD,,sakto -0.6; fit -2.3
+177,i ordered 49mm for my smart watch and it doesn't f*ckn fit! trash plastic Dont even think of buying from this store,-0.8221,BAD,,fit -2.3; trash -3.0
+178,waste of money Product small size Wag na kayo bumili kung Ang relo nyo ay size 49mm dahil Hindi sya fit sayang lang pera Kase d nmn magagamit,-0.9274,BAD,,waste of money -3.0; fit -2.3; sayang -2.0; magagamit -2.3
+179,WASTE MONEY DI KASYA SA SMART WATCH KO SAYANG PERA,-0.8979,BAD,,WASTE MONEY -2.8; KASYA -2.3; SAYANG PERA -2.8
+180,none Product poor quality waste of money the water was traped between the tempered glass and watch!,-0.8439,BAD,,poor quality -2.8; waste of money -3.0
+181,"d kasya T900 49mm tama naman inorder ko, sayang pera",-0.7269,BAD,,kasya -2.3; tama +1.0; sayang pera -2.8
+182,Di kasya,-0.5106,BAD,,kasya -2.3
+183,Product hindi fit wasted money,-0.0588,BAD,,fit -2.3; wasted money +2.1
+184,Makadissapoint ang niabot 49mm akung watch pero dili mao ang size niabot,-0.5719,BAD,,Makadissapoint -2.7
+185,Malaki po ung napadala hnd fit ok na sana kaso hnd ko Rin magamit,-0.8225,BAD,,fit -1.1; ok -1.0; magamit -3.5
+186,Product not good silicon not good Halos kakahating buwan dumating tpos hindi p fit 😤😤,-0.8339,BAD,,good -1.8; good -1.8; fit -2.3
+187,Hindi po pumasok sa 49mm nakakainis sayang ang pera,-0.8689,BAD,,pumasok -2.3; nakakainis -2.5; sayang -2.0
+188,"Good quality but it doesn't fit, i dunno why but ty seller",-0.4588,BAD,,Good quality +1.1; fit -3.5; ty +0.3
+189,Product not fit for my 49mm kahit anong gawin di talaga mag kasya,-0.765,BAD,,fit -2.3; kasya -2.3
+190,Product Hindi Tama maliit siya.ok na sana kaso maliit talga,-0.7484,BAD,,Tama -0.4; maliit -0.8; ok -1.0; maliit -2.2
+191,Mali size jusme !! Dlwa pa order ko sna chinecheck muna baqo ideliver!!! Makabenta lng e tsk,-0.6083,BAD,,Mali -1.8
+192,it did not fit on my watch plastic Hindi kasya kahit same unit 49mm d parin kasya,-0.872,BAD,,fit -2.3; kasya -2.3; kasya -2.3
+193,not good Product not size its too small nothing 👎👎👎,-0.9369,BAD,,good -1.8; too small -2.0; 👎 -2.2; 👎 -2.2; 👎 -2.2
+194,bad Product bad bad So bad...,-0.9349,BAD,,bad -2.5; bad -2.5; bad -2.5; bad -2.7
+195,Doesn't fit and return refund is quite a hassle so i wont do it,-0.8316,BAD,,fit -2.3; refund -1.5; hassle -2.0
+196,"Di mag kasya sa watch ko, nabasag lang yung screen nung paglagay ko 🫤",-0.765,BAD,,kasya -2.3; nabasag -2.3
+197,the size of the Smartwatch was 49mm the same as what I had ordered but it doesn't fit at all. I was disappointed.,-0.8885,BAD,,fit -3.5; disappointed -4.0
+198,Waste of money... Does not fit my watch too tight does not match....,-0.8834,BAD,,Waste of money -3.0; fit -2.3; too tight -2.0
+199,Size do not match. I ordered size 49mm but it does not fit my 49mm watch.,-0.6652,BAD,,fit -3.5
+200,Wrong color!!!!!!! Tapos di pa fit sa smartwatch ko!!!!!!!!!!!!,-0.8302,BAD,,Wrong color -2.3; fit -2.3
+201,not match to the item i order anyways i prepare not to returned or refund it.. waste of time,-0.7184,BAD,,refund -1.5; waste -2.5
+202,it didnt fit ayaw talaga kahit anong pilit ko hayyss sayang,-0.4588,BAD,,sayang -2.0
+203,"Hindi kasya sa size nang relo., sana ma refund ni sseller or mapalitan nang bago",-0.7003,BAD,,kasya -2.3; refund -1.5
+204,"Hindi siya fit sa 49mm na watch, nung nilagay ko siya bigla na lang nag crack napaka fragile",-0.5106,BAD,,fit -2.3
+205,1/10 1/10 Product Hindi kasya sa relo kahit saktong size yung nakalagay. Ang sayang talaga nang dating tempered glass nito na natanggal na!!! Ang tagal kong naghihintay nito pero pagdating ang pangit talaga kaai di kasya. Dapat ma refund ito!!!,-0.9798,BAD,,kasya -1.1; sayang -1.0; tagal -0.8; pangit -4.2; kasya -3.5; refund -2.2; 1/10 -2.5; 1/10 -2.5
+206,Wasting of money to be honest Product Incorrect Size (49mm yung watch ko at pinili ko na cover is 49mm then pero bakit hindi kasya? 👎 To be honest i am excited for my smart watch case but it is not fit kahit 49mm na case yes po kasya siya pero uneven po yung pagka kasya niya kaya po sa inorder ko na 2 ang isa po ay nasira ko kasi sa kaka push ko na sana magkasya,-0.9092,BAD,,Wasting -0.7; Incorrect Size -0.8; kasya -0.8; 👎 -1.1; fit -1.1; nasira -3.9
+207,"Good quality but it does not fit my 49mm watch Product Very Good be wary on purchasing this, it may or it may not be compatible to your 49mm watch",0.4088,GOOD,,Good quality +1.1; fit -3.5; Good +4.0
+208,sayang pera Product not good Maganda sana kaso di kasya sa watch ultra 2 same lang naman 49mm😒😒🙄🤫,-0.9527,BAD,,sayang pera -1.4; good -0.9; Maganda -1.0; kasya -3.5; 😒 -2.7; 😒 -2.7
+209,Ano to? sagad naba re maryosep 🤦🏽‍♀️👎🏽,-0.4939,BAD,,👎 -2.2
+210,It did not fit to my smart watch,-0.5106,BAD,,fit -2.3
+211,Di po sya fit sa watch ko nakaangat po sya. 🥺,-0.5106,BAD,,fit -2.3
+212,Subrang laki ng casesing ng watch ko,0.0,NEUTRAL,,
+213,Product not fit,-0.5106,BAD,,fit -2.3
+214,it didn't fit my smartwatch hystt,-0.5106,BAD,,fit -2.3
+215,hindi fit pangit,-0.0588,BAD,,fit -2.3; pangit +2.1
+216,0 0,0.0,NEUTRAL,,
+217,mganda,0.5423,GOOD,,mganda +2.5
+218,hindi sya fit sa 49mm,-0.5106,BAD,,fit -2.3
+219,hindi fit sa 49mm sinungaling!,-0.5562,BAD,,fit -2.3
+220,Bakit ganon di magkasya Tama Naman Ang order,-0.6174,BAD,,magkasya -2.3; Tama -0.7
+221,𝘥𝘪 𝘴𝘺𝘢 𝘬𝘢𝘴𝘺𝘢 𝘥𝘪 𝘧𝘪𝘵 𝘴𝘢𝘺𝘢𝘯𝘨 𝘭𝘢𝘯𝘨 𝘮𝘰𝘯𝘦𝘺...,0.0,NEUTRAL,,
+222,Not Good,-0.4168,BAD,,Good -1.8
+223,not fit,-0.5106,BAD,,fit -2.3
+224,Not fir to my smart phone,0.0,NEUTRAL,,
+225,hindi sya fit,-0.5106,BAD,,fit -2.3

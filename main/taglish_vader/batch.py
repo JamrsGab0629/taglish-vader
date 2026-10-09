@@ -109,24 +109,32 @@ def analyze_file(path, text_col=None, out_path=None, detect_sarcasm=True):
     analyzer = TaglishSentimentAnalyzer(detect_sarcasm=detect_sarcasm)
 
     out_rows, texts = [], []
-    for row in rows:
+    for no, row in enumerate(rows, 1):          # no = position in the CSV (1 = first review)
         review = (row.get(text_key) or "").strip()
         r = analyzer.polarity_scores(review)
         out = dict(row)
         out.update({
+            "no": no,
             "text_label": label_from_compound(r["compound"]),
             "text_score": r["compound"],
             "sarcasm": "yes" if r["sarcasm"]["is_sarcastic"] else "",
+            "words": "; ".join(f"{w} {sc:+.1f}" for w, sc in r["matched"]),
         })
+        h = _clean_label(row.get(human_key)) if human_key else None
+        out["match"] = "" if not h else ("yes" if h == out["text_label"] else "NO")
         out_rows.append(out)
         texts.append(review)
 
     if out_path is None:
         base, _ = os.path.splitext(path)
         out_path = base + "_results.csv"
-    extra = ["text_label", "text_score", "sarcasm"]
+    # table layout: no | review | text_score | text_label | sarcasm | words | (your other columns) | match
+    others = [c for c in fields if c != text_key]
+    columns = ["no", text_key, "text_score", "text_label", "sarcasm", "words"] + others
+    if human_key:
+        columns.append("match")
     with open(out_path, "w", newline="", encoding="utf-8-sig") as f:
-        w = csv.DictWriter(f, fieldnames=fields + extra, extrasaction="ignore")
+        w = csv.DictWriter(f, fieldnames=columns, extrasaction="ignore")
         w.writeheader()
         w.writerows(out_rows)
 
@@ -155,9 +163,10 @@ def analyze_file(path, text_col=None, out_path=None, detect_sarcasm=True):
                 print(f"{h_lab:10}" + "".join(f"{c:>9}" for c in cells))
             wrong = [(r, h) for r, h in graded if r["text_label"] != h]
             if wrong:
-                print("\nSome mistakes (look at these to improve lexicon.py):")
-                for r, h in wrong[:10]:
-                    print(f"  you={h:7} analyzer={r['text_label']:7} | {(r.get(text_key) or '')[:70]}")
+                print("\nMistakes (the # is the 'no' column in the results file):")
+                for r, h in wrong[:15]:
+                    print(f"  #{r['no']:<3} you={h:7} analyzer={r['text_label']:7} "
+                          f"({r['text_score']:+.2f}) | {(r.get(text_key) or '')[:60]}")
         else:
             print(f"\nColumn '{human_key}' is empty - fill it with GOOD / NEUTRAL / BAD to get accuracy.")
     else:
