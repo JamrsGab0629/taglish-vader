@@ -22,6 +22,7 @@ LEXICON = {
     "sakto": 0.8, "pwede na": 0.0, "ok lang": 0.0, "okay lang": 0.0,
     "sakto lang": 0.0, "bait": 2.0, "ulit": 1.7, "responsable": 1.5,
     "well": 0.7, "works well": 1.5, "aesthetic" : 1.5, "very nice": 2.5,
+    "stable": 0.45, "outstanding": 2.0, "real": 1.45, "totoo": 1.40,
 
     # ---------- POSITIVE IDIOMS ("walang masabi" = no complaints, praise) ----------
     "walang masabi": 2.8, "wala akong masabi": 2.8,
@@ -37,11 +38,11 @@ LEXICON = {
     "smooth": 1.8, "durable": 2.2, "affordable": 1.8, "cute": 1.8,
     "beautiful": 2.7, "delicious": 2.8, "yummy": 2.6, "clean": 1.8,
     "comfortable": 2.0, "wow": 2.2, "salute": 2.0, "lodi": 2.0,
-    "gumagana": 1.5, "responsive": 1.2, "astetik": 1.5,
+    "gumagana": 1.5, "responsive": 1.2, "astetik": 1.5, "relax": 1.2,
 
     # ---------- "like" alone is NOT praise ("ndi same like sa picture"), only these ----------
     "i like": 1.8, "i liked": 2.0, "like it": 1.8, "like this": 1.8, "liked": 1.8, "will order": 2.0,
-    "not order": -1.5,
+    "not order": -2.0, "will buy": 1.8, "not buy": -2.0,
 
     # ---------- found in real Shopee reviews (clothes + earbuds) ----------
     "goods": 2.0,                       # Filipino "goods" = good ("goods na goods")
@@ -76,7 +77,7 @@ LEXICON = {
     "cant be this good": 2.8, "can't be this good": 2.8,
     "cannot be this good": 2.8, "cant be this nice": 2.5,
     "can't be this nice": 2.5, "di ako makapaniwala": 1.5,
-    "small but terrible": 2.5,
+    "small but terrible": 2.5, "pa budol": 1.67,
 
     # ---------- NEGATIVE (Tagalog) ----------
     "pangit": -2.8, "panget": -2.8, "bulok": -3.0, "sira": -2.5,
@@ -93,7 +94,7 @@ LEXICON = {
     "reklamo": -1.8, "basag": -2.3, "nabasag": -2.3, "punit": -1.8,
     "luma": -1.2, "ayoko": -2.0, "manloloko": -3.0, "niloko": -3.0,
     "nakakasuya": -2.3, "hindi gumagana": -2.5, "di gumagana": -2.5,
-    "ayaw gumana": -2.5, "hindi sulit": -2.5, "di sulit": -2.5,
+    "ayaw gumana": -2.0, "hindi sulit": -2.5, "di sulit": -2.5,
     "nakakaawa": -1.5, "nakakadisappoint": -2.7, "mabaho": -2.3,
     "maingay": -1.2, "ordinaryo": -0.2, "lunkot": -1.5, "daya": -1.7,
     "natapon": -2.0, "wala": -1.0, "nadismaya": -2.5, "nakakasama": -1.9,
@@ -105,12 +106,12 @@ LEXICON = {
     "scam": -3.5, "scammer": -3.5, "fake": -3.0, "waste": -2.5,
     "disappointed": -2.7, "disappointing": -2.7, "slow": -2.0,
     "late": -1.5, "delayed": -1.8, "broken": -2.6, "defective": -2.8,
-    "damaged": -2.5, "overpriced": -2.5, "pricey": -1.5, "rude": -2.8,
+    "damage": -2.5, "overpriced": -2.5, "pricey": -1.5, "rude": -2.8,
     "dirty": -2.2, "useless": -3.0, "trash": -3.0, "sucks": -2.8,
     "scammed": -3.3, "refund": -1.5, "return": -1.5,"complaint": -1.8, "issue": -1.2,
     "cheap quality": -2.2, "lousy": -2.5, "annoying": -2.5, "sad": -1.4, "stress": -1.5,
     "frustrate": -1.7, "liar": -2.2, "high blood": -2.5, "deceive": -1.5, "yupi": -1.0,
-    "liit": -1.0,
+    "liit": -1.0, "ugly": -2.0, 
 
     # ---------- DOMAIN PHRASES (same word, different meaning) ----------
     "mabilis maubos": -2.5, "mabilis na maubos": -2.5, "mabilis maubusan": -2.5,
@@ -158,7 +159,7 @@ LEXICON = {
     "best quality": 3.0, "nice quality": 2.0, "excellent quality": 3.0,
     "poor quality": -2.8, "bad quality": -2.8, "low quality": -2.5,
     "worst quality": -3.2, "mababang quality": -2.5, "pangit na quality": -2.8,
-    "short lifespan": -2.5, "expire": -2.5,
+    "short lifespan": -2.5, "expire": -2.5, "work": 1.1,
 
     # ---------- BATTERY / WORKING (a long battery is praise, a draining one is not) ----------
     "malowbat": -1.5, "lowbat": -1.8, "madrain": -1.8, "ma-drain": -1.8,
@@ -192,15 +193,19 @@ LEXICON = {
     "gago": -2.8, "gagong": -2.8, "tarantado": -3.0, "ulol": -2.8,
     "leche": -2.5, "bobo": -2.5, "fuck": -2.5,
 
-    # ---------- EMOJIS ----------
-    "😍": 3.0, "😊": 2.0, "😀": 2.2, "😄": 2.3, "😁": 2.2, "🥰": 3.0,
-    "❤": 2.5, "👍": 2.0, "👏": 2.0, "🔥": 1.5, "💯": 2.5, "🙏": 0.5,
-    "😡": -3.0, "😠": -2.8, "🤬": -3.2, "👎": -2.2, "😞": -2.2,
-    "😢": -2.0, "😭": -1.5, "🤮": -3.0, "💩": -2.8, "😒": -1.8,
-    "✅": 1.5, "🤗": 2.3, "‼️": -3.0, "😤": -1.9, "✖️": 1.5,
-
     # words that has value but no category,
     "order": 1.0, "buying": 1.5,
 }
+
+EMOJIS = {
+    # ---------- EMOJIS ----------
+    "😍": 2.5, "😊": 1.8, "😀": 2.0, "😄": 2.1, "😁": 2.0, "🥰": 2.5,
+    "❤": 2.0, "♥️": 2.0, "❤️":2.0,"💚": 2.0, "💖": 2.0, "🫰": 2.0, 
+    "👍": 1.5, "👏": 1.7, "🔥": 1.5, "💯": 2.5, "🙏": 0.5, "😚": 1.0,
+    "😡": -3.0, "😠": -2.8, "🤬": -2.8, "👎": -2.2, "😞": -2.2, "👌": 1.0,
+    "😢": -2.0, "😭": -1.5, "🤮": -3.0, "💩": -2.8, "😒": -1.8, "😕": -0.25,
+    "✅": 1.5, "🤗": 2.3, "‼️": -3.0, "😤": -1.9, "✖️": -1.5, "😌": 0.4,
+}
+
 # Text emoticons (checked in the raw text)
 EMOTICONS = {":)": 2.0, ":D": 2.5, "<3": 2.5, ":(": -2.0, ":'(": -2.2, ">:(": -2.8}
