@@ -46,7 +46,7 @@ LEXICON = {
     "not order": -2.0, "will buy": 1.8, "not buy": -2.0,"bumili ulit" : 2.0,
 
     # ---------- found in real Shopee reviews (clothes + earbuds) ----------
-    "goods": 2.0,                       # Filipino "goods" = good ("goods na goods")
+    "goods": 1.5,                       # Filipino "goods" = good ("goods na goods")
     "true color": 1.5, "true size": 1.5, "true to size": 1.5,
     "manipis": -1.5, "nipis": -1.5,     # thin fabric = complaint
     "mainit": -1.2,                     # hot to wear / overheating
