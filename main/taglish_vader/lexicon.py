@@ -57,7 +57,7 @@ LEXICON = {
     "not received": -2.5, "did not receive": -2.5, "did not received": -2.5,
     "didn't receive": -2.5, "hindi dumating": -2.5, "di dumating": -2.5,
     "hindi natanggap": -2.5, "isa lang dumating": -2.0, "missing": -2.5,
-    "false advertising": -2.5, 
+    "false advertising": -2.5, "nagcha-charge": 2.0,
 
     # ---------- fit / size / wasted money (watch cases, clothes) ----------
     "unfit": -2.3, "incorrect size": -2.3, "too small": -2.0, "too big": -2.0,
@@ -71,7 +71,9 @@ LEXICON = {
     "magaganda": 2.3, "gaganda": 2.3,
     # same words, other meaning: weather is hot / "galing" = "from" (not "skilled")
     "mainit ang panahon": 0.0, "mainit na panahon": 0.0,
-    "galing pang": 0.0, "galing sa": 0.0, "galing china": 0.0,
+    "galing pang": 0.0, "galing sa": 0.0, "galing china": 0.0, "no manual": -2.0,
+    "old stock": -2.5, "rusty": -2.0, "iba dumating": -2.0, "iba pinadala": -2.0,
+    "iba yung dumating": -2.0, "iba yung ipinadala": -2.0, 
 
     # ---------- IDIOMS (look negative, but are praise) ----------
     "cant be this good": 2.8, "can't be this good": 2.8,

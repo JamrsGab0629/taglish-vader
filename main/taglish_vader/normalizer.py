@@ -63,5 +63,5 @@ NORMALIZE = {
     "deceiving": "deceive", "fck": "fuck", "f*ck": "fuck", "maliit": "liit", "work well": "works well",
     "aestheticly" : "aesthetic", "aestetically": "aesthetic", "estetik": "astetik", "verygood": "very good",
     "working": "work", "damages": "damage", "damaged": "damage", "22o": "totoo", "tooto": "totoo", "toto": "totoo",
-    
+    "old stocks": "old, stock", "nagcharge": "nagcha-charge", "nachacharge": "nagcha-charge",
 }
