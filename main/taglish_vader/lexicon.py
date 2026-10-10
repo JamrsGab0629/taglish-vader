@@ -23,14 +23,15 @@ LEXICON = {
     "sakto lang": 0.0, "bait": 2.0, "ulit": 1.7, "responsable": 1.5,
     "well": 0.7, "works well": 1.5, "aesthetic" : 1.5, "very nice": 2.5,
     "stable": 0.45, "outstanding": 2.0, "real": 1.45, "totoo": 1.40,
+    "mag tagal": 1.0,
 
     # ---------- POSITIVE IDIOMS ("walang masabi" = no complaints, praise) ----------
     "walang masabi": 2.8, "wala akong masabi": 2.8,
 
     # ---------- POSITIVE (English / Taglish slang) ----------
     "good": 2.4, "great": 3.1, "amazing": 3.2, "awesome": 3.1,
-    "excellent": 3.2, "best": 3.2, "nice": 1.8, "perfect": 3.0,
-    "love": 3.0, "loved": 3.0, "ok": 1.0, "okay": 1.0,
+    "excellent": 3.2, "best": 3.2, "nice": 1.8, "perfect": 2.8,
+    "love": 3.0, "loved": 3.0, "ok": 0.5, "okay": 0.5,
     "fast": 1.8, "quick": 1.5, "quickly": 1.5, "legit": 2.5, "trusted": 2.0, "recommended": 2.5,
     "recommend": 2.2, "worth it": 2.8, "worth": 2.0,
     "original": 1.5, "helpful": 2.0, "friendly": 2.0, "accommodating": 2.0,
@@ -38,11 +39,11 @@ LEXICON = {
     "smooth": 1.8, "durable": 2.2, "affordable": 1.8, "cute": 1.8,
     "beautiful": 2.7, "delicious": 2.8, "yummy": 2.6, "clean": 1.8,
     "comfortable": 2.0, "wow": 2.2, "salute": 2.0, "lodi": 2.0,
-    "gumagana": 1.5, "responsive": 1.2, "astetik": 1.5, "relax": 1.2,
+    "gumagana": 1.5, "responsive": 1.2, "astetik": 1.5, "relax": 1.2,"pretty": 1.5,"kyotsie" : 1.5,
 
     # ---------- "like" alone is NOT praise ("ndi same like sa picture"), only these ----------
     "i like": 1.8, "i liked": 2.0, "like it": 1.8, "like this": 1.8, "liked": 1.8, "will order": 2.0,
-    "not order": -2.0, "will buy": 1.8, "not buy": -2.0,
+    "not order": -2.0, "will buy": 1.8, "not buy": -2.0,"bumili ulit" : 2.0,
 
     # ---------- found in real Shopee reviews (clothes + earbuds) ----------
     "goods": 2.0,                       # Filipino "goods" = good ("goods na goods")
@@ -57,7 +58,7 @@ LEXICON = {
     "not received": -2.5, "did not receive": -2.5, "did not received": -2.5,
     "didn't receive": -2.5, "hindi dumating": -2.5, "di dumating": -2.5,
     "hindi natanggap": -2.5, "isa lang dumating": -2.0, "missing": -2.5,
-    "false advertising": -2.5, "nagcha-charge": 2.0,
+    "false advertising": -2.5, "nagcha-charge": 2.0, "defect": -1.5,"scratch":-1.0,
 
     # ---------- fit / size / wasted money (watch cases, clothes) ----------
     "unfit": -2.3, "incorrect size": -2.3, "too small": -2.0, "too big": -2.0,
@@ -86,7 +87,7 @@ LEXICON = {
     "nasira": -2.6, "sirang-sira": -3.0, "sira agad": -3.2,
     "masama": -2.5, "basura": -3.2, "peke": -3.0, "walang kwenta": -3.2,
     "walang silbi": -3.0, "sayang": -2.0, "sayang pera": -2.8,
-    "mabagal": -2.0, "bagal": -2.0, "matagal": -1.2, "tagal": -1.5,
+    "mabagal": -2.0, "bagal": -2.0, "matagal": -1.2, 
     "mahal": -1.2, "nakakainis": -2.5, "inis": -2.2, "galit": -2.5,
     "badtrip": -2.8, "bad trip": -2.8, "bwisit": -2.8, "nakakabwisit": -2.8,
     "nakakadismaya": -2.8, "dismayado": -2.8, "kadiri": -2.5,
@@ -133,6 +134,7 @@ LEXICON = {
     "madali": 1.8, "bilis": 1.8, "congrats": 1.5, "congratulations": 1.5,
     "madaling gamitin": 2.2, "user friendly": 2.2, "user-friendly": 2.2,
     "long lasting" : 2.5, "ibang store": -1.2, "expectation vs reality": -1.0,
+    "nonfunctional": -1.5 ,
 
     # ---------- SLANG (Filipino / Taglish / Gen Z) ----------
     "petmalu": 2.8, "malupit": 2.5, "lupet": 2.5, "werpa": 2.5, "angas": 2.3,
@@ -196,7 +198,7 @@ LEXICON = {
     "leche": -2.5, "bobo": -2.5, "fuck": -2.5,
 
     # words that has value but no category,
-    "order": 1.0, "buying": 1.5,
+    "order": 1.0, "buying": 1.5, "functional" :1.5
 }
 
 EMOJIS = {
@@ -206,7 +208,7 @@ EMOJIS = {
     "👍": 1.5, "👏": 1.7, "🔥": 1.5, "💯": 2.5, "🙏": 0.5, "😚": 1.0,
     "😡": -3.0, "😠": -2.8, "🤬": -2.8, "👎": -2.2, "😞": -2.2, "👌": 1.0,
     "😢": -2.0, "😭": -1.5, "🤮": -3.0, "💩": -2.8, "😒": -1.8, "😕": -0.25,
-    "✅": 1.5, "🤗": 2.3, "‼️": -3.0, "😤": -1.9, "✖️": -1.5, "😌": 0.4,
+    "✅": 1.5, "🤗": 2.3, "‼️": -3.0, "😤": -1.9, "✖️": -1.5, "😌": 0.4,"💗" : 2.0
 }
 
 # Text emoticons (checked in the raw text)

@@ -16,7 +16,7 @@ BOOSTERS = {
     # dampeners
     "medyo": -0.25, "konti": -0.20, "konting": -0.20, "slightly": -0.25,
     "somewhat": -0.25, "kinda": -0.25, "parang": -0.20, "slight": -0.25,
-    "against": -0.70, "warning": -0.70,
+    "against": -0.70, "warning": -0.70, "little": -0.20,"mukha":-0.1,"gagi" : 0.4
 }
 
 # Words that FLIP the meaning of the next feeling
@@ -24,7 +24,7 @@ NEGATORS = {
     "hindi", "hindi'", "di", "hnd", "hndi", "wala", "walang", "ayaw",
     "not", "no", "never", "dont", "don't", "didn't", "isn't", "wasn't",
     "cant", "can't", "won't", "doesn't", "aint", "ain't", "diko", "dko",
-    "wag", "huwag", "unlike", "not like",
+    "wag", "huwag", "unlike", "not like","dili", 
 }
 
 # "But" words: what comes AFTER matters more
@@ -61,7 +61,7 @@ POLITE_AFTER_BUT = 0.25
 # "Maganda sana ..." = "it WOULD have been nice": a wish, so the item was NOT nice.
 # A praise word followed by "sana" (allowing naman/po/din in between) turns negative.
 # ---------------------------------------------------------------------------
-WISH_WORDS = {"sana", "wish", "kala", "pala", "should", "shouldve", "should've, should have"}
+WISH_WORDS = {"sana", "wish", "kala", "pala", "should", "shouldve", "should've", "should have", "could have been", "could've been", "couldve been", "could be"}
 WISH_SKIP = {"naman", "po", "din", "rin", "na", "pa", "lang", "nga"}   # "maganda na sana"
 WISH_SCORE = -2.0
 WISH_MIN = 0.8        # even a weak praise word ("ok sana") counts as a wish
@@ -154,7 +154,7 @@ SARCASM_MARKERS = {
     "lol" : 1.5
 }
 
-SARCASM_EMOJIS = {"🙄": 2.0, "🙃": 2.0, "🤡": 2.0, "😒": 1.5, "👏": 1.0}
+SARCASM_EMOJIS = {"🙄": 2.0, "🙃": 2.0, "🤡": 2.0, "😒": 1.5, "👏": 1.0, "🤣" : 1.5}
 
 MARKER_CAP = 3.0
 EMOJI_CAP = 3.0

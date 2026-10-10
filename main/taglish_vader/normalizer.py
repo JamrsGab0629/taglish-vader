@@ -63,5 +63,11 @@ NORMALIZE = {
     "deceiving": "deceive", "fck": "fuck", "f*ck": "fuck", "maliit": "liit", "work well": "works well",
     "aestheticly" : "aesthetic", "aestetically": "aesthetic", "estetik": "astetik", "verygood": "very good",
     "working": "work", "damages": "damage", "damaged": "damage", "22o": "totoo", "tooto": "totoo", "toto": "totoo",
-    "old stocks": "old, stock", "nagcharge": "nagcha-charge", "nachacharge": "nagcha-charge",
-}
+    "old stocks": "old, stock", "nagcharge": "nagcha-charge", "nachacharge": "nagcha-charge", "defected": "defect", 
+    "deffect": "defect","scratches" :"scratch","mukha":"muka","kpangit" :"pangit","sanaall" :"sana all", 
+    "nagana": "ayaw gumana","nman":"naman", "rhank": "thank", "rhanks": "thanks","functionable" : "function",
+    "functionaly" : "function","sofer" : "super","prety" : "pretty", "subrang" : "sobrang","worst" : "worse",
+    "magtagal": "mag tagal", "ang tagal": "matagal","nicee" : "nice","niceeee" : "nice" ,"bumili ulet" :"bumili ulit" ,
+    "bibili ulit" :"bumili ulit","bumili uli" : "bumili ulit" , "bumile ulet" : "bumili ulit","bumile ulit" : "bumili ulit",
+    "bumile ulet" : "bumili ulit","bumile ule" : "bumili ulit", "cutesy" : "cute", "cutesie" : "cute" 
+    }
