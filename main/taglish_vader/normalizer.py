@@ -69,5 +69,12 @@ NORMALIZE = {
     "functionaly" : "function","sofer" : "super","prety" : "pretty", "subrang" : "sobrang","worst" : "worse",
     "magtagal": "mag tagal", "ang tagal": "matagal","nicee" : "nice","niceeee" : "nice" ,"bumili ulet" :"bumili ulit" ,
     "bibili ulit" :"bumili ulit","bumili uli" : "bumili ulit" , "bumile ulet" : "bumili ulit","bumile ulit" : "bumili ulit",
-    "bumile ulet" : "bumili ulit","bumile ule" : "bumili ulit", "cutesy" : "cute", "cutesie" : "cute" 
-    }
+    "bumile ulet" : "bumili ulit","bumile ule" : "bumili ulit", "cutesy" : "cute", "cutesie" : "cute", "wrong items": "wrong item",
+    "paayos": "pakiayos", "corect": "correct", "paki correct": "pakicorrect", "paki-correct": "pakicorrect", "dented": "dent",
+    
+    # star revies and its configs
+    "1 star": "1 stars", "2 star": "2 stars", "3 star": "3 stars", "4 star": "4 stars", "5 star": "5 stars",
+    "1star": "1 stars", "2star": "2 stars", "3star": "3 stars", "4star": "4 stars", "5star": "5 stars",
+    "one star": "1 stars", "two star": "2 stars", "three star": "3 stars", "four star": "4 stars", "five star": "5 stars",
+    "one stars": "1 stars", "two stars": "2 stars", "three stars": "3 stars", "four stars": "4 stars", "five stars": "5 stars",
+}

@@ -36,13 +36,13 @@
 35,very good nice 👍 I love it. SULLLIT!!!!!!,0.963,GOOD,,good +2.7; nice +2.1; love +3.2; SULLLIT +3.2; 👍 +1.5
 36,good Material good good,0.8807,GOOD,,good +2.4; good +2.4; good +2.4
 37,👍👍👍 Orange and white is good 👍👍👍Looking young 👍👍👍,0.9313,GOOD,,good +2.4; 👍 +1.5
-38,correct color pwede na,0.0,NEUTRAL,,
-39,goods nice Sure,0.7003,GOOD,,goods +2.0; nice +1.8
+38,correct color pwede na,0.296,GOOD,,correct +1.2
+39,goods nice Sure,0.6486,GOOD,,goods +1.5; nice +1.8
 40,good nice,0.7351,GOOD,,good +2.4; nice +1.8
-41,quality goods,0.4588,GOOD,,goods +2.0
+41,quality goods,0.3612,GOOD,,goods +1.5
 42,nice the color s prjdvjznxncks x bcbxks dkdc,0.4215,GOOD,,nice +1.8
 43,good good,0.7783,GOOD,,good +2.4; good +2.4
-44,goods na goods apakasulit Ng tela,0.8126,GOOD,,goods na goods +2.5; apakasulit +2.9
+44,goods na goods apakasulit Ng tela,0.7845,GOOD,,goods na goods +2.0; apakasulit +2.9
 45,good polyster,0.5267,GOOD,,good +2.4
 46,nice ang gnda true size and quality tx seller,0.847,GOOD,,nice +1.8; gnda +2.7; true size +1.7
 47,10/10 10+/10,0.7184,GOOD,,10/10 +2.0; 10+/10 +2.0
@@ -63,7 +63,7 @@
 62,maganda,0.5423,GOOD,,maganda +2.5
 63,nice Very good,0.7704,GOOD,,nice +1.8; good +2.9
 64,Dry fit Pala Ang clothes piro maganda na din,0.5423,GOOD,,maganda +2.5
-65,goods naman kaso akala ko cotton material polyester pala ampanget neto pag pinawisan,-0.6369,BAD,,goods +1.0; ampanget -4.2
+65,goods naman kaso akala ko cotton material polyester pala ampanget neto pag pinawisan,-0.6652,BAD,,goods +0.8; ampanget -4.2
 66,Super nice,0.4854,GOOD,,nice +2.1
 67,tama.un.color.but un.items.sabe.buy one take.one. but isa.lng dumating??,0.25,GOOD,,tama +1.0
 68,"Buti nalang isa lang inorder ko,kpanget ng tela mainit",-0.7184,BAD,,kpanget -2.8; mainit -1.2
@@ -89,7 +89,7 @@
 88,"The device delivers flagship-level performance. Demanding games such as ZZZ and NTE run smoothly, maintaining stable frame rates without noticeable lag or frame drops. The screen is bright, vibrant, and highly detailed, making photos, videos, and everyday use enjoyable. Its 120Hz refresh rate provides fluid animations and responsive scrolling throughout the system. Build Construction feels sturdy and premium, comparable to much more expensive devices. The matte back panel enhances grip and aesthetics, while the display comes with a pre-installed protective film for added convenience. Security & The ultrasonic fingerprint scanner is quick and reliable, unlocking the device almost instantly. Powered by the MediaTek Dimensity 9500s, the phone achieved an impressive 2,245,440 score in AnTuTu benchmarking. Navigation, multitasking, and app switching remain consistently smooth. Additional highlights include IP69 and IP69K water and dust resistance, eSIM support, and excellent gaming capabilities. Considering its price segment, it offers outstanding value by combining strong performance, premium design, useful features, and dependable durability. This is an excellent all-around smartphone that balances power, display quality, durability, and affordability. It stands out as one of the best value-for-money options in its class.",0.9737,GOOD,,stable +0.5; responsive +1.2; quick +1.5; smooth +1.8; excellent +3.2; outstanding +2.0; excellent +3.2; best +3.2
 89,"a beast in performance simply lovely, the 9500s rivals that of the 8 elite(gen4) but half the price. Product The frame is metal it feels very premium, the back is very good too. buttons feel crisps and the screen is simple flagship level with those things bezels. Simply the most bang for your buck phone/gaming phone at the moment, camera is decent nothing ground breaking, but what you're really paying for is performance and build quality this phone simply is above all competition at it's price range. My first phone ordered off shoppe and it didn't disappoint thanks to poco as well.",0.8046,GOOD,,good +1.3; disappoint +2.5; thanks +0.3; well +1.1
 90,"Very Smooth Product the Design is sleek, very good! Super Sulit, Get mine for almost 17300, highest variant. Im very happy I chose thus phone .Super worth it specialy yung battery nya. Ang kunat ng battery. Maganda ang design.",0.9737,GOOD,,Smooth +2.1; good +2.7; Sulit +2.9; happy +3.0; worth it +3.1; Maganda +2.5
-91,Dimensity CPU 120hz Build superb quality Delivered fast and very well-packed. The item is correct and works perfectly. The quality is excellent for the price. Highly recommended and very sulit!,0.9391,GOOD,,fast +1.8; excellent +3.2; recommended +2.5; sulit +2.8
+91,Dimensity CPU 120hz Build superb quality Delivered fast and very well-packed. The item is correct and works perfectly. The quality is excellent for the price. Highly recommended and very sulit!,0.95,GOOD,,fast +1.8; correct +1.2; excellent +3.2; recommended +2.5; sulit +2.8
 92,"Product Top-notch User-friendly Crystal clear Absolutely impressed with both the product and the service! The packaging was neat, strong, and carefully prepared, making sure the X7 Pro 5G Global Version arrived safely. The seller’s professionalism and attention to detail were outstanding. The phone is powerful, stylish, and performs flawlessly. Without hesitation, I would recommend this to my relatives, friends, and anyone searching for an amazing smartphone.",0.9312,GOOD,,User-friendly +2.2; outstanding +2.0; recommend +2.2; amazing +3.2
 93,"Outstanding quality Product Premium quality Superior nice Everything about this purchase deserves five stars! The packaging was secure, clean, and professionally done, showing the seller truly cares about customer satisfaction. The X7 Pro 5G performs smoothly with impressive speed and storage capacity. The service was exceptional from start to finish, and I’m grateful for such a positive experience. Highly recommended, and I’ll definitely tell my family and friends about it.",0.908,GOOD,,Outstanding +2.0; nice +1.8; clean +1.8; recommended +2.5
 94,"Stable performance Product Excellent customer service Quick delivery From the moment I placed the order until the package arrived, everything was perfect. The X7 Pro 5G (8GB+256GB) was packed with great care, and the delivery was fast. Customer support was excellent and answered every question politely. The phone exceeded all my expectations in speed and performance. I’m very satisfied and will definitely recommend this product and seller to my family and close friends.",0.9845,GOOD,,Stable +0.5; Excellent +3.2; Quick +1.5; order +1.0; perfect +2.8; great +3.1; fast +1.8; excellent +3.2; satisfied +2.5; recommend +2.2
@@ -109,7 +109,7 @@
 108,good ok Nice,0.7717,GOOD,,good +2.4; ok +0.5; Nice +1.8
 109,assorted colors and look good fits well,0.7506,GOOD,,good +2.4; fits well +2.0
 110,assorted Ganda po ubos binta ko Nagustohan Ng customer ko,0.5423,GOOD,,Ganda +2.5
-111,"goods goods Maganda Ang short nagustohan nag partner ko, sakto lng sa kanya magaganda Rin Ang mga color",0.9153,GOOD,,goods +2.0; goods +2.0; Maganda +2.5; magaganda +2.3
+111,"goods goods Maganda Ang short nagustohan nag partner ko, sakto lng sa kanya magaganda Rin Ang mga color",0.8957,GOOD,,goods +1.5; goods +1.5; Maganda +2.5; magaganda +2.3
 112,assorted mganda . hindi sya masyadong manipis hindi rin makapal ty,0.4497,GOOD,,mganda +2.5; manipis -1.8; ty +1.2
 113,maganda ka naubos nga kaagad ang dating po.thank you sieler,0.6705,GOOD,,maganda +2.5; thank +1.0
 114,"Material 10 10 10 Perfect lahatt, makapal at mura",0.743,GOOD,,Perfect +2.8; mura +1.5
@@ -127,9 +127,9 @@
 126,maganda na gustohan ko,0.5423,GOOD,,maganda +2.5
 127,nice and great,0.7958,GOOD,,nice +1.8; great +3.3
 128,okay naman ma liit sya pang bata lang,-0.25,BAD,,okay +0.5; ma liit -1.5
-129,all goods,0.4588,GOOD,,goods +2.0
+129,all goods,0.3612,GOOD,,goods +1.5
 130,Manipis lang Pala ...pero salamat pa din,-0.0772,BAD,,Manipis -1.5; salamat +1.2
-131,good's,0.4588,GOOD,,good's +2.0
+131,good's,0.3612,GOOD,,good's +1.5
 132,Good item,0.5267,GOOD,,Good +2.4
 133,Sakto sa anak ko. Presko kasi di siya makapal.,0.5106,GOOD,,Sakto +0.8; Presko +1.5
 134,assorted too small,-0.4588,BAD,,too small -2.0
@@ -258,7 +258,7 @@
 257,Material maganda sobrang ganda very good napaka ganda niya sakto lang din sa price niya kaya salamat seller at sa rider dahil maayos ang packaging salamat ulit,0.9767,GOOD,,maganda +2.5; ganda +2.9; good +3.0; napaka ganda +3.2; salamat +1.2; maayos +2.0; salamat +1.2; ulit +1.7
 258,Material matibay black Maganda at sulit matibay xa sana tumagal,0.9246,GOOD,,matibay +2.2; Maganda +2.5; sulit +2.5; matibay +2.2
 259,good Material makapal sakto kulay Nice yon bag nila at mura pa thank you seller.thank you din sa ng deliver,0.91,GOOD,,good +2.4; sakto +0.8; Nice +1.8; mura +1.5; thank +1.0; thank +1.0
-260,Material good quality good good item is correct thank you seller responsive ship and delivered fast recommended this shop good job,0.9719,GOOD,,good quality +2.3; good +2.4; good +2.4; thank +1.0; responsive +1.2; fast +1.8; recommended +2.5; good +2.4
+260,Material good quality good good item is correct thank you seller responsive ship and delivered fast recommended this shop good job,0.9756,GOOD,,good quality +2.3; good +2.4; good +2.4; correct +1.2; thank +1.0; responsive +1.2; fast +1.8; recommended +2.5; good +2.4
 261,appealing nice Material good Item arrived before the expected date. Hope it will last.,0.7499,GOOD,,nice +1.8; good +2.6
 262,very nice good tama ang kulay Material ang ganda Maganda sya kahit mura lng ..ang bilis ng dumating ...tnk u seller at kuya rider sa uulitin na pag order ko tnk u tnk u,0.969,GOOD,,very nice +2.5; good +2.4; tama +1.0; ganda +2.5; Maganda +2.5; mura +1.5; bilis +1.8; order +1.0
 263,the backpack looks sturdy and stylish the colors are accurate and stylish Worth the money,0.4588,GOOD,,Worth +2.0
@@ -284,7 +284,7 @@
 283,"Material matibay Basta Ang Ganda niya black I am happy with my purchase,",0.886,GOOD,,matibay +2.2; Ganda +2.5; happy +2.7
 284,very nice very nice Thank you seller at kay kuya delivery rider po.,0.8402,GOOD,,very nice +2.5; very nice +2.5; Thank +1.0
 285,The backpack looks sturdy. I like the colour. as I expected Probably I will buy again,0.6808,GOOD,,I like +1.8; will buy +1.8
-286,true colors good Material good Goods poh seller👍👍👍ngustuhan poh ng ng order Sakin Kya thanks poh seller gud job k poh skin high recommend quh poh ito... Goods din poh ang quality ng bag,0.9819,GOOD,,good +2.4; good +2.4; Goods +2.0; order +1.0; thanks +1.2; gud +2.4; recommend +2.2; Goods +2.0; 👍 +1.5
+286,true colors good Material good Goods poh seller👍👍👍ngustuhan poh ng ng order Sakin Kya thanks poh seller gud job k poh skin high recommend quh poh ito... Goods din poh ang quality ng bag,0.9801,GOOD,,good +2.4; good +2.4; Goods +1.5; order +1.0; thanks +1.2; gud +2.4; recommend +2.2; Goods +1.5; 👍 +1.5
 287,"the backpack is nice, nice color too great for school",0.8714,GOOD,,nice +1.8; nice +1.8; great +3.3
 288,Material good nice love the color I love it... definitely my son will love it...it's big talaga in reality...,0.9607,GOOD,,good +2.4; nice +1.8; love +3.2; love +3.0; love +3.0
 289,good good Material sana di Dali masira Ang zipper Kasi medyo Hindi durable.,0.6119,GOOD,,good +1.2; good +1.2; masira +2.8; durable -2.2
@@ -327,7 +327,7 @@
 326,good nice Material good Naa nay bag akong anak para sa eskwela slamat seller affordable price pa god bless you,0.9116,GOOD,,good +2.4; nice +1.8; good +2.6; affordable +1.8
 327,Material oky Naman totoong Hindi na babasa tung loob pag umu ulan 7/10 medyo Hindi ako satisfied pero oky narin,-0.3531,BAD,,satisfied -1.5
 328,Perfect for students ang travel bag blue Maganda na mura pa. At may pa freebies pa si seller🥰 na earphone at sombrero🥰thank you,0.9571,GOOD,,Perfect +2.8; Maganda +2.5; mura +1.5; thank +1.0; 🥰 +2.5
-329,looks sturdy black goods malaki .tama lang sa maulan na panahon mukhang di agad mababasa mga laman sa loob.,0.6124,GOOD,,goods +2.0; tama +1.0
+329,looks sturdy black goods malaki .tama lang sa maulan na panahon mukhang di agad mababasa mga laman sa loob.,0.5423,GOOD,,goods +1.5; tama +1.0
 330,"nice Material nice nice Oh, no, did I get too close? Oh, did I almost see what's really on the inside? All your insecurities All the dirty laundry Never made me blink one time Unconditional, unconditionally I will love you unconditionally There is no fear now Let go and just be free I will love you unconditionally",0.7003,GOOD,,dirty -2.2; love +3.0; love +3.0
 331,The backpack looks durable and stylish. Thick material. Seller was kind enough to send me photo before shipping. Thank you seller.,0.6369,GOOD,,durable +2.2; Thank +1.0
 332,"good good Will use these for my Upcoming Hiking. Gears and clothes, on style are all ready! Thank you seller. Will buy another variant again soon",0.8977,GOOD,,good +2.4; good +2.4; Thank +1.0; Will buy +1.8
@@ -413,7 +413,7 @@
 412,"ok lang ung table cloth....not a cloth pala kasi semi plastic hehe., ung jacket nice... wala kasing small kaya medium inorder... medyo maluwag....fit sana talaga kung small ung size.. thanks shopee.....",0.4588,GOOD,,nice +1.8; wala -1.0; thanks +1.2
 413,So niceeee po magandaaaa yong color at yong product... nagustuhan ng tito ko at saktong sakto din sa kanya ang 3XL 🥳😊😊👍👍👍,0.9722,GOOD,,niceeee +2.0; magandaaaa +2.9; nagustuhan +2.3; sakto +0.8; 😊 +1.8; 👍 +1.5
 414,Napakaganda ng product po pero wag kayong magexpect na ung nasa posted pic is kagaya ng matatanggap nyo pero okay po ung product pagnarecieve nyo very satisfied po💕napakaganda po Sulit ung 459 na bayad ko then Napakabait po nung seller THANKYOU!SALAMAT ISA KANG ALAMAT❣,0.9786,GOOD,,Napakaganda +1.4; okay +0.8; satisfied +3.7; napakaganda +4.3; Sulit +3.8; Napakabait +3.6; SALAMAT +0.5
-415,"Nice item,, nice fit.. Correct color and size.. Mabilis din ang shipping.. Oorder ulet aq sa shop na ito.. Thank you seller..",0.8555,GOOD,,Nice +1.8; nice +1.8; Mabilis +1.8; Thank +1.0
+415,"Nice item,, nice fit.. Correct color and size.. Mabilis din ang shipping.. Oorder ulet aq sa shop na ito.. Thank you seller..",0.891,GOOD,,Nice +1.8; nice +1.8; Correct +1.2; Mabilis +1.8; Thank +1.0
 416,Ang ganda ng jacket and ang bilis dumating sulit tlaga ang bayad!! Thumps up seller!!!,0.8994,GOOD,,ganda +2.5; bilis +1.8; sulit +2.5
 417,Wow excellent quality. Satisfied customer here. Thank you seller! Sa uulitin po,0.9134,GOOD,,Wow +2.2; excellent quality +3.0; Satisfied +2.2; Thank +1.0
 418,Material good good Ganda ng item. Sulit ang binayad ko dito,0.93,GOOD,,good +2.4; good +2.4; Ganda +2.5; Sulit +2.5
@@ -434,7 +434,7 @@
 433,black Material very nice maganda Di nko ng-picture kc Ang sukat nya maliit XL sakin Kya medyo nawala ako s mood Ang Ganda pa naman..Kya 5 star pdin binigay ko kc maganda Ang dating nya..Buti nlng naicp ko s asawa ko ibigay ko order nlng ako ng Isa pa XXL,0.9325,GOOD,,very nice +2.5; maganda +2.5; maliit -1.0; Ganda +2.5; maganda +2.5; order +1.0
 434,What you see is what you get. Ang ganda ng product. Mabilis ding dumating kahit kaka order ko lang. Thank you and good job seller ❤️ Keep it up ❤️,0.9741,GOOD,,ganda +2.5; Mabilis +1.8; order +1.0; Thank +1.0; good +2.4; ❤ +2.0; ❤️ +2.0
 435,"Received the item yesterday. It looks nice and I think it has the good quality. Though, XXXL is still small for my uncle. They have small sizing. But thankyou for fast shipping and delivery.Received the item yesterday. It looks nice and I think it has the good quality. Though, XXXL is still small fo",0.9423,GOOD,,nice +0.9; good quality +1.1; fast +2.7; nice +2.7; good quality +3.5
-436,"Material High Quality, Makapal. Maganda. Black na Black. Maganda yung item. Pero ibang kulay nabigay. Pero okay na din black naman nabigay. Goods parin. Thank you seller. Padouble check na lang next time ang iproprocess na color. ☺️",0.8922,GOOD,,High Quality +1.1; Maganda +1.2; Maganda +1.2; okay +0.8; Goods +3.0; Thank +0.2
+436,"Material High Quality, Makapal. Maganda. Black na Black. Maganda yung item. Pero ibang kulay nabigay. Pero okay na din black naman nabigay. Goods parin. Thank you seller. Padouble check na lang next time ang iproprocess na color. ☺️",0.872,GOOD,,High Quality +1.1; Maganda +1.2; Maganda +1.2; okay +0.8; Goods +2.2; Thank +0.2
 437,Item received in good condition.. My husbands love it and it fits to its price.. Will.order again 😍😍😍,0.9633,GOOD,,good +2.4; love +3.0; order +1.0; 😍 +2.5
 438,10 10 Material 10 10/10 3rd time buying on this store. thanks seller and rider.,0.7717,GOOD,,buying +1.5; thanks +1.2; 10/10 +2.0
 439,Thank you seller first time ko bumili dito and di ako binigo thank yoy so much seller sa uulitin sana lang kasya sa boyfriend ko 😍💕,0.7579,GOOD,,Thank +1.0; thank +1.0; 😍 +2.5
@@ -447,7 +447,7 @@
 446,Ang ganda po nito sobra i highly recomend this shop kasi fast po sila magpadala. Very good quality po makapal ang tela kaso nga lang tinaggal po ung name sa may likod.,0.8717,GOOD,,ganda +2.5; fast +1.8; good quality +2.6
 447,"Ang ganda ng quality niya,makapal,napakabait ni kuya na ngdeliver,,tama yung color tsaka size nainorder namin,,oorder kami uli nito para naman sa kuya ko,,napakabait pa ng seller,mabilis dumating ordet namin",0.9337,GOOD,,ganda +2.5; napakabait +2.4; tama +1.0; napakabait +2.4; mabilis +1.8
 448,"Ang ganda ng tela at ang kapal ayos din at walang sira ang bilis pa dumating 5 days lng ksama sabado at linggo, thank you seller!!!",0.9303,GOOD,,ganda +2.5; ayos +1.8; sira +1.9; bilis +1.8; thank +1.0
-449,"correct Material good tama nmn the item was in good condition,ang bilis din dumating..",0.891,GOOD,,good +2.4; tama +1.0; good +2.4; bilis +1.8
+449,"correct Material good tama nmn the item was in good condition,ang bilis din dumating..",0.9153,GOOD,,correct +1.2; good +2.4; tama +1.0; good +2.4; bilis +1.8
 450,Thank you seller na received ko na po 4 jacket na order ko nice cloth hndi manipis mastado kaso lang iba sa picture at sa actual yong nka display sa inyo may botton cya sa gilid n bulsa .sa actual wala pala.i will order again kong walang complain mga buyers ko.,0.1832,GOOD,,Thank +0.5; order +0.5; nice +0.9; manipis +0.6; iba sa picture -3.3; wala -1.5; will order +3.0
 451,good Material good Maganda at nagustuhan ng bayaw ko.. Maraming salamat seller. Sa ulitin po.. Godbless.,0.9451,GOOD,,good +2.4; good +2.4; Maganda +2.5; nagustuhan +2.3; Maraming salamat +1.6
 452,Nagustohan ko ang item... Ganda at makapal ang tela...very nice na pangharabas sa RIDES...thanks seller...love it,0.9217,GOOD,,Ganda +2.5; very nice +2.5; thanks +1.2; love +3.0
@@ -499,11 +499,11 @@
 498,All in good condition..Fast Ang shipping though Visayas aq..I really love it !! Kudos to your shop seller 😊☺️,0.9304,GOOD,,good +2.4; Fast +1.8; love +3.2; 😊 +1.8
 499,solid mga paps at mams. dika mag sisisi good quality ang problema lng napaka ganda yung tipong pag soot mo kamuka mona si aldin rechard 😂😂😂😂😂 solid oorder ulit ako para sa gel fren ko ayiiiiieuuuut,0.9325,GOOD,,solid +2.3; good quality +2.3; problema -1.5; napaka ganda +2.9; solid +2.3; ulit +1.7
 500,Thank you po sakto sakin hehe 💓 Good quality 👍👌 sa uulitin po💓🥰,0.9201,GOOD,,Thank +1.0; sakto +0.8; Good quality +2.3; 🥰 +2.5; 👍 +1.5; 👌 +1.0
-501,I loved how this shop always satisfies me by the way they process my orders as fast as they can and how they pack the items safely in the pouch. The quality of their items are excellent. Even its cheap but the products were totally good. Thumbs up to this shop ❤👍 You really deserve 5 stars. 🥰,0.964,GOOD,,loved +1.5; fast +0.9; excellent +1.6; good +4.0; 🥰 +2.5; ❤ +2.0; 👍 +1.5
+501,I loved how this shop always satisfies me by the way they process my orders as fast as they can and how they pack the items safely in the pouch. The quality of their items are excellent. Even its cheap but the products were totally good. Thumbs up to this shop ❤👍 You really deserve 5 stars. 🥰,0.9761,GOOD,,loved +1.5; fast +0.9; excellent +1.6; good +4.0; 5 stars +3.4; 🥰 +2.5; ❤ +2.0; 👍 +1.5
 502,Ok po xamaganda po ung tila nya Hindi maiinit kaysa lang po sakin.slama po reseller and thank you shoppe.,0.3612,GOOD,,Ok +0.5; thank +1.0
 503,Medyo natagalan lang sa pagdating pero sa courier naman ang problema. Good quality naman siya. Makapal at maganda ang tela. Maliit nga lng sya for 2xl kasi nagkasya siya sa akin. Akala pa naman nung nagpa order sakin malaki ang 2xl. Masikip tuloy sa kanya. 👍👍👍,0.9253,GOOD,,problema -2.2; Good quality +3.5; maganda +3.8; Maliit -1.5; order +1.5; 👍 +1.5
 504,"Super ganda nagustuhan ko..makapal ang tela at astig tingnan lalo na pag nagmomotor. Actually hindi sakin to, inorder ko para sa anak ko at ng dumating, ako ang mas excited binuksan ko na at yun nga sinukat ko pa sabay pics hehehe. Thank you seller. Till next order!",0.9357,GOOD,,ganda +2.9; nagustuhan +2.6; astig +2.5; Thank +1.0; order +1.0
-505,"Goods again , 3 times nako nag order, oorder pako ulit, maayos ang padala ng seller goods palagi, thank you",0.9287,GOOD,,Goods +2.0; order +1.0; ulit +1.7; maayos +2.0; goods +2.0; thank +1.0
+505,"Goods again , 3 times nako nag order, oorder pako ulit, maayos ang padala ng seller goods palagi, thank you",0.9136,GOOD,,Goods +1.5; order +1.0; ulit +1.7; maayos +2.0; goods +1.5; thank +1.0
 506,wow super nice lahat ng item na nareceive ko gustong gusto ng kapatid kaya 5 star para sa shop nato at also sa rider na kahit umuulan go parin,0.8462,GOOD,,wow +2.2; nice +2.1; gusto +1.8
 507,Bilis dumating thank u seller aabot sa ippdala ko s kapatid ko abroad,0.5859,GOOD,,Bilis +1.8; thank +1.0
 508,Maganda salamat seller. At shoppe.mabait din c rider.,0.836,GOOD,,Maganda +2.5; salamat +1.2; mabait +2.2
@@ -524,7 +524,7 @@
 523,cjcjf effective super bango compliment ka talaga kung ito gamit mong pabango very unique din siya d kagaya sa ibang pabango yung amoy and sulit na for it's price,0.7935,GOOD,,bango +2.4; amoy +0.2; sulit +2.5
 524,The scent is not easily washed off and can last for hours. Still testing it out how long it can stay on my wrist. Super bango! Similar to the original one! It feels smooth on skin even though it’s oil based. The scent is similar to the original one! So sooo bango!,0.9404,GOOD,,bango +2.4; original +1.5; smooth +1.8; original +1.5; bango +2.4
 525,oil based 💯 it lasts for several hours on my skin It smells good and clean. Despite its affordable price it lasts longer. Thank you seller. I will surely order another bottle again. God bless your business.,0.9382,GOOD,,good +2.4; clean +1.8; affordable +1.8; Thank +1.0; order +1.0; 💯 +2.5
-526,legit na mabango cia sulit yung order ko kaya guys bili na kau super bango cia hindi masakit sa ilong thnx u seller legit na mabango cia bibili ulit ako nito kaya guys biki na din kau mura na cia hidni kau manghihinayang sa pa bango kaya 5star cia sakin ngaun lng ako bumili nito ito yung hinahanap kong pa bango 🥰🥰🥰,0.9915,GOOD,,legit +2.5; mabango +2.0; sulit +2.5; order +1.0; bango +2.4; legit +2.5; mabango +2.0; ulit +1.7; mura +1.5; bango +2.0; bango +2.0; 🥰 +2.5
+526,legit na mabango cia sulit yung order ko kaya guys bili na kau super bango cia hindi masakit sa ilong thnx u seller legit na mabango cia bibili ulit ako nito kaya guys biki na din kau mura na cia hidni kau manghihinayang sa pa bango kaya 5star cia sakin ngaun lng ako bumili nito ito yung hinahanap kong pa bango 🥰🥰🥰,0.9925,GOOD,,legit +2.5; mabango +2.0; sulit +2.5; order +1.0; bango +2.4; legit +2.5; mabango +2.0; ulit +1.7; mura +1.5; bango +2.0; 5star +2.0; bango +2.0; 🥰 +2.5
 527,"Lightweight and non-sticky on the skin. The scent lasts for hours and noticeable. Smells sweet, fresh, and very pleasant. I really like this perfume, the scent is long-lasting and not too strong, perfect for everyday use.",0.7814,GOOD,,like this +2.0; perfect +2.8
 528,sobrang bango long lasting oilbest Thank you seller natanggap ko na tong order ko at tamang variation po good packaging satisfied buyer overall thank you shope at kay kuya rider,0.957,GOOD,,bango +2.4; long lasting +2.8; Thank +1.0; order +1.0; good +2.4; satisfied +2.2; thank +1.0
 529,"good good good Fast delivery, good quality. Mabango sya nakailang order nako nito kaya bumili ako ulit. Thank you seller, shopee and rider",0.975,GOOD,,good +2.4; good +2.4; good +2.4; Fast +1.8; good quality +2.3; Mabango +2.0; order +1.0; ulit +1.7; Thank +1.0
@@ -557,17 +557,17 @@
 556,"skin mo e spray nag sstain sa clothes, oil based 10/10 complimented ako pag gamit ko sila 💯 My order arrived right on time, and the item was in good condition and complete. ✨ The variation was accurate, and the packaging was very secure. 📦 It works exactly as expected! I’m likely to order again in the future. Thanks! ⭐️",0.9401,GOOD,,order +1.0; good +2.4; order +1.0; Thanks +1.2; 💯 +2.5; 10/10 +2.0
 557,"Nathalie Claid Valaya is a fresh, clean, and elegant fragrance that gives off a luxurious “clean girl” vibe. The scent opens with bright citrus and soft fruity notes, followed by delicate floral accords that create a light and feminine character. As it dries down, it develops into a smooth musky scent that feels fresh, sophisticated, and perfect for everyday wear. One of the things I like most about this fragrance is its versatility. It works well for school, work, casual outings, or even special occasions. The scent is not overpowering, making it suitable for people who prefer subtle yet noticeable perfumes. Considering its affordable price, it delivers impressive quality and a scent profile that resembles more expensive fragrances. The longevity is decent, especially on clothes, although reapplication may be needed after several hours. Overall, Nathalie Claid Valaya is a great budget-friendly perfume for anyone who enjoys clean, musky, and slightly floral fragrances.",0.9805,GOOD,,clean +1.8; clean +1.8; smooth +1.8; perfect +2.8; I like +1.8; works well +1.5; work +1.1; affordable +1.8; great +3.1; clean +1.8
 558,"Sweet long lasting oil base Affordable at long lasting ang perfume na ito, gustong gusto ko ang scent ng Meow, 4 times na akong bumili sa shop nato at never akong binigo ni seller. Hindi nag iiba ang scent at texture Ng product nila. Bibili ulit ako pag naubos 😊 Highly recommended ang Shop nato at ang mga products nila good quality. Thank You seller at kay kuya rider na mabait at magalang.",0.9856,GOOD,,long lasting +2.5; Affordable +1.8; long lasting +2.5; gusto ko +2.3; ulit +1.7; recommended +2.5; good quality +2.3; Thank +1.0; mabait +2.2; magalang +2.0; 😊 +1.8
-559,SELLER SEND ME A PHOTO BEFORE SHIP OUT ✅CORRECT COLOR AND SIZES ✅SAFE AND SECURED ✅COMPLETE ORDERS ✅CORRECT CHOICES ✅FAST SHIPPING ✅NO DAMAGES ✅WELL PACKED THANK YOU SO MUCH WILL ORDER AGAIN🤗🤗🤗,0.9848,GOOD,,FAST +1.8; DAMAGES +1.9; WELL +0.7; THANK +1.0; WILL ORDER +2.2; ✅ +1.5; 🤗 +2.3
+559,SELLER SEND ME A PHOTO BEFORE SHIP OUT ✅CORRECT COLOR AND SIZES ✅SAFE AND SECURED ✅COMPLETE ORDERS ✅CORRECT CHOICES ✅FAST SHIPPING ✅NO DAMAGES ✅WELL PACKED THANK YOU SO MUCH WILL ORDER AGAIN🤗🤗🤗,0.9876,GOOD,,CORRECT +1.2; CORRECT +1.2; FAST +1.8; DAMAGES +1.9; WELL +0.7; THANK +1.0; WILL ORDER +2.2; ✅ +1.5; 🤗 +2.3
 560,smells good oily long lasting Product received is exactly what it looks like on photos advertised. It was well packed and shipped quickly. Definitely a good buy.,0.926,GOOD,,good +2.4; long lasting +2.5; well +0.7; quickly +1.5; good +2.4
 561,tumatagal ng 12 hours super bango literal na oil based sya Sobrang bango tatlo na yung ganto kong pabango baby powder at sweet like candy sobrang babango at long lasting talaga ang daming compliment na natatanggap sa dalawang yan etong o. Crystalline ngayon kopalang ma try pero for me sobrang bangoo nilaaa😭💗,0.9302,GOOD,,tumatagal +1.8; bango +2.4; bango +2.4; long lasting +2.8; 😭 -1.5; 💗 +2.0
 562,"long lasting very nice so so long lasting I am very satisfied with my order because it arrived on time and in great condition. The quality of the product is even better than I expected. It works perfectly and matches the description accurately. The packaging was secure, which made me feel confident about the item’s safety. Overall, I’m happy with my purchase and would definitely order again.🫶🏻🫶🏻🫶🏻🫶🏻",0.9781,GOOD,,long lasting +2.5; very nice +2.5; long lasting +2.9; satisfied +2.5; order +1.0; great +3.1; happy +2.7; order +1.0
-563,"Watery Lasts two hours, longer if in a colder room JM: Fruity floral; Isse: Sage flowery Items ordered were correct and packed securely by bubble wrap and box. Mas floral amoy nung Wild Bluebell compared sa Issei Miyaki.",0.0516,GOOD,,amoy +0.2
+563,"Watery Lasts two hours, longer if in a colder room JM: Fruity floral; Isse: Sage flowery Items ordered were correct and packed securely by bubble wrap and box. Mas floral amoy nung Wild Bluebell compared sa Issei Miyaki.",0.34,GOOD,,correct +1.2; amoy +0.2
 564,"good scent non greasy smooth on skin fresh fruity scent Suitable for everyday use like freshy ang dating it last up to 4 to 6 hrs. legit na oil based 30% if your not afford an OG this one I recommend to you guys, not to strong hindi masakit sa ilong..thanks seller! 🥰💗",0.9678,GOOD,,good +2.4; smooth +1.8; legit +2.5; recommend +2.2; thanks +1.2; 🥰 +2.5; 💗 +2.0
 565,"superb 😍 amazing super effective! Of all the perfumes I've tried, this is the only one I'll keep coming back to. It's super worth the money and it's really worth it for the performance of this perfume. You'll be really attracted to the great smell, it's long lasting. No matter how many hours you wear it, the smell is still there. I'm going to use up everything, I just reviewed it now. It's my second purchase.",0.975,GOOD,,amazing +3.2; worth +2.4; worth it +3.0; great +3.1; long lasting +2.5; 😍 +2.5
 566,"Watery Oil Based, Smells good! Long Lasting I've been buying Nathalie Claid for years now and their formulation has never changed. Smells so good. The best product. 💗 ⭐⭐⭐⭐⭐ FIVE STAR!",0.9674,GOOD,,good +2.4; Long Lasting +2.5; buying +1.5; good +2.6; best +3.2; 💗 +2.0
 567,"smooth smooth smell, not to strong, 200% effectiveness Grabe na talaga, sobrang bango, kahit nasa labas ka ng bahay at napag pawisan ka na, still maintaining the smell of the perfume, hindi nag fade or nawawala gets even smelled, lalo siya umaamoy. 2days andun padin ang amoy kahit na labhan na. 👍👍👏👏 recommended talaga and fast delivery. Secure ang packaging..",0.9751,GOOD,,smooth +1.8; smooth +1.8; bango +2.4; amoy +0.2; recommended +2.5; fast +2.0; 👍 +1.5; 👏 +1.7
 568,"liquid mabango vanilla, caramel, sweet Very excited ako to review this perfume kase sobrang bango. I've been a fan of Dama Bianca kaya sobrang excited ako dito sa Lira!! So based sa fragrantica yung scent nya is vanilla, caramel, sweet, cinnamon, powdery, warm and spicy and yeah you're a fan of vanilla scents this is for you medyo may hint sya nang spice tho so depende talaga sa preference for me okay sya. This is perfect i layer sa vanilla romance ng BBW waaah excited to try!!! Also sobrang long lasting pala nung perfume kaya definitely I will buy again!!!!!!!!",0.9121,GOOD,,mabango +2.0; bango +2.4; okay +0.5; perfect +2.8; long lasting -2.0; will buy +1.8
-569,"goods na goods ang texture mabango, kuhang kuha ang amoy matagal tagal din ang effect ⭐⭐⭐⭐⭐ The fragrance smells amazing and lasts a long time on clothes. It has a clean, elegant, and well-balanced scent that’s not overpowering, making it perfect for everyday wear or special occasions. The quality is impressive, and the scent stays noticeable for hours. It feels luxurious, receives compliments, and offers great value for the price. Highly recommended for anyone looking for a long-lasting and refreshing perfume.",0.9747,GOOD,,goods na goods +2.5; mabango +2.0; amoy +0.2; matagal -1.2; amazing +3.2; clean +1.8; perfect +2.8; great +3.1; recommended +2.5
+569,"goods na goods ang texture mabango, kuhang kuha ang amoy matagal tagal din ang effect ⭐⭐⭐⭐⭐ The fragrance smells amazing and lasts a long time on clothes. It has a clean, elegant, and well-balanced scent that’s not overpowering, making it perfect for everyday wear or special occasions. The quality is impressive, and the scent stays noticeable for hours. It feels luxurious, receives compliments, and offers great value for the price. Highly recommended for anyone looking for a long-lasting and refreshing perfume.",0.9732,GOOD,,goods na goods +2.0; mabango +2.0; amoy +0.2; matagal -1.2; amazing +3.2; clean +1.8; perfect +2.8; great +3.1; recommended +2.5
 570,"The texture is light and not sticky, making it comfortable to wear every day. It is very effective in keeping me smelling fresh. The fragrance smells pleasant and lasts a decent amount of time for its price. I really like this perfume! The package arrived earlier than expected, was well-packed, and had no damage. Definitely worth buying. Thank you, seller, kuya SPX rider and salamat shoppe🫶❤️",0.9716,GOOD,,comfortable +2.0; like this +2.0; damage +1.9; worth +2.0; buying +1.5; Thank +1.0; salamat +1.2; ❤ +2.0; ❤️ +2.0
 571,fruity sweet candy oil based 10/10 I highly recommend this perfume first time ko binili hindi ako binigo gurl kahit mabasa sya tumatagal parin ang amoy grabe Mapapabili ulit ang acla mabilis din i-deliver no leak and secure ng bubble wrap thankyou seller ❤️👏🏻,0.9712,GOOD,,recommend +2.2; tumatagal +1.8; amoy +0.2; ulit +2.1; mabilis +1.8; ❤ +2.0; ❤️ +2.0; 👏 +1.7; 10/10 +2.0
 572,Last 6 to 12 hours Super Bango Hindi malagkit It's my 2nd time ordered this oil-based perfume 💖 Inamoy ko na kaagad yung mga scent Super bango talaga 🥰 Thank you Seller 💞 Ganda talaga ng packaging secure naka bubble wrap each at nakalagay pa sa box 😊,0.967,GOOD,,Bango +2.4; bango +2.4; Thank +1.2; Ganda +2.5; 😊 +1.8; 🥰 +2.5; 💖 +2.0
@@ -607,7 +607,7 @@
 606,"Super smooth and smells really good. I love this scent, so nice My favorite scent Received in good condition, and right fragrance",0.9531,GOOD,,smooth +2.1; good +2.6; love +3.0; nice +2.0; good +2.4
 607,"super makapit oily super bango ang bango nya as in sobrang kapareho nya ng amoy yung victoria secret ko na vanilla lace! nakakayaman ang amoy. ano pang hinihintay nyo? eto na ang sign. bumili na kayo. long lasting sya. like, 24 and more hours sya nagsstay sa damit. kahit nasa labahan shalla parin hahaha",0.8969,GOOD,,bango +2.4; bango +2.3; amoy +0.2; amoy +0.2; long lasting +2.5
 608,super oil based strong mabango sya panlalake and nakapaka long lasting Yung perfume subok na subok ko na shop na to nakapaka long lasting mabango rin Yung meow,0.9186,GOOD,,mabango +2.0; long lasting +2.5; long lasting +2.5; mabango +2.0
-609,"the fragrance lasts for hours feels smooth and not irritating on your nose naloka ako sa fast delivery 😂 ordered September 15, na received ko din the same day!!! Kudos seller and shopee!!! Thank you po... 5 stars ⭐⭐⭐⭐⭐ for the product niceeee 🫶🫶🫶🫶🫶🫰🫰🫰🫰🫡🩷🩵🩷🩵🩷🩵",0.9704,GOOD,,smooth +1.8; fast +1.8; Thank +1.0; niceeee +1.8; 🫰 +2.0
+609,"the fragrance lasts for hours feels smooth and not irritating on your nose naloka ako sa fast delivery 😂 ordered September 15, na received ko din the same day!!! Kudos seller and shopee!!! Thank you po... 5 stars ⭐⭐⭐⭐⭐ for the product niceeee 🫶🫶🫶🫶🫶🫰🫰🫰🫰🫡🩷🩵🩷🩵🩷🩵",0.9766,GOOD,,smooth +1.8; fast +1.8; Thank +1.0; 5 stars +2.0; niceeee +1.8; 🫰 +2.0
 610,The product is good and it lasts for days The smell is good and fragrant. The product is easy to use. The product is cheaper than other products and the fragrance is cool and smooth.,0.8625,GOOD,,good +2.4; good +2.4; smooth +1.8
 611,10/10 9/10 smooth Super nice as expected opkurs the scent is so super b good girl smells expensive and the best order ulo sa susunod actually nag try muna ako ng small version neto and i liked it!,0.976,GOOD,,smooth +1.8; nice +2.1; good +2.9; best +3.2; order +1.0; i liked +2.0; 10/10 +2.0; 9/10 +2.0
 612,"Absorb quickly into the skin while leaving a subtle, nourishing oil residue. Excellent longevity; the scent stays strong and noticeable on the skin for hours. A refreshing and uplifting blend of bright citrus and pleasant sweetness that remains perfectly balanced and subtle, never feeling overpowering. juicy citrus kick and melts into a warm, cozy sweetness. the longevity is fantastic—it lingers all day long!""",0.7901,GOOD,,quickly +1.5; Excellent +3.2
@@ -640,7 +640,7 @@
 639,Long-Lasting: long lasting a little bit oil based Soafer bango neto mild lang sya pwedeng-pwede sa weather nating tag-init. Small lang order ko to try. And i will definitely order the bigger one. ❤️,0.9382,GOOD,,long lasting +2.5; bango +2.0; order +1.0; order +1.0; ❤ +2.0; ❤️ +2.0
 640,"Oil Based Sooooo goooood! Excellent Suki na ko dito. I found my new fave, omnia amethyst talaga gamit ko kasi very clean girl ang atake. Kaso naghanap ilong ko ng mas girly scent, and super bango neto grabe. Sobrang bilis ng dating! Same day delivery! Tas ang bait pa ni courier 🥰 Will buy the oil roll on and bigger size sa payday! Hehehehe",0.9794,GOOD,,Excellent +1.6; clean +1.0; bango +3.5; bilis +3.2; bait +3.0; Will buy +2.7; 🥰 +2.5
 641,the fragrance last all day oil based texture its noticeable even after use i spray once and overwhelming scent. Mabango sya kinatagalan sa clothes ko,0.4588,GOOD,,Mabango +2.0
-642,both are last longer than any scent since both are good for summer and commuters. it has oil based din nmn. Ganto mga scent ung gusto namin. Ung acqua na amoy fresh lang tlga tipong kahit mamawis ka mabango pa din. Ung touch of pink goods din sya flower na flower tlga ung scent.,0.9081,GOOD,,good +2.4; gusto +1.8; amoy +0.2; mabango +2.0; goods +2.0
+642,both are last longer than any scent since both are good for summer and commuters. it has oil based din nmn. Ganto mga scent ung gusto namin. Ung acqua na amoy fresh lang tlga tipong kahit mamawis ka mabango pa din. Ung touch of pink goods din sya flower na flower tlga ung scent.,0.8979,GOOD,,good +2.4; gusto +1.8; amoy +0.2; mabango +2.0; goods +1.5
 643,"it really could last long smooth woooww Its scent lasts a long time, its scent really sticks to my body and clothes/uniform. I only sprayed it once, which is in the morning, but until 5pm the scent is still there, especially the Good girl scent",0.7579,GOOD,,smooth +0.9; Good +3.6
 644,"⭐⭐⭐⭐⭐ Super satisfied with this purchase! 💖 The item arrived well-packed and in excellent condition. It looks exactly like the photos and the quality exceeded my expectations. Very worth it for the price! Delivery was also fast, and the seller was responsive and accommodating. Will definitely order again and highly recommend this shop. Thank you! 🫶",0.9833,GOOD,,satisfied +2.5; excellent +3.2; worth it +3.1; fast +1.8; responsive +1.2; accommodating +2.0; order +1.0; recommend +2.2; Thank +1.0; 💖 +2.0
 645,The fragrance lasts more than 12hrs It feels so smooth and good Must have the valaya scent!!,0.8,GOOD,,smooth +2.0; good +2.6
@@ -703,7 +703,7 @@
 702,i like the smell of eclat and O amethyst's its like mild na powdery hindi masakit sa ilong,0.4215,GOOD,,i like +1.8
 703,Ayy totoo talagang napaka bango ng good girl scent 😍,0.9213,GOOD,,totoo +1.4; napaka bango +2.6; good +2.6; 😍 +2.5
 704,0 0 I ORDERED 4PCS BUT ONLY 3PCS ARRIVED WHICH IS THOSE 3ML TESTER!!!,0.0,NEUTRAL,,
-705,goods goods,0.7184,GOOD,,goods +2.0; goods +2.0
+705,goods goods,0.6124,GOOD,,goods +1.5; goods +1.5
 706,mabango naman may mga ibang variant lang na hindi ko nagustuhan ang amoy..,0.1275,GOOD,,mabango +2.0; nagustuhan -1.7; amoy +0.2
 707,Ang cute parang sa nail polish.. mabango pwede pang office ang chloe at idole,0.7003,GOOD,,cute +1.8; mabango +2.0
 708,"May crack sya sa corner na part ng isang bottle. Masyadong matapang ang pink chiffon, unfortunately I don't like it.",-0.3252,BAD,,like it -1.3
@@ -743,7 +743,7 @@
 742,Ayaw nyo po talaga ayusin yung pag pack nyo sa p.d. ano luray luray yung box or di kaya butas kya pati yung laman sa loob butas din.,0.0,NEUTRAL,,
 743,Magda sna ang sabon pero kulang dpat 4 Bakit 3 lang dumating 🥺,-0.5023,BAD,,kulang -2.2
 744,"it works well for both hand and washing machine. this powder detergent suits bot white and colored laundry. the powder feels good and can clean effectively. I'll order again,thankyou seller.❤️",0.9403,GOOD,,works well +1.5; good +2.4; clean +1.8; order +1.0; ❤ +2.0; ❤️ +2.0
-745,goods good goods Goods,0.9081,GOOD,,goods +2.0; good +2.4; goods +2.0; Goods +2.0
+745,goods good goods Goods,0.872,GOOD,,goods +1.5; good +2.4; goods +1.5; Goods +1.5
 746,10/10 10/10 10/10 Thank you seller and shoppe ang ganda nang item nyo super bango and mabula talaga..legit na liget ang shop na ito...,0.9731,GOOD,,Thank +1.0; ganda +2.5; bango +2.4; mabula +1.5; legit na liget +3.0; 10/10 +2.0; 10/10 +2.0; 10/10 +2.0
 747,Packed well and secured. Mabilis delivery. Lagi ako bumibili sa shop na ito. Thank you so much seller. Okay lang yung product for its price,0.6705,GOOD,,well +0.7; Mabilis +1.8; Thank +1.0
 748,This powder detergent suits both ehite and colored laundry The powder feels good and cleans effectively. It works well for both hand and washing machine.,0.7096,GOOD,,good +2.4; works well +1.5
@@ -758,10 +758,10 @@
 757,"di masyado mabula, di rin mabango yung fabcon vyvu g7g4d7h Cyby",-0.5504,BAD,,mabula -1.1; mabango -1.5
 758,2/10 1/10 1/10 Ang nkapost nyo 10kls pro Ang Pina ship nyo 1kilo.,-0.8402,BAD,,2/10 -2.0; 1/10 -2.0; 1/10 -2.0
 759,mabula ang maganda sa kamay HND matapang sakto lng pang Ilan order Kuna etk lng ang powder na gnagamit ko mula nun nkita ko ito sa shoppe,0.7717,GOOD,,mabula +1.2; maganda +2.5; order +1.0
-760,Goods nung dumating di mabula sa washing tapos Wala Amoy pag nilabhan,-0.0093,NEUTRAL,,Goods +2.0; mabula -0.9; Wala -1.0; Amoy -0.1
+760,Goods nung dumating di mabula sa washing tapos Wala Amoy pag nilabhan,-0.1371,BAD,,Goods +1.5; mabula -0.9; Wala -1.0; Amoy -0.1
 761,the detergent remove stain Ang keeps clothes the powder detergent suit both decolor and white laundry quality match my expectations Mabango talaga,0.4588,GOOD,,Mabango +2.0
 762,ok sya mabula at mabango perfect talaga good good,0.9493,GOOD,,ok +0.5; mabula +1.2; mabango +2.0; perfect +2.8; good +2.6; good +2.6
-763,goods smell lasting legit authentic nn,0.7579,GOOD,,goods +2.0; legit +2.5
+763,goods smell lasting legit authentic nn,0.7184,GOOD,,goods +1.5; legit +2.5
 764,mabango sabi 10 kls order naman aqo tapus dumating sakin 1kls lng,0.6124,GOOD,,mabango +2.0; order +1.0
 765,good .. ok mabango sya,0.7845,GOOD,,good +2.4; ok +0.5; mabango +2.0
 766,good nmn safe tracking good quality,0.7717,GOOD,,good +2.4; good quality +2.3
@@ -850,7 +850,7 @@
 849,"I was so excited for this, pero nung nag-unbox na ako may mga stain akong nakita. Old stock siguro itong ipinadala sa akin ng NBS. How sad. ☹️ product-image All The Bright Places Mti Trade Paperback National Book Store",-0.8338,BAD,,Old stock -3.8; sad -2.1
 850,product-image Modern Periodic Table of the Elements (Size 12x17.5 inches) - School Charts & Posters,0.0,NEUTRAL,,
 851,"It’s working just fine, but I’ve only had it for almost a month and it’s already needing a battery replacement. The seller is bot responsive product-image Canon Scientific Calculator F-789Sga-Tbk Clear Asa Hb",0.5187,GOOD,,working +0.6; responsive +1.8
-852,Wrong design product-image Journal Notebook Art A7 80Sheets With Elastic Band,0.0,NEUTRAL,,
+852,Wrong design product-image Journal Notebook Art A7 80Sheets With Elastic Band,-0.25,BAD,,Wrong -1.0
 853,product-image Arco Folder Divider A4 5Tabs Colored National Book Store,0.0,NEUTRAL,,
 854,Color orange chineck out ko pinadla color pink MY GOD!!!VERY DISSAPOINTED 🙄🙄🙄 product-image Croco Adhesive Tape 12mmx22M S-Roll Cellophane National Book Store,-0.7649,BAD,,DISSAPOINTED -3.7
 855,tinanong q ung seller regarding this product if my wireless connection at sumagot ng oo kaya nagpurchase aq.. pero nung tiningnan ng mga anak q.. wala siyang wireless connection.. product-image Hewlett Packard Printer 520 A4 Ink Tank All In One Wireless - Office Equipment,-0.3612,BAD,,wala -1.5
@@ -861,10 +861,10 @@
 860,There was a cut Weak There was a cut as if it was bitten by a bookworm Ó╭╮Ò product-image Timeless Classics: The Tenant of Wildfell Hall by Anne Brontë - Trade Paperback - Classics,0.0,NEUTRAL,,
 861,product-image English-Filipino Dictionary National Book Store,0.0,NEUTRAL,,
 862,product-image Harry Potter And The Prisoner Of Azkaban Classic by J.K Rowling Trade Paperback,0.0,NEUTRAL,,
-863,"Complete orders correct variations maganda quality affordable sulit okay talaga maraming salamat seller and shopee amazing po niceu product-image HBW Permanent Marker 211, Black National Book Store",0.9538,GOOD,,maganda +2.5; affordable +1.8; sulit +2.5; okay +0.5; maraming salamat +1.8; amazing +3.2
-864,Complete orders correct variations maganda quality affordable sulit okay talaga maraming salamat seller and shopee amazing po niceu product-image HBW Tundra Oil Gel Pen Retractable 0.5mm Black OG-32 - School & Office Supplies,0.9538,GOOD,,maganda +2.5; affordable +1.8; sulit +2.5; okay +0.5; maraming salamat +1.8; amazing +3.2
-865,Complete orders correct variations maganda quality affordable sulit okay talaga maraming salamat seller and shopee amazing po niceu product-image HBW Ballpoint Stick 2000 Black Fine National Book Store,0.9538,GOOD,,maganda +2.5; affordable +1.8; sulit +2.5; okay +0.5; maraming salamat +1.8; amazing +3.2
-866,Complete orders correct variations maganda quality affordable sulit okay talaga maraming salamat seller and shopee amazing po niceu product-image Hbw Ballpoint Stick 9801 Black 3'S National Book Store,0.9538,GOOD,,maganda +2.5; affordable +1.8; sulit +2.5; okay +0.5; maraming salamat +1.8; amazing +3.2
+863,"Complete orders correct variations maganda quality affordable sulit okay talaga maraming salamat seller and shopee amazing po niceu product-image HBW Permanent Marker 211, Black National Book Store",0.9612,GOOD,,correct +1.2; maganda +2.5; affordable +1.8; sulit +2.5; okay +0.5; maraming salamat +1.8; amazing +3.2
+864,Complete orders correct variations maganda quality affordable sulit okay talaga maraming salamat seller and shopee amazing po niceu product-image HBW Tundra Oil Gel Pen Retractable 0.5mm Black OG-32 - School & Office Supplies,0.9612,GOOD,,correct +1.2; maganda +2.5; affordable +1.8; sulit +2.5; okay +0.5; maraming salamat +1.8; amazing +3.2
+865,Complete orders correct variations maganda quality affordable sulit okay talaga maraming salamat seller and shopee amazing po niceu product-image HBW Ballpoint Stick 2000 Black Fine National Book Store,0.9612,GOOD,,correct +1.2; maganda +2.5; affordable +1.8; sulit +2.5; okay +0.5; maraming salamat +1.8; amazing +3.2
+866,Complete orders correct variations maganda quality affordable sulit okay talaga maraming salamat seller and shopee amazing po niceu product-image Hbw Ballpoint Stick 9801 Black 3'S National Book Store,0.9612,GOOD,,correct +1.2; maganda +2.5; affordable +1.8; sulit +2.5; okay +0.5; maraming salamat +1.8; amazing +3.2
 867,"10 10 Thanksssss! product-image Dictionary Filipino-English , English-Filipino Dictionary Trade Paperback By Anna Adriano",0.3595,GOOD,,Thanksssss +1.2
 868,product-image Page Classics: Greek Myths & Legends Stenciled Edge - Hardcover,0.0,NEUTRAL,,
 869,product-image Grandmaster of Demonic Cultivation Volume 5 by Mo Xiang Tong Xiu - Trade Paperback - Teens Fiction,0.0,NEUTRAL,,
@@ -931,7 +931,7 @@
 930,1/10 1/10 1/10 Sira yung packaging pag ka deliver at 10pcks lang ang natanggap ko it's so sad I expected 20 packs kasi yun yung nakalagay😓,-0.9337,BAD,,Sira -2.5; sad -1.6; 1/10 -2.0; 1/10 -2.0; 1/10 -2.0
 931,3/10 3/10 3/10 Sabi sa seller big size. Ang dumating subrang liit. Parang ang I pack na wipes. Hinati sa tatlo. 0/0,-0.8847,BAD,,liit -1.4; 3/10 -2.0; 3/10 -2.0; 3/10 -2.0
 932,Lumabas tubig loob at wala man lang carton or bumble wrap nilagay kompleto nga pisa naman paano ko bebenta to hay kakainis,-0.6486,BAD,,wala -1.0; kakainis -2.3
-933,5sTaR THaNks sa B̊aB̊y wiPes sayo ako oRDeR uLiT gRaB̊e NakaTiPeD ako sa mga PiNagkokoNaN ko .,0.7096,GOOD,,THaNks +1.2; oRDeR +1.0; uLiT +1.7
+933,5sTaR THaNks sa B̊aB̊y wiPes sayo ako oRDeR uLiT gRaB̊e NakaTiPeD ako sa mga PiNagkokoNaN ko .,0.836,GOOD,,5sTaR +2.0; THaNks +1.2; oRDeR +1.0; uLiT +1.7
 934,Walang problema sa pag deliver kasi mabilis lang naman dumating tsaka very friendly yung delivery rider.,0.802,GOOD,,problema +1.1; mabilis +1.8; friendly +2.3
 935,"HINDI BIG WIPESSS HINDI SIYA BIG WIPES HINDI SIYA BIG WIPES Anliliiittt, HINDI BIG",0.0,NEUTRAL,,
 936,ang order ko is 10 pack big wipes ang dumating small sobrang liit hindi kayang punasan ang pwet ng baby😡😡😡,-0.9239,BAD,,order +1.0; liit -1.4; 😡 -3.0
@@ -963,7 +963,7 @@
 962,Sabi 80pcs yung wipes pag bukas ko 30pcs LNG nagbabayad naman ng maayos tz pakukulangin nyo pa.. parang scam LNG,-0.3182,BAD,,maayos +2.0; scam -3.3
 963,"10/10 10/10 10/10 mabilis nmn po delivery, pero decieving kasi yong 80pcs big wipes binilang ko 30 pcs lang laman. thank u",0.7845,GOOD,,mabilis +0.9; decieving -2.2; thank +0.2; 10/10 +2.0; 10/10 +2.0; 10/10 +2.0
 964,it is a big scam! i rceived the small packed not the big packed wipes..so frustrating..kaya pala ang bilis kasi scam ..,-0.8858,BAD,,scam -3.5; frustrating -1.9; bilis +1.8; scam -3.5
-965,okay naman ung wipes nextime pakiayos nman po ang pag wrapped kasi lumabas na ang mga tubig kasi naipit matubig ang loob ng platic,0.128,GOOD,,okay +0.5
+965,okay naman ung wipes nextime pakiayos nman po ang pag wrapped kasi lumabas na ang mga tubig kasi naipit matubig ang loob ng platic,-0.128,BAD,,okay +0.5; pakiayos -1.0
 966,good okey maganda Hello po seller bakit po 16 lang po eh 20 pck ang order ko po at ang bayad tama naman po bakit ganon lage naman ako ga order piro now kulang ano po sa tingen nyo dapat eh tama naman kc po paninda din po yon wala po akong magandang comment kc kulang at sa rider god bless po,0.8126,GOOD,,good +2.4; okey +0.5; maganda +2.5; order +1.0; tama +1.0; order +1.0; kulang -1.5; tama +1.0; wala -1.0; kulang -1.5
 967,Hindi na sya katulad ng quality ng dati. Noon yung meron pang cover yung wipes ngayon plastic nalang yung cover as you can see sa photos and videos,0.0,NEUTRAL,,
 968,Na scam ako dito kala ko Nakamura ako napamahal pa pala. binilang ko Isa Isa KC nagtaka ako bkit sobra nipis Ng lagayan parang bawas pero Hindi naman bukas. Naka indicate 80 sheets sa Isang pack pro sobrang nipis Ng Isang pack so binilang ko nalang para sure. 30 sheets lng pala Ang laman Wala pa sa kalahati. 20packs nga sya. pero 30 sheets lng laman per pack kaloka Kya pla Ang nipis. Juicekopo Dami scammer talaga ngayon,-0.9485,BAD,,scam -1.8; nipis -0.9; nipis -0.9; Wala -0.5; nipis -2.2; scammer -5.2
@@ -1058,7 +1058,7 @@
 1057,"Kaya pala mura lang mapapamura ka din sa product, manipis, maliit, walang amoy, para tissue na binasa ng tubig ang quality. Kung maselan ka wag kang bibili dito.",-0.2842,BAD,,mura +1.5; manipis -1.5; maliit -1.0; amoy -0.1
 1058,poor packaging Super poor packaging. I ordered 20 packs. Siniksik masyado naglabasan lahat ng liquid. Sobrang compress sya nagmukas syang 8 packs kahit 20 packs sa sobrang nipis dahil nacompress. Wala man lang box nasa plastic lang sya basang basa nagtapunan ang liquid mula sa loob.,-0.8807,BAD,,poor -2.0; poor -2.4; nipis -1.9; Wala -1.0
 1059,mabilis ang delivery 3/10 Note sure kung 80 sheet talaga ang laman .. kc ang nipis nya ..,-0.4019,BAD,,mabilis +1.8; nipis -1.5; 3/10 -2.0
-1060,very poor no quality not good Honest review para sa mga next na oorder. Hindi worth ang 220 ko rito. Next time po pakiayos po ang packaging. Ang liit ng tissue sa loob then tumagas na kaya basa na. Puro tubig ata ang tissue. Pwedeng ibenta 5 pesos or less kada pack. So sad and disappointed.,-0.9435,BAD,,poor -2.3; good -1.8; worth -1.5; liit -1.0; sad -1.6; disappointed -2.9
+1060,very poor no quality not good Honest review para sa mga next na oorder. Hindi worth ang 220 ko rito. Next time po pakiayos po ang packaging. Ang liit ng tissue sa loob then tumagas na kaya basa na. Puro tubig ata ang tissue. Pwedeng ibenta 5 pesos or less kada pack. So sad and disappointed.,-0.9519,BAD,,poor -2.3; good -1.8; worth -1.5; pakiayos -1.0; liit -1.0; sad -1.6; disappointed -2.9
 1061,very poor very poor very poor Complete 20 packs but 30 series lang per pack😡🤬 binilang ko.talaga kasi dudang-duda ako kung bakit nipis na nipis grabi naka hhrrrrr🤬🤬🤬 Di na talaga ako oorder ulit sa shop na itu.. Di rin responsible si seller sana di ko nalang tinanggap una nainis ako sa seller dahil nag tanung ako about update sinagut nya lang ako na di nya control ang delivery ... Tapes na dagdagan pa sa rider..hhrrr grabi subrang dissapointed😡😡😡Kala ko pa naman makakasave ako nitu kasi mura lang .,-0.9914,BAD,,poor -1.1; poor -1.3; poor -1.3; nipis na nipis -1.0; ulit +0.9; dissapointed -4.6; mura +2.2; 😡 -3.0; 🤬 -2.8
 1062,"no double lock, looks fake, not as advertised… don’t think i can use for my pet!! no double lock…. Just a sticker cover!!! doesn’t even look like there are 80 quality wipes in this!!! Find another seller who sells real product as advertised!! Seller needs to be banned!!",-0.7916,BAD,,fake -3.0; not as advertised -2.3; real +1.4
 1063,Dapat kayo na nagtitinda nagsasabi kayo ng totoo di Yong magsasabi kayo at nagpopost kayo na di naman pala totoo ang laman ...basta magkapera ok lang sainyo mahiya kayo bagsak alam mo napaka sinungaling mo na seller sabi mo 80pcs per pack pero ang nipis nipis nito di kayo nagsasabi nag totoo sa namimili!kaka bwesit,-0.5439,BAD,,totoo +0.7; totoo -0.5; nipis -2.2; nipis -2.2; totoo +2.1
@@ -1099,7 +1099,7 @@
 1098,kaliit not good not recommended,-0.6834,BAD,,good -1.8; recommended -1.9
 1099,Does not appear the size LARGE as it has been describe. Poor quality. NOT RECOMMENDED FOR BABY USE. THINK TWICE BEFORE BUYING. Overhyped. Waste of money and time to begin with. I don't how it garnered many buyers.j hh bh hbhhhhhhbhb vvvbb need Stop deceiving the buyers!!!!,-0.9123,BAD,,Poor quality -2.8; RECOMMENDED -2.4; BUYING +2.2; Waste of money -3.0; deceiving -1.5
 1100,"Next time po paki ayus naman po ng packaging niyo para po di nadadamage yung product, we're paying for that naman po it's not libre so better na ipack niyo po ng maayos",0.7003,GOOD,,ayus +1.8; maayos +2.0
-1101,item not 80 sheets barely managing poor The product came in acceptable condition and it's complete with correct variation. The parcel is in a standard packaging and the delivery is around schedule. Thanks for the fast shipping.,0.25,GOOD,,poor -2.0; Thanks +1.2; fast +1.8
+1101,item not 80 sheets barely managing poor The product came in acceptable condition and it's complete with correct variation. The parcel is in a standard packaging and the delivery is around schedule. Thanks for the fast shipping.,0.4939,GOOD,,poor -2.0; correct +1.2; Thanks +1.2; fast +1.8
 1102,"d nmn cea mukhang 80 sheets,,nkakadissapoint hindi lang ako limang beses nkpg order nang wifes bukod tangi dito lang ako nadissapoint ng ganito ...not recomended ung product pagdating palang ung naipit pigang piga ei 😔😔😔",-0.2144,BAD,,order +1.0; recomended -1.9
 1103,0 Akala koba 80 PCs bkit 30 PCs lang ang laman ng wapes kakarating lang ng order ko grabi nmn daya,-0.1779,BAD,,order +1.0; daya -1.7
 1104,"dont buy in this store, i expect 20pcs. of wet wipes and received Only 10pcs. is this a scam? i raised this issue to the seller and didn't do anything.",-0.6858,BAD,,scam -2.5; issue -1.2
@@ -1114,7 +1114,7 @@
 1113,So disappointed. Sobrang liar ng seller nito. Misleading yung 80 series kuno. Eh 30 pcs lng nmn each pack? Expectation vs. reality tlga. Check nyo mga pics at vid ko. Pang-wipe lng to ng cp eh. Jusko! Don't buy to this shop.,-0.901,BAD,,disappointed -2.9; liar -2.5; Misleading -2.3
 1114,10/10 10/10 10/10 Mabilis mag ship ung seller pero ung delivery nang rider pangit ako pa msmo ung kumukuha nga parcel ko Kasi Hindi nila denideliver msmo sa address ko,0.5719,GOOD,,Mabilis +0.9; pangit -4.2; 10/10 +2.0; 10/10 +2.0; 10/10 +2.0
 1115,"poor, bad smell bat ganun amoy kili kili naman to di naman ganito ung order ko noon🥲😩😤😿",-0.802,BAD,,poor -2.0; bad -2.5; amoy +0.2; order +1.0; 😤 -1.9
-1116,"good good good 1star lang binigay q sa seller dahil nanloloko sila ng customer na nagtitiwala sa kanila katulad q.matagal na aqng bumibili ng baby wipes na 80pcs simula pa nung months palang ang baby q,pero ngayong 7yrs old na ang bunso q nag try aqng omorder sa shop na e2 kc mura na tas 80pcs pa pero nung dumating sakin ok naman 20packs pero ang pinagtataka ko bat ang nipis niya para sa 80pcs.kaya naisipan kung bilangin ang laman sa loob at nagulat talaga aq na 30pcs lang pla siya at hindi man lang nangalahati sa 80pcs kya pala ang nipis at mabilis maubos.hindi na aq bibili ulit sa shop na e2.akala q nakatipid aq dahil mura na sa 20packs na 80pcs ang laman sa loob pero aq pala ang naisahan at tinipid nila. Try nyo bilangin ang laman sa loob para ma prove nyong hindi tama ang nakasulat na 80pcs dahil 30pcs lang ang totoong laman niya pandaraya at panloloko sa customer ginagawa ng seller na ito.",0.4098,GOOD,,good +1.2; good +1.2; good +1.2; matagal -0.6; mura +0.8; ok +0.2; nipis -0.8; nipis -0.8; mabilis maubos -1.2; ulit +0.8; mura +0.8; tama -1.1
+1116,"good good good 1star lang binigay q sa seller dahil nanloloko sila ng customer na nagtitiwala sa kanila katulad q.matagal na aqng bumibili ng baby wipes na 80pcs simula pa nung months palang ang baby q,pero ngayong 7yrs old na ang bunso q nag try aqng omorder sa shop na e2 kc mura na tas 80pcs pa pero nung dumating sakin ok naman 20packs pero ang pinagtataka ko bat ang nipis niya para sa 80pcs.kaya naisipan kung bilangin ang laman sa loob at nagulat talaga aq na 30pcs lang pla siya at hindi man lang nangalahati sa 80pcs kya pala ang nipis at mabilis maubos.hindi na aq bibili ulit sa shop na e2.akala q nakatipid aq dahil mura na sa 20packs na 80pcs ang laman sa loob pero aq pala ang naisahan at tinipid nila. Try nyo bilangin ang laman sa loob para ma prove nyong hindi tama ang nakasulat na 80pcs dahil 30pcs lang ang totoong laman niya pandaraya at panloloko sa customer ginagawa ng seller na ito.",0.1877,GOOD,,good +1.2; good +1.2; good +1.2; 1star -1.0; matagal -0.6; mura +0.8; ok +0.2; nipis -0.8; nipis -0.8; mabilis maubos -1.2; ulit +0.8; mura +0.8; tama -1.1
 1117,kulang laman no good ngayon ko lang na basa mga bad comments at rates grabi 30 pcs nga lang talaga laman ng wipes tagal ko na nag oorder pero ngayon lang ganito ka unti kaya pala ang gaan ng 20 pcs na wipes manipis bawat isa.kala ko naman okay tong wipes na na order ko di na mauulit👎🏻,-0.7957,BAD,,kulang -0.8; good -0.9; bad -1.2; manipis -2.2; okay +0.8; order +1.5; 👎 -2.2
 1118,oki naman nice oki naman sa baby Nice,0.6808,GOOD,,nice +1.8; Nice +1.8
 1119,Poor Good Poor Different from what have been endorsed at online platform,-0.3818,BAD,,Poor -2.0; Good +2.4; Poor -2.0
@@ -1161,7 +1161,7 @@
 1160,grabeng wipes yarn 80pcs daw .. parang 30pcs lang... ang nipis jusko.. matubig pa.. hindi gaya nung nakukuha ko dati.. mahaba siya eto sobrang nipis anong gagawin ko jan.. pamunas ko kay baby sana ilang piraso magagamit ko ubos na HAHAH not recommended,-0.7543,BAD,,nipis -0.8; nipis -0.9; recommended -2.8
 1161,Kumpleto sana kaso palpak guy's... Lhat Ng pinadala wlang hangin Ayan lahat nakapada.... Hinde ko mainbenta yan sayang lng Hinde ko mabawi Ang puhunan ko.... TPS Ang nilagyan pa plastic lng Dapat sna nilagay nlng sa carton... Prang Hinde nga wipes order ko KC bukod sa plastic lng nilagyan maliit pa🥲😁 kaya Cguro ganyan nangyari sa wipes problema ko Hinde ko magbinta KC wlang hangin🥺😭,-0.7311,BAD,,palpak -1.4; sayang -1.0; order +1.5; maliit -1.5; problema -2.2; 😁 +2.0; 😭 -1.5
 1162,😡😡😡 😡😡😡 😡😡😡 Big dw subrang nipis ng laman,-0.9746,BAD,,nipis -1.9; 😡 -3.0
-1163,"Ai grabe nmn kyo mang budol 3packs of 20pcs gi order ko tapos 20pcs lng dumating it means kulang ng 40pcs, sana nmn bago kayo mag pack ng order tignan nyo muna kung ilan ang gi order sainyo, hahay e bebenta kupa nmn sana ito pero nabudol pa ako kulang na kulang, sayang din un pra sa tulad kong nag nenegosyo akala ko pa nmn ok ito kc halos goods ung mga reviews pero budol pla, sana mabasa nyo ito at paki balik nlang ung pera na sumobra hind kuna e rereturn ito kc ang layo layo pa ng J&T saamin, please lng malaking pera na ito saakin🙏",-0.8176,BAD,,budol -1.5; order +0.5; kulang -0.8; order +0.5; order +0.5; kulang na kulang -1.0; sayang -1.0; ok +0.2; goods +1.0; budol -4.5; 🙏 +0.5
+1163,"Ai grabe nmn kyo mang budol 3packs of 20pcs gi order ko tapos 20pcs lng dumating it means kulang ng 40pcs, sana nmn bago kayo mag pack ng order tignan nyo muna kung ilan ang gi order sainyo, hahay e bebenta kupa nmn sana ito pero nabudol pa ako kulang na kulang, sayang din un pra sa tulad kong nag nenegosyo akala ko pa nmn ok ito kc halos goods ung mga reviews pero budol pla, sana mabasa nyo ito at paki balik nlang ung pera na sumobra hind kuna e rereturn ito kc ang layo layo pa ng J&T saamin, please lng malaking pera na ito saakin🙏",-0.8294,BAD,,budol -1.5; order +0.5; kulang -0.8; order +0.5; order +0.5; kulang na kulang -1.0; sayang -1.0; ok +0.2; goods +0.8; budol -4.5; 🙏 +0.5
 1164,okay naman kaso basa masyado ang wipes. naka bili ako before ng ganito na wipes pero sakto lang.pero itong enorder ko subrang basa pero yung tissue okay yung tissue. maganda yung tissue pero yung wipes for me masyadong basa,0.775,GOOD,,okay +0.2; okay +0.8; maganda +3.8
 1165,mura kunti not worth it 🙅 Dati madami 80 pulls ngaun binilang ko 40 pulls nlng pero nka indicate 80 pulls 🤦,-0.1461,BAD,,mura +1.5; worth it -2.1
 1166,Yung 80 sheets Ang ichura half Ng packaging half Ng 80sheets lang. Nakakadismaya,-0.5859,BAD,,Nakakadismaya -2.8
@@ -1177,7 +1177,7 @@
 1176,Marami yung tubig nya tapos manipis yung wipes tumatagos yung dumi ng bata pag nag lilinis ako humihiwalay yung sheets pag hinihila mu sa nilalagyan 😭ayoko na mag order ulet,-0.7184,BAD,,manipis -1.5; ayoko -2.0; order +1.0; 😭 -1.5
 1177,ok ok ok Basa ung loob nadaganan cgro to basang basa ung mga wipes aww😔,0.3612,GOOD,,ok +0.5; ok +0.5; ok +0.5
 1178,Ntwa lng aq sa 80 piraso ng wipes sa 30 pcs ng nbili q wipes 30 pcs mas mkpal pa 30 pcs sa 80 pcs..tas bsang bsa pa sa loob ng pckge ung mga wipes....d secure package kya sa sobrang pisat cguro sumabog n mga tubig laman ng wipes .prang pinaghati hati lng...,0.0,NEUTRAL,,
-1179,"2/10 2/10 2/10 Honest review: 1. Poor packaging- basang-basa yung supot kasi napitpit yung wipes sa loob, nagleak at wala man lang karton na nilagay di kagaya nung iba na naka-kahon. 2. Poor service- hindi marunong mag- update - kulang ng 20 pieces yung pinadala - hindi makapag-update about sa refund ng payment ko 3. Yung sheets maliliit lang, goods para sa pets *Sa customer service ako medyo naiinis, hindi sa pera na irerefund nila na di nila masend send, kasi maliit na halaga lang naman yung irerefund nila. * Sana next time i-double check kung tama ba yung product at bilang na ipapadala para iwas abala sa customer at sa inyong seller na din. P.S gusto nila tanggalin yung review ko para daw irefund nila yung payment ko.",-0.8689,BAD,,Poor -1.0; wala -0.5; Poor -1.0; kulang -0.8; refund -0.8; goods +1.0; maliit -0.5; gusto +2.7; 2/10 -2.0; 2/10 -2.0; 2/10 -2.0
+1179,"2/10 2/10 2/10 Honest review: 1. Poor packaging- basang-basa yung supot kasi napitpit yung wipes sa loob, nagleak at wala man lang karton na nilagay di kagaya nung iba na naka-kahon. 2. Poor service- hindi marunong mag- update - kulang ng 20 pieces yung pinadala - hindi makapag-update about sa refund ng payment ko 3. Yung sheets maliliit lang, goods para sa pets *Sa customer service ako medyo naiinis, hindi sa pera na irerefund nila na di nila masend send, kasi maliit na halaga lang naman yung irerefund nila. * Sana next time i-double check kung tama ba yung product at bilang na ipapadala para iwas abala sa customer at sa inyong seller na din. P.S gusto nila tanggalin yung review ko para daw irefund nila yung payment ko.",-0.8765,BAD,,Poor -1.0; wala -0.5; Poor -1.0; kulang -0.8; refund -0.8; goods +0.8; maliit -0.5; gusto +2.7; 2/10 -2.0; 2/10 -2.0; 2/10 -2.0
 1180,bomba ung wipes na pinadala mo seller tpos konti Ang laman kumpara sa mga iBang binili q sa online bomba Ang wipes dito,0.0,NEUTRAL,,
 1181,not good not worth it sa pera EXPECTATIONS VS REALITY 😔😔 sobrang liit at hindi madaling iopen sayang ang budget REAL TALK lang 🥹,-0.7915,BAD,,good -1.8; worth it -2.1; liit -1.4; sayang -2.0; REAL +2.2
 1182,"Not as described Maliit ng per sheet niya parang ginupit sa dalawa yung normal na size ng wipes Hindi maganda Ang layo sa picture, false advertising.. napakaliit ng dumating hindi totoo na 80 sheets as you can see sa photos kalahati pa ang size ..not sure if safe to use",-0.9359,BAD,,Not as described -2.5; Maliit -1.0; maganda -1.9; false advertising -2.5; napakaliit -1.4; totoo -1.0
@@ -1240,7 +1240,7 @@
 1239,10 big packs ordr ko pero small dumating.anu ba yung difference between small and big?,0.0,NEUTRAL,,
 1240,good not matching the series Its 80 series. Misrepresentation ang bilang.,0.5267,GOOD,,good +2.4
 1241,Poor quality.. the wipes were cut into half and it’s so thin. It will easily get teared.. not advisable for cleaning babies poops and etc. Looks like it’s not 80 pcs. because they are cut into halves. when you get 1 wet wipe it is half the cloth..,-0.5859,BAD,,Poor quality -2.8
-1242,Maayos ung deliver kaso ung mismong item hnd goods pinag compare q xia sa binili q ba wipes before 80 pcs ung binili q pero etong dumating apaka nipis peke ung nakalagay sa packaging,-0.8427,BAD,,goods -0.5; nipis -2.0; peke -3.5
+1242,Maayos ung deliver kaso ung mismong item hnd goods pinag compare q xia sa binili q ba wipes before 80 pcs ung binili q pero etong dumating apaka nipis peke ung nakalagay sa packaging,-0.8374,BAD,,goods -0.4; nipis -2.0; peke -3.5
 1243,poor poor poor Ang pangit ng wipes nyo d ko alam kung 80 sheets ang laman parang binawasan ehh kakaunti d na ako uulit sa shop nyo,-0.9153,BAD,,poor -2.0; poor -2.0; poor -2.0; pangit -2.8
 1244,"No scent, parang binasa lang ng tubig.di maganda pang wipes",-0.431,BAD,,maganda -1.9
 1245,Ok naman sana kaso dinadaya nyo ung laman naka lagay dun 80sheets dapat pero nung binilang ko ung laman ng bawat pack 29sheets lang ang laman. Tssskkkk 😡😡😡😡😡😡😡,-0.9661,BAD,,Ok +0.5; 😡 -3.0
@@ -1250,7 +1250,7 @@
 1249,"kulang kulang Ang naideliver na items ... D maganda, impis Ang mga wipes parang kalahati lang Ang laman. Sayang Pera! D na mauulit Ang order !!;",-0.8892,BAD,,kulang -1.5; kulang -1.5; maganda -1.9; Sayang Pera -2.8; order +1.0
 1250,"not good I’m really disappointed with this purchase. The product is labeled as “80 series,” but the wipes are extremely thin and clearly look like they’ve been split in half, making them much smaller than expected. This is false advertising—the product does not match what was promised in the listing. Definitely not worth it. I wouldn’t recommend this to anyone looking for decent, durable wipes.",-0.5605,BAD,,good -0.9; disappointed -1.5; false advertising -3.8; worth it -3.1; recommend +3.3; durable +3.3
 1251,"poor Super nipis, basang basa un loob ng plastic bag. Not worth buying.",-0.7032,BAD,,poor -2.0; nipis -1.9; worth -1.5; buying +1.5
-1252,"Product Review: I ordered 20pcs of wipes, but unfortunately, I only received 16pcs in the package. I am disappointed with the discrepancy in the quantity. I hope the seller addresses this issue and ensures that the correct quantity is shipped next time.",-0.8338,BAD,,disappointed -4.0; issue -1.8
+1252,"Product Review: I ordered 20pcs of wipes, but unfortunately, I only received 16pcs in the package. I am disappointed with the discrepancy in the quantity. I hope the seller addresses this issue and ensures that the correct quantity is shipped next time.",-0.7227,BAD,,disappointed -4.0; issue -1.8; correct +1.8
 1253,"Not good sobrang nipis Sobrang nipis,.. Walang 80pcs Not good sobrang nipis,.. Wag na bumili dito,.. Kainis",-0.9248,BAD,,good -1.8; nipis -1.9; nipis -2.2; good -1.8; nipis -1.9
 1254,I ordered 20 wet wipes but I receiver only 10 wipes and I pad the amount what the seller send me..very disapppointing,0.0,NEUTRAL,,
 1255,"Okay ang nagdeliver pero ang mismong shop at seller hindi! Never na akong uulit dito sa shop na ito. And i will also let my friends and family know kung gano ka worst ang service dito! Binigyan ko pa sila ng chance bago ko magsend ng review, kaso isang beses na lang ako nireplyan then puro stickers na response? Ano ito lokohan! Alam nio lang pagkakitaan mga customers but you don’t know how to value them! Report na din ito sa shoppee para matututong umayos my gosh!",0.3956,GOOD,,Okay +0.5
@@ -1336,7 +1336,7 @@
 1335,zero scam Ang inorder ko ay 20pcs wipes big Pero ang dumating...subrang liit at ang laman....hindi nga umabot ng 20pcs eh...nakakaloka...na scam pa ako,-0.919,BAD,,scam -1.8; liit -2.0; scam -5.2
 1336,maganda sana may mga bukas nakaka desmaya,-0.4588,BAD,,maganda -2.0
 1337,"not ok not ok not ok The is flattened, liquid of the wipes is not contained inside. It's clearly na 80pcs. Despite my instructions, to make sure the product is not flattened/ napiga. Walang ginawa Ang seller. Non sense na minessage.",-0.2755,BAD,,ok -0.4; ok -0.4; ok -0.4
-1338,Sobrng nipis na kala m wlang 80 sheets mukang 20 sheets lang laman kaloka haha Gngmt ko lang ksi sa dogs ko kaya sabi ko ok pren pero if gnto n sya kakonti mas ok n sa ibng brand n mkapal at malki ang sheets. Sulit. Eto very wrong,0.7027,GOOD,,nipis -0.9; ok +0.2; ok +0.8; Sulit +3.8
+1338,Sobrng nipis na kala m wlang 80 sheets mukang 20 sheets lang laman kaloka haha Gngmt ko lang ksi sa dogs ko kaya sabi ko ok pren pero if gnto n sya kakonti mas ok n sa ibng brand n mkapal at malki ang sheets. Sulit. Eto very wrong,0.4386,GOOD,,nipis -0.9; ok +0.2; ok +0.8; Sulit +3.8; wrong -1.9
 1339,Grabe di maayos pagka pack pisa lahat kya pla basa at tumutulo nung pagdeliver sakin sana man lang nilagay sa box para secure syang lang pera,-0.4139,BAD,,maayos -1.8
 1340,sabi big bakit ang liit parang larusn lng sana magsabi kayo ng totoo umaasa akong big sz kc yon ang sabi wipes for adult,0.3818,GOOD,,liit -0.5; totoo +2.1
 1341,Bumili kami sa inyo nitong wipes na nakalagay sa isang pack 80 pads.... nakakatuwa dapat kasi 20 pack ang halaga na bayaran ko 130 lang kasama na shipping....kaso nakaka dismaya kasi nakalagay ang laman daw ng isang pack ay 80pcs... pero ang nipis ng isang pack kaya nagduda tlga ako sa laman kaya binilang namin para sure nung nabilang ko ang laman 30 pcs lang.....saan ang 80 na sinasabi nyo? Galing nyo man luko...akala ko makatipid ako...yun pala naluko ako...,0.3071,GOOD,,nakakatuwa +1.1; nakaka dismaya -1.4; nipis -2.2; Galing +3.8
@@ -1378,7 +1378,7 @@
 1377,"NO-GOOD Poor The description of the product does not align with what was received. The advertisement is deceptive! The wipes depicted appear large, but in reality, they are so small. It is important not to mislead customers merely for the sake of selling a product!",-0.555,BAD,,Poor -2.0
 1378,"Ang nakalagay big wipes Ang dumating, kaliliit, bat naman Ganon seller? Tapos Wala pang amoy",-0.2842,BAD,,Wala -1.0; amoy -0.1
 1379,"Piga na nun dumating, basang basa yung plastic kala ko naman naka box kapag deliver .hnd naman pla.eh di pangit na yung wipes..not satisfied!",0.1867,GOOD,,pangit +2.1; satisfied -1.6
-1380,"0 0 0 wipes nag leak basa² ng dumating samin, Tissue all goods naman",0.4588,GOOD,,goods +2.0
+1380,"0 0 0 wipes nag leak basa² ng dumating samin, Tissue all goods naman",0.3612,GOOD,,goods +1.5
 1381,Panget sya Ang liit tas Hindi sya 80 sheets 30 sheets lang binilang ko KC nag taka ako bat apakanipis nya Hindi tulad sa dati Kong binibilhan,-0.8271,BAD,,Panget -2.8; liit -1.0; apakanipis -1.9
 1382,"Maninipis,kaya Pala mura, ang pangetttttt ung wipes apaka nipis",-0.6369,BAD,,mura +1.5; pangetttttt -2.8; nipis -1.9
 1383,sobrang nipis 😤😤😤😤😤😤😤 lumaki lng sya s 5 pesos n wipes daya nio NMn kunti lng laman,-0.9587,BAD,,nipis -1.9; daya -1.7; 😤 -1.9
@@ -1396,7 +1396,7 @@
 1395,"Gusto ko malaman kung ano ang ibig sabihin ng 80 series at 80 pulls with ""big wipes"" description gayong 30 pcs lng naman ang laman ng product nyo & maliliit lng/pc.🤔🤔🤔",0.5106,GOOD,,Gusto ko +2.3
 1396,Ang nipis. At d katulad IBA ko bibili. Ang kapal ng laman Malulugi k lang Pag benta mo to.,-0.3612,BAD,,nipis -1.5
 1397,1 PACK ( 30 sheets only ) NOT ❌ 80 sheets. Description is not accurate and misleading the buyers.,-0.5106,BAD,,misleading -2.3
-1398,1star manipis manipis manipis subrang nipis,-0.8537,BAD,,manipis -1.5; manipis -1.5; manipis -1.5; nipis -1.9
+1398,1star manipis manipis manipis subrang nipis,-0.9072,BAD,,1star -2.0; manipis -1.5; manipis -1.5; manipis -1.5; nipis -1.9
 1399,deceiving i should have trusted my gut felling 😔,0.128,GOOD,,deceiving -1.5; trusted +2.0
 1400,"Budol, big wipes daw, hindi nmn, iba ang nasa pic kesa pinadala nyo..😤",-0.7845,BAD,,Budol -3.0; 😤 -1.9
 1401,Nagleleak. Poor packaging. Binayaran ko thru my shoppee pay balance. Tapos ang tagal bago iship. Tapos ibibigay nyo pa sira sira..,-0.875,BAD,,Poor -2.0; sira -2.5; sira -2.5
@@ -1526,9 +1526,9 @@
 1525,"very great aurora lights Product great For an affordable price, may aurora lights na ako. Very quick transaction and very fast shipping. The light is great pang night light, nakakahekp siya sa akin na antukinbako, hehe.",0.9693,GOOD,,great +3.4; great +3.1; affordable +1.8; quick +1.8; fast +2.1; great +3.1
 1526,"nice Product nice nice Nakuha Kona po Ang parcel ko..pasensya na po huli na nmn pag rates, maganda Siya ..and kakatuwa namn..next time po order ulit Ako..sana tumagal pa Siya Sakin🥰",0.9621,GOOD,,nice +1.8; nice +2.0; nice +2.2; maganda +2.5; order +1.0; ulit +1.7; 🥰 +2.5
 1527,very good very good Product very good ok naman po yung product and super worth it po for its price,0.9535,GOOD,,good +2.7; good +3.0; good +2.7; ok +0.8; worth it +3.1
-1528,"Product good for it's price bright led, compact I hope it'll last Correct variant northern lights , complete with type c cable and remote , no damage and mostly it is functioning properly . It has 3 led red green and blue , compact size it's about 3 inches in diameter",0.7391,GOOD,,good +2.4; damage +1.9
+1528,"Product good for it's price bright led, compact I hope it'll last Correct variant northern lights , complete with type c cable and remote , no damage and mostly it is functioning properly . It has 3 led red green and blue , compact size it's about 3 inches in diameter",0.8151,GOOD,,good +2.4; Correct +1.2; damage +1.9
 1529,"Product Excellent Excellent 👌 Aurora Lights Effects Super excellent product for its price. My kid loved it and instantly made our room more cozy. Highly recommended product. Thank you Seller, Shopee and courier service provider ⭐⭐⭐⭐⭐",0.9762,GOOD,,Excellent +3.2; Excellent +3.2; excellent +3.5; loved +3.0; recommended +2.5; Thank +1.0; 👌 +1.0
-1530,"Light effects: all goods the light if work and I use it every night The item shipped immediately, well-packed, Very aesthetic and worth buying. Legit shop! i recommend this product and will order again. Kudos also to the rider. God bless ü",0.9707,GOOD,,goods +2.0; work +1.1; aesthetic +1.8; worth +2.3; buying +1.5; Legit +2.5; recommend +2.2; will order +2.0
+1530,"Light effects: all goods the light if work and I use it every night The item shipped immediately, well-packed, Very aesthetic and worth buying. Legit shop! i recommend this product and will order again. Kudos also to the rider. God bless ü",0.9688,GOOD,,goods +1.5; work +1.1; aesthetic +1.8; worth +2.3; buying +1.5; Legit +2.5; recommend +2.2; will order +2.0
 1531,very nice can stop the moving of light Product nice very nice can stop the moving of light Product nice,0.9153,GOOD,,very nice +2.5; nice +1.8; very nice +2.7; nice +1.8
 1532,"Finally dumating na siya! And one thing that I can say after opening it and testing it out if it’s working or not and king tama ba ang dumating which pasado naman is I am obsessed! Complete siya, working, no errors naman and very secured. Thank you very much seller!",0.6526,GOOD,,working +1.1; tama -0.7; working +1.1; Thank +1.0
 1533,normal Product normal good Otem arrived on time it is small and qorking hope it lasts thank seller will buy again,0.802,GOOD,,good +2.4; thank +1.0; will buy +1.8
@@ -1536,12 +1536,12 @@
 1535,"Light effects: grabe akala ko di maganda and sobrang liit, hindi pala, sakto lang yung laki nya and gumagana, akala ko may sound.buti nalang wala perfect nag rorotate din at maayos yung function nung una nag dadalawang isip pako if mag oorder ako kase 2022-21-23 year pa yung mga review na nakikita ko, hanggang sa nanood ako ng live and then ayon meron daw sila non, so I take the risk for only 88 pesos kasama na protection ng product. WORTH IT 100 percent",0.1928,GOOD,,maganda -1.9; liit -1.4; gumagana +1.5; wala -1.0; perfect -2.1; maayos +2.0; WORTH IT +3.5
 1536,"10/10 10/10 Product excellent Super nice this sobrang ganda sa room , sa sala at sa garden legit shop recommended...Thank you seller and kuya rider for fast delivery.. satisfied client apat na po ang nabili ko dito sa shop 🥰",0.9881,GOOD,,excellent +3.2; nice +2.1; ganda +3.0; legit +2.5; recommended +2.5; Thank +1.0; fast +1.8; satisfied +2.2; 🥰 +2.5; 10/10 +2.0; 10/10 +2.0
 1537,"very nice good Product good the item is good and ang gandang tingnan parang nasa loob ka ng bar, very relaxing habang nakahiga ka nakakaantok habang pinapanood mo ang kulay...i like the design and the color...thank you",0.9552,GOOD,,very nice +2.5; good +2.4; good +2.4; good +2.4; i like +1.8; thank +1.0
-1538,goods to man Product nice hindi sira hmm 10 siguro,0.8312,GOOD,,goods +2.0; nice +1.8; sira +2.0
+1538,goods to man Product nice hindi sira hmm 10 siguro,0.8069,GOOD,,goods +1.5; nice +1.8; sira +2.0
 1539,"very nice Product very nice colors Ganda , sarap sa mata nakakarelax",0.9325,GOOD,,very nice +2.5; very nice +2.5; Ganda +2.5; sarap +2.5
-1540,thank you seller for the fast delivery correct product complete and no damage item you have shipped out will order again soon,0.8641,GOOD,,thank +1.0; fast +1.8; damage +1.9; will order +2.0
+1540,thank you seller for the fast delivery correct product complete and no damage item you have shipped out will order again soon,0.8968,GOOD,,thank +1.0; fast +1.8; correct +1.2; damage +1.9; will order +2.0
 1541,"Good Product Good Good Thanks seller, the item is beautiful, and the light is wonderful it is good for agift . Thanks shopee",0.967,GOOD,,Good +2.4; Good +2.4; Good +2.4; Thanks +1.2; beautiful +2.7; good +2.4; Thanks +1.2
-1542,"Working well. Very nice, my son would love this! Well packed. Correct and arrived on time and in good condition. Thank you very much. Will order again next time. ❤️🙏",0.9781,GOOD,,Working +1.1; well +0.7; Very nice +2.5; love +3.0; Well +0.7; good +2.4; Thank +1.0; Will order +2.0; ❤ +2.0; ❤️ +2.0; 🙏 +0.5
-1543,Product goods love it aurora efects first time in shop so affordable the products and its quality till next order thank u,0.9186,GOOD,,goods +2.0; love +3.0; affordable +2.0; order +1.0; thank +1.0
+1542,"Working well. Very nice, my son would love this! Well packed. Correct and arrived on time and in good condition. Thank you very much. Will order again next time. ❤️🙏",0.9806,GOOD,,Working +1.1; well +0.7; Very nice +2.5; love +3.0; Well +0.7; Correct +1.2; good +2.4; Thank +1.0; Will order +2.0; ❤ +2.0; ❤️ +2.0; 🙏 +0.5
+1543,Product goods love it aurora efects first time in shop so affordable the products and its quality till next order thank u,0.91,GOOD,,goods +1.5; love +3.0; affordable +2.0; order +1.0; thank +1.0
 1544,10/10 10/10 Product 10/10 I like it po super cute❤,0.9513,GOOD,,I like +1.8; cute +2.1; ❤ +2.0; 10/10 +2.0; 10/10 +2.0; 10/10 +2.0
 1545,"super ganda Product good quality Maganda sya but di ko alam kung paano gamitin yung maliit na remote, hindi po kasi nag gagana, di ko alam kung part yung lalagyan ng battery HAHA but it's good namn talaga siya, superr Ganda nya sa kwarto but masisilawan ka kunti hehe,,but it's so very nice!!!! Sa experience ko naman ay, first ko bumili ng ganito kaya nakakapanibago lang namn hehe!!!",0.9446,GOOD,,ganda +1.4; good quality +1.3; Maganda +1.2; maliit -0.5; good +1.2; Ganda +1.2; very nice +4.0
 1546,Light effects: The aurora projection light is so relaxing that can promote a peaceful space😊￼ it works very well together with its remote and different colors❤️ ￼￼ Highly recommended specially those people that are stressed always😁 ￼ it can give a more relaxed feeling🥰,0.9628,GOOD,,well +1.0; recommended +2.5; 😊 +1.8; 😁 +2.0; 🥰 +2.5; ❤ +2.0; ❤️ +2.0
@@ -1607,7 +1607,7 @@
 1606,"recently purchased from Shopee, and I am extremely satisfied with both the product and the service. The item arrived on time, well-packaged, and in perfect condition. the product is exactly as described in the listing—great quality, durable, and functional. The price was very reasonable, and I’m impressed with how well it performs. Overall, this has been a smooth and positive shopping experience, and I’ll definitely return to Shopee for future purchases!",0.9604,GOOD,,satisfied +2.5; perfect +2.8; great quality +3.0; durable +2.2; functional +1.5; well +0.7; smooth +1.8; return -1.5
 1607,Light effects: 𝘵𝘩𝘦 𝘢𝘶𝘳𝘰𝘳𝘢 𝘦𝘧𝘧𝘦𝘤𝘵 𝘪𝘴 𝘷𝘦𝘳𝘳𝘺 𝘤𝘢𝘭𝘮𝘪𝘯𝘨 𝘵𝘩𝘦 𝘱𝘳𝘰𝘫𝘦𝘤𝘵𝘰𝘳 𝘸𝘰𝘳𝘬 𝘸𝘦𝘭𝘭 𝘐𝘭𝘰𝘷𝘦 𝘪𝘵,0.0,NEUTRAL,,
 1608,ang ganda 10/10 Product sulit Ang ganda talaga nya kapag naka patay yong ilaw.,0.926,GOOD,,ganda +2.5; sulit +2.5; ganda +2.5; 10/10 +2.0
-1609,"Received the product in good condition, no damage. The product is very nice… will order again from your shop. Received complete and correct products. Items are well packed. Thank you and god bless.",0.9377,GOOD,,good +2.4; damage +1.9; very nice +2.5; will order +2.0; well +0.7; Thank +1.0
+1609,"Received the product in good condition, no damage. The product is very nice… will order again from your shop. Received complete and correct products. Items are well packed. Thank you and god bless.",0.9489,GOOD,,good +2.4; damage +1.9; very nice +2.5; will order +2.0; correct +1.2; well +0.7; Thank +1.0
 1610,Light effects: maganda at hindi masakit sa mata tuloy tuloy yung pag ilaw hindi nagkaka problema sa product,0.6818,GOOD,,maganda +2.5; problema +1.1
 1611,"Product VERY GOOD OKII PO SIYA, GUMAGANA NAMAN I LOVE THE LIGHTS",0.9244,GOOD,,GOOD +3.4; GUMAGANA +2.2; LOVE +3.7
 1612,Light effects: calming atmosphere so nice works well so many colors,0.7087,GOOD,,nice +2.0; works well +1.9
@@ -1636,10 +1636,10 @@
 1635,"Light effects: perfectly calming good performance Product is good, very affordable and the benefits it gives is super!",0.8802,GOOD,,good +2.4; good +2.4; affordable +2.1
 1636,"Maganda ang item, sulit ang pera... responsive din si seller at mabilis ang delivery, safe pagka packed at kudos din sa rider iningatan ang parcel, salamat 🫶",0.9217,GOOD,,Maganda +2.5; sulit +2.5; responsive +1.2; mabilis +1.8; salamat +1.2
 1637,Light effects: aurora effect is so relaxing it works so well even in its affordable price.,0.5719,GOOD,,well +0.9; affordable +1.8
-1638,Thank you po. Super nice Nung item. Correct and complete din po Nung dumating. Working po pati Yung remote. Sa sunod po ulit.,0.8381,GOOD,,Thank +1.0; nice +2.1; Working +1.1; ulit +1.7
+1638,Thank you po. Super nice Nung item. Correct and complete din po Nung dumating. Working po pati Yung remote. Sa sunod po ulit.,0.8793,GOOD,,Thank +1.0; nice +2.1; Correct +1.2; Working +1.1; ulit +1.7
 1639,"Good Good Product Good One of the things that immediately stood out to me about this product was its overall quality. After using it for a while, I can confidently say that it performs very well and lives up to its purpose. It is reliable, easy to use, and has consistently delivered good results throughout my experience. The product feels sturdy and well-constructed, showing that quality materials were used during its production. Unlike some alternatives that may feel flimsy or poorly made, this one gives a sense of durability and long-term reliability. Even with regular use, it continues to function smoothly without any noticeable issues. Another feature I appreciate is its practicality. It is designed in a way that makes it convenient for everyday use, helping save both time and effort. The user-friendly design makes it accessible, even for those who may not be familiar with similar products. Small details have clearly been considered, which contributes to a more enjoyable overall experience. In terms of value, I believe this product offers an excellent balance between price and performance. The quality exceeds what I initially expected, making it feel like a worthwhile investment. It successfully combines functionality, durability, and convenience in a single product. Overall, my experience with this product has been very positive. It has proven to be dependable, effective, and well-made. I would not hesitate to recommend it to others who are looking for a product that offers both quality and value. It is definitely a purchase that has met and even exceeded my expectations.",0.9655,GOOD,,Good +2.4; Good +2.4; Good +2.4; well +1.0; good +2.4; user-friendly +2.2; excellent +3.2; recommend -1.6
 1640,Product 7/10 maganda naman pero feeling ko hindi siya magtatagal 10/10 10/10 what you see is what you get talaga,0.8591,GOOD,,maganda +2.5; 10/10 +2.0; 10/10 +2.0
-1641,"Light effects: goodss goods Dapat nakasaksak talaga sya kasi pag hindi ., hindi din mag o-on. Kala ko chargeable sya hindi pala",0.7184,GOOD,,goodss +2.0; goods +2.0
+1641,"Light effects: goodss goods Dapat nakasaksak talaga sya kasi pag hindi ., hindi din mag o-on. Kala ko chargeable sya hindi pala",0.6124,GOOD,,goodss +1.5; goods +1.5
 1642,Light effects: Ang ganda ng aurora effect Works well at malakas ang ilaw so maliwanah sya sa paligid. perfect sa mga kids room. Napaka solid,0.926,GOOD,,ganda +2.5; Works well +1.5; perfect +2.8; Napaka solid +2.7
 1643,Light effects: nice shine bright Good,0.7491,GOOD,,nice +1.8; Good +2.6
 1644,Same as advertise Very good Product Very nice Well packed and on time delivery. Legit and item works well I highly recommend this store.,0.9542,GOOD,,good +2.7; Very nice +2.8; Well +0.7; Legit +2.5; works well +1.5; recommend +2.2
@@ -1661,7 +1661,7 @@
 1660,"Light effects: calming works well Sobrang nagustuhan ko sya. Relaxing tignan ,good for those hirap matulog.",0.8608,GOOD,,works well +1.5; nagustuhan +2.6; good +2.4
 1661,"Product hmm hmm hmm Buti nalang gumana, knowing ganyan ang nangyari sa packaging. Serves its purpose, somehow relaxing while working.",0.2732,GOOD,,working +1.1
 1662,Light effects: Wow. Astig ang ilaw sakto sa videoke time with family Sa presyo niya mgnda ang ilaw niya akala mo may disco lights k tlga Sa mga gusto magparty pero. Mas feel sa loob ng bahay ksma ang family sakto tong product na to.,0.8442,GOOD,,Wow +1.1; Astig +1.2; sakto +0.4; mgnda +1.2; gusto +0.9; sakto +1.2
-1663,Nice good Goods Product Superrbbbb Thanks seller super nice 2x ko na po itong order ksi nagandahan po ako sa ibat ibang kulay niya,0.9427,GOOD,,Nice +1.8; good +2.6; Goods +2.2; Thanks +1.2; nice +2.1; order +1.0
+1663,Nice good Goods Product Superrbbbb Thanks seller super nice 2x ko na po itong order ksi nagandahan po ako sa ibat ibang kulay niya,0.9376,GOOD,,Nice +1.8; good +2.6; Goods +1.7; Thanks +1.2; nice +2.1; order +1.0
 1664,"Light effects: maganda ang ilaw nya nakakatuwa as of now diko pa alam if anu oras ang itinatagal nya sana umabot ng magdamag,very hoods products thank you seller!🙏☺️",0.8706,GOOD,,maganda +2.5; nakakatuwa +2.3; thank +1.3; 🙏 +0.5
 1665,Light works well especially with a remote. Different modes and color for different moods. I assume the unit has no re-chargeable battery inside and has to be plugged in to work. Product Compact and light.,0.5574,GOOD,,works well +1.5; work +1.1
 1666,Light effects: The aurora waves create a calming atmosphere The projector works well with various settings and remote control,0.3612,GOOD,,works well +1.5
@@ -1689,7 +1689,7 @@
 1688,"Light effects: brings aesthetic sa room and looks peaceful, parang you’re watching real northern lights talaga!",0.6202,GOOD,,aesthetic +1.5; real +1.3
 1689,Product 99% 100% 99% Ang Ganda nakakarelax dn Ang mga galaw at ilaw nya.sana tumagal sya,0.5423,GOOD,,Ganda +2.5
 1690,Light effects: ganahan akong anak kay naka feel siya ug comfortable ug warm environment perfect meron remote control madqli gamitin Nagustohan ng anak ko every night niya ginagamit,0.7783,GOOD,,comfortable +2.0; perfect +2.8
-1691,Light effects: SUPER GANDAAA GOODS DI MASAKIT SA MATA BILI NA KAYO GUYS SUPER RECOMMENDED,0.9352,GOOD,,GANDAAA +3.6; GOODS +3.1; RECOMMENDED +3.6
+1691,Light effects: SUPER GANDAAA GOODS DI MASAKIT SA MATA BILI NA KAYO GUYS SUPER RECOMMENDED,0.9291,GOOD,,GANDAAA +3.6; GOODS +2.6; RECOMMENDED +3.6
 1692,Light effects: calming atmosphere projector works very well sobrang ganda ng product at affordable pa!,0.8479,GOOD,,well +1.0; ganda +3.1; affordable +1.8
 1693,very cutesy 🥴 HAHAHAH promise ang ganda in person😊 Product i bet matagal naman po masira just handle with care lang talaga 😇 napaka mira and deserve niyo din to mga besshh😁🥰,0.9184,GOOD,,cutesy +2.1; ganda +2.5; bet +1.8; matagal -1.2; masira -2.5; 😊 +1.8; 😁 +2.0; 🥰 +2.5
 1694,Order received in good condition Fast delivery Legit maganda parang Northern lights talaga ginaMitan ko ng power bank 😁,0.9531,GOOD,,Order +1.0; good +2.4; Fast +1.8; Legit +2.5; maganda +2.5; 😁 +2.0
@@ -1724,18 +1724,18 @@
 1723,10/10 Product 10/10 Maganda itong LED starring projection light pang decorate sa room. Maayos naman siyang dumating at walang sira 💯,0.9575,GOOD,,Maganda +2.5; Maayos +2.0; sira +1.9; 💯 +2.5; 10/10 +2.0; 10/10 +2.0
 1724,Quality is very good. Light effects are beautiful and calming. Performance works well with remote. Worth it!,0.9323,GOOD,,good +2.7; beautiful +2.7; works well +1.5; Worth it +2.8
 1725,"Product 7 9 10 Ang ganda ng murang produkto neto, satisfied ako at nakakarelax ang mga animated lights.",0.7717,GOOD,,ganda +2.5; satisfied +2.2
-1726,Goods naman po sya sana mag tagal at sana pwede din sya magdamagan gamitin kaso nakaka takot kasi manipis ang wire pero legit magandan sya sa room nakaka relax,0.8519,GOOD,,Goods +1.0; mag tagal +0.5; manipis -0.8; legit +3.8; relax +1.8
+1726,Goods naman po sya sana mag tagal at sana pwede din sya magdamagan gamitin kaso nakaka takot kasi manipis ang wire pero legit magandan sya sa room nakaka relax,0.8422,GOOD,,Goods +0.8; mag tagal +0.5; manipis -0.8; legit +3.8; relax +1.8
 1727,nice Product good quality the best,0.8883,GOOD,,nice +1.8; good quality +2.5; best +3.2
 1728,"Nice product, high quality for the price. perfect and highly recommended sa mga gusto ng pailaw sa kwarto ito na Yun.",0.9451,GOOD,,Nice +1.8; high quality +2.3; perfect +2.8; recommended +2.5; gusto +1.8
 1729,Light effects: the waves are ok but I thought there was a galaxy option its ok but better if it foes not reset setting when turning off,0.25,GOOD,,ok +0.2; ok +0.8
 1730,Light effects: good good siya maayos na dumating walang damage gumagana Sana hindi agad masira,0.8442,GOOD,,good +1.2; good +1.2; maayos +1.0; damage +0.9; gumagana -1.0; masira +2.8
-1731,Light effects: goods like in the video goods nmn sa review,0.7184,GOOD,,goods +2.0; goods +2.0
+1731,Light effects: goods like in the video goods nmn sa review,0.6124,GOOD,,goods +1.5; goods +1.5
 1732,ang ganda nung 16 colors pangpaantok.. lalo ung red nila gawin mong night light.. islow mo sya sa remote.. ang sarap ng tulog mo ❤️ thank u baka bumili uli ako hehe,0.9325,GOOD,,ganda +2.5; sarap +2.5; thank +1.0; ❤ +2.0; ❤️ +2.0
 1733,👍 Product 👍 Nice item maganda,0.8883,GOOD,,Nice +1.8; maganda +2.7; 👍 +1.5
 1734,10 LIGHTSSSS Product 10/10 i love itttt! super worth it sa price nyaaaa!,0.9142,GOOD,,love +3.0; worth it +3.1; 10/10 +2.0
 1735,good Product sakto lng sa price mura lang serves its purpose,0.7096,GOOD,,good +2.4; mura +1.5
 1736,Product good excellent Ang bilis dumating kahapon ko lang inorder dumating agad..Ang Ganda nya..thank you Kay seller at suki ko na rider..,0.9423,GOOD,,good +2.4; excellent +3.2; bilis +1.8; Ganda +2.5; thank +1.0
-1737,Light effects: solid nice nice nice all goods no damage 5 star,0.9553,GOOD,,solid +2.3; nice +1.8; nice +2.0; nice +2.2; goods +2.4; damage +1.9
+1737,Light effects: solid nice nice nice all goods no damage 5 star,0.9517,GOOD,,solid +2.3; nice +1.8; nice +2.0; nice +2.2; goods +1.9; damage +1.9
 1738,maganda tuwangtuwa ang anak ko Pag pinapailaw good Product good na good,0.8957,GOOD,,maganda +2.5; good +2.4; good na good +2.9
 1739,"good Product good good Super worth it, thank you seller😊",0.9593,GOOD,,good +2.4; good +2.4; good +2.4; worth it +3.1; thank +1.0; 😊 +1.8
 1740,Product good good good Okay na okay. Nakaka enjoy pag masdan,0.9042,GOOD,,good +2.4; good +2.4; good +2.4; Okay na okay +1.0
@@ -1798,9 +1798,9 @@
 1797,"Love this item! Excellent quality, easy to use, looks amazing, and arrived in perfect condition. Truly exceeded my expectations and feels worth every peso.",0.9694,GOOD,,Love +3.0; Excellent quality +3.0; amazing +3.2; perfect +2.8; worth every peso +3.0
 1798,good Product parang matibay nman,0.7506,GOOD,,good +2.4; matibay +2.0
 1799,The light works well Product Sturdy and strong performance,0.3612,GOOD,,works well +1.5
-1800,Product goods goods maganda,0.8591,GOOD,,goods +2.0; goods +2.0; maganda +2.5
+1800,Product goods goods maganda,0.8176,GOOD,,goods +1.5; goods +1.5; maganda +2.5
 1801,Nung dumating sa akin ang item sadly di nagana however 5stars pa din ang rate because ang ganda ng service nila sa akin and they didn't hesitate na mag refund sa akin although it takes 4 days sa refund siguro na din sa volume ng customers nila. Napaka bait ng pag assist nila sa akin sa concern ko,0.598,GOOD,,sadly -0.7; nagana +0.7; ganda +3.8; refund -2.2; refund -2.2; Napaka bait +3.6
-1802,10/10 Nice and beautiful Product Goods no damages,0.9386,GOOD,,Nice +1.8; beautiful +2.9; Goods +2.0; damages +1.9; 10/10 +2.0
+1802,10/10 Nice and beautiful Product Goods no damages,0.933,GOOD,,Nice +1.8; beautiful +2.9; Goods +1.5; damages +1.9; 10/10 +2.0
 1803,"okay po yung lights sobrang ganda sa kwarto nakakarelax kala ko nung una sira mali lang pala ang lagay ko ng battery, medyo nakakalito rin",-0.2382,BAD,,okay +0.5; ganda +2.9; sira -2.5; mali -1.8
 1804,wort it Product buy now sulit ❤️❤️,0.9382,GOOD,,sulit +2.5; ❤ +2.0; ❤️ +2.0
 1805,good Product good good,0.8807,GOOD,,good +2.4; good +2.4; good +2.4
@@ -1811,7 +1811,7 @@
 1810,Nice Product Good Nice,0.8545,GOOD,,Nice +1.8; Good +2.6; Nice +2.0
 1811,Product good good also good all because the performance is great ty po seller and ride,0.9477,GOOD,,good +2.4; good +2.4; good +2.4; great +3.1; ty +1.2
 1812,veryy good Product sooo naysss,0.5267,GOOD,,good +2.4
-1813,Light effects: goods maganda sya sa wall,0.7579,GOOD,,goods +2.0; maganda +2.5
+1813,Light effects: goods maganda sya sa wall,0.7184,GOOD,,goods +1.5; maganda +2.5
 1814,Ang cute pero ang ganda ng ibinibigay ng liwanag.. Romantic para sa akin yung effect nya.. Slamat seller and kuya rider,0.7684,GOOD,,cute +0.9; ganda +3.8
 1815,The aurora and wave lights create a calming atmosphere.,0.0,NEUTRAL,,
 1816,"1/2 KaTropa, Holy Week is a time to reflect and reconnect mapa online man or offline. Siguraduhing may load para kahit saan magpahinga, tuloy",0.0,NEUTRAL,,
@@ -1875,7 +1875,7 @@
 1874,Light effects: makulau symasayaw 👏👏💯💯👌👌✅✅👍👍❤️❤️❤️👍,0.9917,GOOD,,❤ +2.0; ❤️ +2.0; 👍 +1.5; 👏 +1.7; 💯 +2.5; 👌 +1.0; ✅ +1.5
 1875,Light effects: very mesmerizing its good and controllable,0.5663,GOOD,,good +2.7
 1876,"Light effects: the aurora and wave lights gaves an good atmosphere vibes The projector works well as well as the remote control Medjo damage na yung box pero okay pa naman yung product sa loob, gumagana rin yung item",0.7227,GOOD,,good +1.2; works well +0.8; well +0.3; damage -1.2; okay +0.8; gumagana +2.2
-1877,"Product Good Good Good Gumagana naman kaso mali ang napadala instead of Aurora , bubbles po ang dumating pero ok naman po goods na din .hehe",0.8807,GOOD,,Good +1.2; Good +1.2; Good +1.2; Gumagana +0.8; mali -0.9; ok +0.8; goods +3.0
+1877,"Product Good Good Good Gumagana naman kaso mali ang napadala instead of Aurora , bubbles po ang dumating pero ok naman po goods na din .hehe",0.8573,GOOD,,Good +1.2; Good +1.2; Good +1.2; Gumagana +0.8; mali -0.9; ok +0.8; goods +2.2
 1878,ok namam yung item pero sana hindi ganito ang packaging kase akala ko sira na yung item,-0.6705,BAD,,ok +0.2; sira -3.8
 1879,Photo and video are not related but it’s very cheap and affordable yet high quality products will purchase it again thanks,0.8702,GOOD,,affordable +3.1; high quality +3.5; thanks +0.3
 1880,i like it bcoz before its micro charger but now its type c okay i will come tomorrow to come back and then i’ll can go over and watch it again tomorrow and watch it again so we could watch a video of you and see if we could watch the movie,0.3919,GOOD,,i like +0.9; okay +0.8
@@ -1899,7 +1899,7 @@
 1898,Product ok sana kaso ayw gumana ok ok Product ok sana kaso ayw gumana Ng charger,-0.6124,BAD,,ok +0.2; ayw gumana -1.0; ok +0.2; ok +0.2; ok +0.2; ayw gumana -3.0
 1899,10 10 Product 10 ang ganda and may freebies na color hahahaha cute,0.743,GOOD,,ganda +2.5; cute +1.8
 1900,photo not related) received parcel complete and in good condition. worth the wait thank you so much seller will order again soon po sa shop ninyo god bless,0.8905,GOOD,,good +2.4; worth +2.0; thank +1.0; will order +2.2
-1901,Light effects: goods good Maganda,0.872,GOOD,,goods +2.0; good +2.4; Maganda +2.5
+1901,Light effects: goods good Maganda,0.8555,GOOD,,goods +1.5; good +2.4; Maganda +2.5
 1902,Budots na mga kwaknet! It means thank you. 💖,0.6476,GOOD,,thank +1.0; 💖 +2.0
 1903,lyk ng daughter ko legit shop more benta pa godbless,0.5423,GOOD,,legit +2.5
 1904,ang Ganda tlga nito. nabura ko n pla ang video sa CP ko gawa nlng Ako ng new vid. iupload ko,0.5423,GOOD,,Ganda +2.5
@@ -1928,7 +1928,7 @@
 1927,"Pangalawang order ko na ito, 6 yung una ko inorder pang exchange gift ng bunso ko sa something colorful. Thank u seller.",0.4588,GOOD,,order +1.0; Thank +1.0
 1928,Light effects: good verry nice,0.7351,GOOD,,good +2.4; nice +1.8
 1929,"Light effects: good, has many colors its covers like half of the room has no sound, or audio or anything..or just doesn’t know how to operate",0.0,NEUTRAL,,good +2.4; no sound -2.4
-1930,Light effects: goods it works well,0.6705,GOOD,,goods +2.0; works well +1.5
+1930,Light effects: goods it works well,0.6124,GOOD,,goods +1.5; works well +1.5
 1931,Ang cute ng item na to parang my disco kc pang sayawan ang dating pero maganda naman sya.thank you sellerand rider.,0.7845,GOOD,,cute +0.9; maganda +3.8; thank +0.2
 1932,100 Product 100 100 ang ganda 😍,0.7906,GOOD,,ganda +2.5; 😍 +2.5
 1933,Perfect for streamer yung light hehe,0.5859,GOOD,,Perfect +2.8
@@ -2051,7 +2051,7 @@
 2050,very kyotsiee nabili ko sya 85pesos lang🤍✨,0.0,NEUTRAL,,
 2051,Nicee,0.4215,GOOD,,Nicee +1.8
 2052,i lovee itt,0.0,NEUTRAL,,
-2053,Goods item🫶🏼,0.4588,GOOD,,Goods +2.0
+2053,Goods item🫶🏼,0.3612,GOOD,,Goods +1.5
 2054,not good Product not bad subrang nakapanghinayang Ang ginastos ko pero di korin Pala magamit Kasi sira😩,-0.8797,BAD,,good -0.9; bad +0.9; magamit -3.5; sira -3.8
 2055,Good 💯 percent,0.7845,GOOD,,Good +2.4; 💯 +2.5
 2056,Good 💯 nkakalibang mga ilaw,0.7845,GOOD,,Good +2.4; 💯 +2.5
@@ -2084,7 +2084,7 @@
 2083,May basag cia ng dumating peeo okay nmn xia gumagana,-0.0772,BAD,,basag -2.3; okay +0.5; gumagana +1.5
 2084,sobrang ganda,0.5927,GOOD,,ganda +2.9
 2085,Solid naman thankyou seller,0.5106,GOOD,,Solid +2.3
-2086,goods,0.4588,GOOD,,goods +2.0
+2086,goods,0.3612,GOOD,,goods +1.5
 2087,Excellent I like this items,0.7906,GOOD,,Excellent +3.2; I like +1.8
 2088,gandits,0.0,NEUTRAL,,
 2089,Very nice 👍,0.7184,GOOD,,Very nice +2.5; 👍 +1.5
@@ -2137,7 +2137,7 @@
 2136,SUBRANG GANDAAAAAAAAAAAAAAAAA,0.5927,GOOD,,GANDAAAAAAAAAAAAAAAAA +2.9
 2137,Super nice💗✨️,0.7311,GOOD,,nice +2.1; 💗 +2.0
 2138,Liget super,0.5423,GOOD,,Liget +2.5
-2139,All goods naman,0.4588,GOOD,,goods +2.0
+2139,All goods naman,0.3612,GOOD,,goods +1.5
 2140,hindi kupa na try,0.0,NEUTRAL,,
 2141,super legit,0.5927,GOOD,,legit +2.9
 2142,Gumagana po sya I like it thank you seller. 😊😊,0.8979,GOOD,,Gumagana +1.5; I like +1.8; thank +1.0; 😊 +1.8
@@ -2155,7 +2155,7 @@
 2154,sobrang ganda poh😍😍gus2ng gus2 ko😍😍,0.9575,GOOD,,ganda +2.9; 😍 +2.5
 2155,We love it,0.6124,GOOD,,love +3.0
 2156,Gondoooooooo 😍,0.5423,GOOD,,😍 +2.5
-2157,Goods nmn,0.4588,GOOD,,Goods +2.0
+2157,Goods nmn,0.3612,GOOD,,Goods +1.5
 2158,Received,0.0,NEUTRAL,,
 2159,ang cute,0.4215,GOOD,,cute +1.8
 2160,IT'S GOODDDD,0.5267,GOOD,,GOODDDD +2.4
@@ -2211,14 +2211,14 @@
 2210,Thank.you seller,0.25,GOOD,,Thank +1.0
 2211,"compostable to wear,the cotton are soft and breathable against my skin,It's very nice and the socks are neat and nice for outfit and the delivery rider is very kind.Nice store.will order again.",0.9022,GOOD,,very nice +2.5; nice +1.8; Nice +1.8; will order +2.0
 2212,"Thank you! Buti na lang nabibili na lahat sa shopee, di kailangan lumabas ng bahay, mas safe to stay at home. Okay naman ang products!",0.4738,GOOD,,Thank +1.0; Okay +0.5
-2213,Received na po ang mga items.. Good quality po ang mga items and complete.. Correct din po ang mga items. Several times na po akong umorder sa shop na ito and i am always satisfied. Thank you po.. Until next transaction..,0.8176,GOOD,,Good quality +2.3; satisfied +2.2; Thank +1.0
+2213,Received na po ang mga items.. Good quality po ang mga items and complete.. Correct din po ang mga items. Several times na po akong umorder sa shop na ito and i am always satisfied. Thank you po.. Until next transaction..,0.8658,GOOD,,Good quality +2.3; Correct +1.2; satisfied +2.2; Thank +1.0
 2214,"Maganda po yung quality ng mga items 👌. Medyo hindi ko lang nagustuhan ang packaging. madumi po yung plastic na pinaglagyan ng nga shorts, di yun alikabok kasi kapit talaga sa plastic, di ko alam kung ano yun, baka nalimutan lang punasan bago ibigay sa courier. Lalabhan naman bago gamitin kaya 👌",0.2018,GOOD,,Maganda +2.5; nagustuhan -1.7; madumi -2.0; 👌 +1.0
 2215,Good products. I was satisfied! It's great and ayos lahat ng items. Thank you seller and thanks Shopee............. 💖💖💖💖😍😍😍😍,0.9918,GOOD,,Good +2.4; satisfied +2.2; great +3.1; ayos +1.8; Thank +1.0; thanks +1.2; 😍 +2.5; 💖 +2.0
 2216,Still smooth transaction this is my2nd order seller never dissappoint me kompleto at nasusunod lahat ng order ko thankyou seller will order again.,0.8316,GOOD,,smooth +1.8; order +1.0; order +1.0; will order +2.0
 2217,Wala po akong masabi ang gaganda po ng shorts. Sana po walang mag bago ginawa ko po kayong supplier ko. Oorder po ako ng pa ulit ulit. Thank you po sa freebie nyo😊😊😊😊☺️☺️☺️😍💕💕💕,0.9709,GOOD,,Wala -0.5; gaganda +1.1; ulit +2.5; ulit +2.5; Thank +0.2; 😍 +2.5; 😊 +1.8
 2218,still satisfied from this shop 🤗❤️ complete order and color. Size check😊 thankyou seller. Pang 2times ko ng nag order dito at satisfied ako lage.❤️,0.9788,GOOD,,satisfied +2.2; order +1.0; order +1.0; satisfied +2.2; 😊 +1.8; ❤ +2.0; ❤️ +2.0; 🤗 +2.3
 2219,Ang ganda ng quality ang bait din ni seller thank you po tama lahat ng dumating dito ulit ako oorder next time ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐,0.9042,GOOD,,ganda +2.5; bait +2.0; thank +1.0; tama +1.0; ulit +1.7
-2220,Complete orders with correct variations😊😊😊 Ganda talaga ng mga shorts nyu ... sllamat seller .... Sobrng nagustuhan ko ...di moko binigu 😁😁😁😀😀😀,0.9856,GOOD,,Ganda +2.5; nagustuhan +2.6; 😊 +1.8; 😀 +2.0; 😁 +2.0
+2220,Complete orders with correct variations😊😊😊 Ganda talaga ng mga shorts nyu ... sllamat seller .... Sobrng nagustuhan ko ...di moko binigu 😁😁😁😀😀😀,0.987,GOOD,,correct +1.2; Ganda +2.5; nagustuhan +2.6; 😊 +1.8; 😀 +2.0; 😁 +2.0
 2221,Maganda yung tela and mabilis delivery.,0.743,GOOD,,Maganda +2.5; mabilis +1.8
 2222,Thank u so much po! Maayos po at makapal ung tela 😇,0.6476,GOOD,,Thank +1.0; Maayos +2.0
 2223,Thank uThank u.. Sakto lahat ng dumating at maganda po,0.743,GOOD,,Thank +1.0; Sakto +0.8; maganda +2.5
@@ -2273,7 +2273,7 @@
 2272,The sound is louder on the right and weaker on the left. It's not easy to charge and doesn't work with any type C charger,-0.5574,BAD,,doesn't work -2.6
 2273,Ok Sana Kaya Lang madaling matanggal sa tainga. Malamang madaling masisira sa kakalaglag o nawala.,0.128,GOOD,,Ok +0.5
 2274,"Thank you, hindi lang nagana yung left na earphone.",0.5393,GOOD,,Thank +1.0; nagana +1.5
-2275,"Er, the left earpod isn't working... For some reason. It's not turning on. Am I doing something wrong ? Already fully charged, by the way.",-0.5106,BAD,,working -2.3
+2275,"Er, the left earpod isn't working... For some reason. It's not turning on. Am I doing something wrong ? Already fully charged, by the way.",-0.6124,BAD,,working -2.3; wrong -0.7
 2276,ok nmn bilis lang malowvat,0.5106,GOOD,,ok +0.5; bilis +1.8
 2277,ok sound quality Noise cancellation: not that good For 24 pesos I exactly got what I expected: cheap earbuds with almost average quality sounds. NOT RECOMMENDED if you can afford better ones. But this is just what I need rn while saving for a better one. Wala rin saksakan charger? Also it doesn't look like the one on the photos.,-0.5973,BAD,,ok +0.2; good -0.9; RECOMMENDED -1.2; Wala -1.1
 2278,Hassle iconnect. Right earpiece not working. Pakahassle.,-0.743,BAD,,Hassle -2.0; working -2.3
@@ -2286,7 +2286,7 @@
 2285,Product hindi gumagana ang kbila,-0.5423,BAD,,hindi gumagana -2.5
 2286,Disappointed fake battery nya,-0.8271,BAD,,Disappointed -2.7; fake -3.0
 2287,"Deffective item ,,the buds was not charging",-0.802,BAD,,Deffective -2.7; not charging -2.5
-2288,3star lang kasi Sira yong isa,-0.5423,BAD,,Sira -2.5
+2288,3star lang kasi Sira yong isa,-0.4588,BAD,,3star +0.5; Sira -2.5
 2289,Biglang nagdidiscomnect yung left side,0.0,NEUTRAL,,
 2290,Wow ang bilis dumating 3 weeks lang naman. Salamat ha,-0.802,BAD,yes,Wow +2.2; bilis +1.8; Salamat +1.2
 2291,Ang ganda talaga nasira after 1 day. Super quality!,-0.1511,BAD,,ganda +2.5; nasira -2.8
@@ -2302,7 +2302,7 @@
 2301,ang ganda at mura pa love it 😍 malakas ang tunog nya komportable ka sa pag tulog hindi ma sakit,0.9477,GOOD,,ganda +2.5; mura +1.5; love +3.0; komportable +2.0; 😍 +2.5
 2302,Good Good Love it! This shop really deserved 5 star. Why? Cause at first i thought na hindi gumagana ang left earbuds / sira pero nagkamali ako. Gumagana pala both and alam ko na paano gamitin. I love it!😊❤️ I HIGHLY RECOMMEND THIS SHOP!😊,0.9712,GOOD,,Good +1.2; Good +1.2; Love +1.5; hindi gumagana -1.2; sira -1.2; Gumagana -3.0; love +4.5; RECOMMEND +4.4; 😊 +1.8; ❤ +2.0; ❤️ +2.0
 2303,earbuds are lightweight and fits in my ear there is surround effect that makes it so good,0.5574,GOOD,,good +2.6
-2304,"very comfort very good Ang ganda.di nag dredrain yung battery pag di mo ginagamit.tagal ma lobat.sulit sa presyo.will buy again.salamat seller ,rider all goods satisfy with cheaper price.",0.947,GOOD,,good +3.0; ganda +2.8; lobat -1.8; sulit +2.5; will buy +1.8; salamat +1.2; goods +2.0
+2304,"very comfort very good Ang ganda.di nag dredrain yung battery pag di mo ginagamit.tagal ma lobat.sulit sa presyo.will buy again.salamat seller ,rider all goods satisfy with cheaper price.",0.9424,GOOD,,good +3.0; ganda +2.8; lobat -1.8; sulit +2.5; will buy +1.8; salamat +1.2; goods +1.5
 2305,"good excellent amazing Sobrang liit at lightweight! Hindi masakit sa tenga kahit side-sleeper ka or nakahiga habang nagbabasa ng transes. ""Invisible"" talaga siya tingnan kapag suot na. Good for its price. Clear naman ang audio for lectures and podcasts, though 'wag mag-expect ng heavy bass na pang-concert.",0.9342,GOOD,,good +2.4; excellent +3.2; amazing +3.2; liit -1.4; Good +2.4
 2306,"The earbuds are lightweight and fit comfortably in my ears. They can be worn for a long time without discomfort. The sound quality is good for the price. Audio is clear and loud enough for the music, videos and calls Very satisfied with this product. easy to connect good battery life and nice sound quality. great value for the price and worth buying. highly recommended! thanks seller! ⭐️⭐️⭐️⭐️",0.9814,GOOD,,good +2.4; satisfied +2.5; good battery +2.2; nice +1.8; great +3.1; worth +2.0; buying +1.5; recommended +2.5; thanks +1.2
 2307,solid malakas Ang volume kahit low lang Ang I volume mo sound nya clear at maganda Solid Ang earpads na to matagal dn ma lowbat Ganda gamitin for jogging di nahuhulog,0.8625,GOOD,,solid +2.3; maganda +2.5; Solid +2.3; matagal -1.2; lowbat -1.8; Ganda +2.5
@@ -2318,7 +2318,7 @@
 2317,hindi nagcha-charge,-0.357,BAD,,nagcha-charge -1.5
 2318,⭐️ Lumbar Support: ⭐️ ⭐️ NOT EVEN A MANUAL PROVIDED,0.0,NEUTRAL,,
 2319,"it says can carry up to 500 kg but it seems 100 is too much aesthetic Looks a bit small, the metal frames are thin, it feels that the chair will break in a few seating. Sorry but im kinda sad for this purchase",-0.2441,BAD,,aesthetic +0.8; sad -1.7
-2320,"the product is good assembling it is hard superb The delivery driver did not call prior to delivery..he left it in the wrong house..good thing,our neighbors were kind enough to look for us even if we really do not know them..this will be my last time ordering in this shop despite the good quality of there products due to their choice of delivery courier.i gave the failing review for the courier service.",0.8779,GOOD,,good +2.4; good +2.4; good quality +2.3
+2320,"the product is good assembling it is hard superb The delivery driver did not call prior to delivery..he left it in the wrong house..good thing,our neighbors were kind enough to look for us even if we really do not know them..this will be my last time ordering in this shop despite the good quality of there products due to their choice of delivery courier.i gave the failing review for the courier service.",0.8442,GOOD,,good +2.4; wrong -1.0; good +2.4; good quality +2.3
 2321,Item is defective. yung isang armrest di makabit ng maayos kase kulang maganda sana sakto lng pero parang di magtatagal,-0.8952,BAD,,defective -2.8; maayos -1.5; kulang -1.5; maganda -2.0
 2322,"poor poor poor Hindi man lang nag inspection ng items bago shipping, may kalawang ang frame niya tapos may mantsa na hindi na matanggal, anung klaseng quality inspection ang ginagawa ng seller bago mag ship ng items. Bast na lang dinampot yung items tapos pinadala na ni hindi man lang tiningnan kung may damage ba o sira",-0.926,BAD,,poor -2.0; poor -2.0; poor -2.0; damage -1.8; sira -1.8
 2323,poor good in pictures not in person poor Mukang madaling masira at defective nung dumating Waste of money,-0.9371,BAD,,poor -2.0; good +2.4; poor -2.0; madaling masira -3.0; defective -2.8; Waste of money -3.0
@@ -2326,7 +2326,7 @@
 2325,The seller sent out an old stock!,-0.5848,BAD,,old stock -2.5
 2326,"Incomplete parts received. Initially, there were no screws included, but they were eventually delivered. However, the bottom support part is still missing and has not been delivered. They are now refusing to provide it, and the refund for the shipping fee— which they promised—has not been processed.",-0.8402,BAD,,missing -3.8; refund -2.2
 2327,no manual included parts are not proportioned to each other not sturdy packaging when it arrived was open,-0.4588,BAD,,no manual -2.0
-2328,The hole on the chair is not aligned with the bar. So it cannot be attached or bolt. Poor quality or i dont know maybe they packed the wrong bar or something.,-0.5859,BAD,,Poor quality -2.8
+2328,The hole on the chair is not aligned with the bar. So it cannot be attached or bolt. Poor quality or i dont know maybe they packed the wrong bar or something.,-0.7003,BAD,,Poor quality -2.8; wrong -1.0
 2329,poor slightly good very poor * May kalawang at stain ang upuan. * May mga gasgas at tuklap na pintura * May upos ng sigarilyo sa box.,-0.7109,BAD,,poor -2.0; good +2.1; poor -2.1; gasgas -2.0
 2330,"6 out of 7 5 out of 7 5 out of 7 Mahirap lng iassemble dahil di sa pwesto ng butas. May 2 screw akong hindi naikabit dahil nga di sakto yung placements ng screws. Mababa yung armrest, di abot yung siko ko sa armrest",-0.1511,BAD,,sakto -0.6
 2331,"Decent Decent Decent Did not meet my expectations. Chair height is short, arm rest is small compared to other chairs. Upuan na pang 7-12 years old, not for big adults. Chair is squeaking a bit. Ginawa ko nalang patungan ng paa.",0.0,NEUTRAL,,
@@ -2349,12 +2349,12 @@
 2348,Mali yung isang bricks na dumating but it's okay. Safe naman po dunating and complete. Thank you Seller!!,0.1739,GOOD,,Mali -0.9; okay +0.8; Thank +0.2
 2349,"good good good Everything was perfect. However, i was given another spongebob instead of a patrick",0.9325,GOOD,,good +2.4; good +2.4; good +2.4; perfect +2.8
 2350,ok ok rin 👍 May kulang ng isa pagka deliver,0.25,GOOD,,ok +0.5; ok +0.5; kulang -1.5; 👍 +1.5
-2351,"9/10 8/10 The product is okay, and honestly it’s very nice for its price, the only problem is, one of my order is the luigi variant, and the seller shipped the wrong pieces. but over all the quality is great",0.9398,GOOD,,okay +0.2; very nice +1.2; order +0.5; great +4.7; 9/10 +2.0; 8/10 +2.0
-2352,"Good Mini legos and i love it For everyone?? I really love it but it was supposed to be pochacco and not minnie mouse. anyway, the seller refunded but i cannot afford to give 5 stars. i hope you double check next time because i was trying to complete the characters.",0.6428,GOOD,,love +3.2
+2351,"9/10 8/10 The product is okay, and honestly it’s very nice for its price, the only problem is, one of my order is the luigi variant, and the seller shipped the wrong pieces. but over all the quality is great",0.9343,GOOD,,okay +0.2; very nice +1.2; order +0.5; wrong -0.5; great +4.7; 9/10 +2.0; 8/10 +2.0
+2352,"Good Mini legos and i love it For everyone?? I really love it but it was supposed to be pochacco and not minnie mouse. anyway, the seller refunded but i cannot afford to give 5 stars. i hope you double check next time because i was trying to complete the characters.",0.7667,GOOD,,love +1.6; 5 stars +3.0
 2353,Ok naman. Kulang lang ng isang instructions for snow white. ☹️,-0.25,BAD,,Ok +0.5; Kulang -1.5
 2354,10 10 10 Sabi ni shoppee hindi ako pwede bumili ng 30+ pcs neto dahil di kaya sa courier. Un pla dadating sakin ng nakafold ang box at maliit lang pla yung package. Dagdag bayad tuloy dahil dalawang shipping. Pero ok nmn maayos lahat ng items pwedeng pwede pang regalo sa madaming kids kasi affordable. Fast shipping and delivery too,0.9127,GOOD,,maliit -0.5; ok +0.8; maayos +3.0; affordable +2.7; Fast +2.7
 2355,I just love legos and puzzles.. feels like want to collect all of it 😅 some of the bricks does not match sometimes.. but still manageable,0.6124,GOOD,,love +3.0
-2356,10 10 10 Butas ung isa sana hindi nawala yung mga parte niya. Tinape ko na lang uli sayang nmn kung isend back pa. Sabi ni shoppee hindi ako pwede bumili ng 30+ pcs neto dahil di kaya sa courier. Un pla dadating sakin ng nakafold ang box at maliit lang pla yung package. Dagdag bayad tuloy dahil dalawang shipping. Pero ok nmn goods pang regalo sa madaming kids kasi affordable. Fast shipping and delivery too,0.8922,GOOD,,sayang -1.0; maliit -0.5; ok +0.8; goods +3.0; affordable +2.7; Fast +2.7
+2356,10 10 10 Butas ung isa sana hindi nawala yung mga parte niya. Tinape ko na lang uli sayang nmn kung isend back pa. Sabi ni shoppee hindi ako pwede bumili ng 30+ pcs neto dahil di kaya sa courier. Un pla dadating sakin ng nakafold ang box at maliit lang pla yung package. Dagdag bayad tuloy dahil dalawang shipping. Pero ok nmn goods pang regalo sa madaming kids kasi affordable. Fast shipping and delivery too,0.872,GOOD,,sayang -1.0; maliit -0.5; ok +0.8; goods +2.2; affordable +2.7; Fast +2.7
 2357,good good good All complete. I don't know why naka tupi ung box pag bukas but it's all good.,0.8807,GOOD,,good +1.2; good +1.2; good +1.2; good +3.6
 2358,"Maganda yung blocks, wala namang damage nung nareceive pero kulang ng isa yung blocks 11 yung inorder namin, pero yung nareceive is 10 lang",-0.1469,BAD,,Maganda +1.2; wala -0.5; damage +0.9; kulang -2.2
 2359,7/10 Complete order but yung ibang boxes yupi,-0.25,BAD,,order +0.5; yupi -1.5
@@ -2364,7 +2364,7 @@
 2363,Tama naman yung item but 5 pieces are missing. 20 pcs ang box pero ung laman is 15 only so i had to order 5 more to complete.,0.1901,GOOD,,Tama +0.5; missing -1.2; order +1.5
 2364,Kulang ung pinadala sakin 10pcs order ko 9 lng dumating,-0.128,BAD,,Kulang -1.5; order +1.0
 2365,"Mali Yung binigay na one item huhu, but still thanks.",-0.1531,BAD,,Mali -1.8; thanks +1.2
-2366,All goods aside from this one that is already open,0.4588,GOOD,,goods +2.0
+2366,All goods aside from this one that is already open,0.5267,GOOD,,goods +1.5; already open +0.9
 2367,maganda naman kaso lukot yung ibang box,0.5423,GOOD,,maganda +2.5
 2368,One of my order swap without any notice po.. exchabge with pickachu po..,0.25,GOOD,,order +1.0
 2369,Magandang panggift sa mga bata ngayong pasko,0.0,NEUTRAL,,
@@ -2376,14 +2376,14 @@
 2375,maganda medyo matibay perfect for collector and kids,0.8754,GOOD,,maganda +2.5; matibay +1.9; perfect +2.6
 2376,Thanks seller! my younger brother and sisters loved it!,0.7772,GOOD,,Thanks +1.2; loved +3.0
 2377,9/10 10/10 10/10 Received the items fast but not all of the instructions are included (just 1 inst. Is missing),0.631,GOOD,,fast +0.9; missing -3.8; 9/10 +2.0; 10/10 +2.0; 10/10 +2.0
-2378,Received complete order Perfect na sana kaso walang HK tapos may nadobleng isang character Sana iba nalang nilagay para di mgkapareho o kaya chineck with me Fast shipping tho and delivery Overall goods parin naman for sure matutuwa mga receivers nito Thank you po,0.8151,GOOD,,order +0.5; Perfect -1.0; Fast +2.7; goods +3.0; Thank +0.2
+2378,Received complete order Perfect na sana kaso walang HK tapos may nadobleng isang character Sana iba nalang nilagay para di mgkapareho o kaya chineck with me Fast shipping tho and delivery Overall goods parin naman for sure matutuwa mga receivers nito Thank you po,0.7717,GOOD,,order +0.5; Perfect -1.0; Fast +2.7; goods +2.2; Thank +0.2
 2379,the packaging lang may problem some boxes eh nayupi yupi at malapit ng mapunit,-0.5859,BAD,,yupi -1.0; mapunit -1.8
 2380,Good Maganda kasi hind nalukot yung box perfect to pang gift sa kids or pang give away. Excited nako buuhin is super cute!!,0.9375,GOOD,,Good +2.4; Maganda +2.5; perfect +2.8; cute +2.1
 2381,"good good good really cute, i like it but it is so hard to build lol",0.9437,GOOD,,good +2.4; good +2.4; good +2.4; cute +2.0; i like +1.8
 2382,slay,0.5106,GOOD,,slay +2.3
 2383,Good👍,0.7096,GOOD,,Good +2.4; 👍 +1.5
 2384,kulang ng isang brick tapos punit yung isang box,-0.6486,BAD,,kulang -1.5; punit -1.8
-2385,One item does not have the correct manual.,0.0,NEUTRAL,,
+2385,One item does not have the correct manual.,-0.2235,BAD,,correct -0.9
 2386,Sira yung box,-0.5423,BAD,,Sira -2.5
 2387,Dented boxes,0.0,NEUTRAL,,
 2388,not well packaged got flat,-0.1326,BAD,,well -0.5
@@ -2396,7 +2396,7 @@
 2395,Puro kulang po Ang bricks lht po ng dmating sakin😡😡😡😡,-0.9612,BAD,,kulang -1.5; 😡 -3.0
 2396,"damaged may damage na yung ibang lego parts, di na ma-build nang maayos. sira na rin yung ibang box. disappointed.",-0.9042,BAD,,damaged -2.5; damage -2.5; maayos +2.0; sira -2.5; disappointed -2.7
 2397,"mali mali yung order tapos may iba na sobrang liit, eh yung iba sakto lang ang size",-0.714,BAD,,mali -1.8; mali -1.8; order +1.0; liit -1.4
-2398,Kulang ng 2 items order ko..di rin ngmesage c seller na di available ung item.. pakiayos nmn po at ngbbyad nmn ng tama..,0.128,GOOD,,Kulang -1.5; order +1.0; tama +1.0
+2398,Kulang ng 2 items order ko..di rin ngmesage c seller na di available ung item.. pakiayos nmn po at ngbbyad nmn ng tama..,-0.128,BAD,,Kulang -1.5; order +1.0; pakiayos -1.0; tama +1.0
 2399,I bought 4 and 2 does not have instruction. I have to find guide on the internet but they have different blocks. Do not order the mz series. Stitch was not included. I only assembled kuromi. Will not order here again.,-0.8402,BAD,,not order -3.0; not order -3.0
 2400,10/10 Kaya Lang Mali ang pattern naipadala😔 Di man Lang dinouble check Pano KO maassemble to???,0.1877,GOOD,,Mali -1.3; 10/10 +2.0
 2401,"bad HORRIBLE Eh Nubayan di nya katulad yung nasa picture iba naman ang liit ng blocks tapos antagal pa dumating kahit malapit na sa bayan namin di sya worth it tapos dipa sya nakalagay sa box, naipit yung box",-0.9383,BAD,,bad -2.5; HORRIBLE -3.7; liit -1.0; antagal -1.2; worth it -2.1
@@ -2409,13 +2409,13 @@
 2408,12pcs bnili ko kulang kulang ng parts un lego🥴 Will not order again,-0.7906,BAD,,kulang -1.5; kulang -1.5; not order -2.0
 2409,Poor Hello Kitty got mixed up to be a Melody,-0.4588,BAD,,Poor -2.0
 2410,The bricks is good but the seller and packaging they gave me kulang na item. And hindi man lang nila ibigay or ipadala kasi kasalanan nila na kulang until now wala pading binibigay. So disappointed 😡😡,-0.9688,BAD,,good +1.2; kulang -2.2; kulang -2.2; wala -1.5; disappointed -4.3; 😡 -3.0
-2411,"Wrong 1 item delivered wala si mikey mouse, minnie mouse na lukot ang ipinalit, hindi nakaayos ang item gulo-gulo, wala naka sulat kung saan o kanino kaparehas at lukot yung iba",-0.4588,BAD,,wala -1.0; wala -1.0
+2411,"Wrong 1 item delivered wala si mikey mouse, minnie mouse na lukot ang ipinalit, hindi nakaayos ang item gulo-gulo, wala naka sulat kung saan o kanino kaparehas at lukot yung iba",-0.6124,BAD,,Wrong -1.0; wala -1.0; wala -1.0
 2412,Wala patern yong isa,-0.25,BAD,,Wala -1.0
 2413,"inorder ko melody, tapos dumating cinnamon roll",0.0,NEUTRAL,,
 2414,good Kulang pieces,0.2263,GOOD,,good +2.4; Kulang -1.5
 2415,hindi kamuka ni spongebob,0.0,NEUTRAL,,
 2416,Kulang ng isang item,-0.3612,BAD,,Kulang -1.5
-2417,Wrong items delivered,0.0,NEUTRAL,,
+2417,Wrong items delivered,-0.25,BAD,,Wrong -1.0
 2418,lol item,0.0,NEUTRAL,,
 2419,Kulang yung items Then the manual di po nilagay,-0.3612,BAD,,Kulang -1.5
 2420,kulang kulang,-0.6124,BAD,,kulang -1.5; kulang -1.5
