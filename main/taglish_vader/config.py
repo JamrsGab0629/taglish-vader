@@ -24,7 +24,7 @@ NEGATORS = {
     "hindi", "hindi'", "di", "hnd", "hndi", "wala", "walang", "ayaw",
     "not", "no", "never", "dont", "don't", "didn't", "isn't", "wasn't",
     "cant", "can't", "won't", "doesn't", "aint", "ain't", "diko", "dko",
-    "wag", "huwag", "unlike", "not like","dili", 
+    "wag", "huwag", "unlike", "not like","dili", "akala"
 }
 
 # "But" words: what comes AFTER matters more

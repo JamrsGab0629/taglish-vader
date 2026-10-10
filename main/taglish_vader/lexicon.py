@@ -186,7 +186,7 @@ LEXICON = {
     "wrong size": -2.0, "maling item": -2.5, "maling kulay": -2.3,
     "maling size": -2.0, "iba ang dumating": -2.5, "not as described": -2.5,
     "not original": -2.5, "counterfeit": -3.0, "peke": -3.0, "budol" : -3.0,
-    "irresponsible": -2.5,
+    "irresponsible": -2.5, "wrong": -1.0, "already open": 0.9,
 
     # for products that has a smell, or fragrance
     "bango": 2.0, "amoy": 0.2, "baho": -2.0, "smell": 0.0, "mabula": 1.2,
@@ -198,10 +198,15 @@ LEXICON = {
     "leche": -2.5, "bobo": -2.5, "fuck": -2.5,
 
     # words that has value but no category,
-    "order": 1.0, "buying": 1.5, "functional" :1.5
+    "order": 1.0, "buying": 1.5, "functional" :1.5, "pakiayos": -1.0, "correct": 1.2, "pakicorrect": -1.3,
+    "dent" : -1.0,
+
+    #direct rating
+    "1 stars": -2.0, "2 stars": -0.5, "3 stars": 0.5, "4 stars": 1.0, "5 stars": 2.0,
 }
 
 EMOJIS = {
+
     # ---------- EMOJIS ----------
     "😍": 2.5, "😊": 1.8, "😀": 2.0, "😄": 2.1, "😁": 2.0, "🥰": 2.5,
     "❤": 2.0, "♥️": 2.0, "❤️":2.0,"💚": 2.0, "💖": 2.0, "🫰": 2.0, 
