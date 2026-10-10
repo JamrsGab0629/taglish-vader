@@ -4,10 +4,6 @@ batch.py - read a CSV of reviews and label them all, from the TEXT ONLY.
 No star ratings are used anywhere: stars are a guess about what the review says,
 so they are not allowed to influence (or grade) the labels.
 
-To measure accuracy honestly, add a column called  human_label  to the CSV and
-fill it in yourself with GOOD / NEUTRAL / BAD for each review (a second person
-labeling too is even better). Then run again: the report compares the analyzer
-against YOUR labels.
 """
 
 import csv

@@ -190,7 +190,7 @@ def tidy(text):
     return t
 
 
-# =============================== DATE MODE ======================================
+#  DATE MODE
 def extract_by_date(pages, chrome=None):
     if chrome is None:
         chrome = page_chrome(pages)
@@ -230,7 +230,7 @@ def extract_by_date(pages, chrome=None):
     return reviews, stats
 
 
-# ============================== FILTER MODE =====================================
+#  FILTER MODE 
 def why_drop(line, min_words):
     s = line.strip()
     if not s:
@@ -272,7 +272,7 @@ def extract_by_filter(pages, min_words):
     return [k for k in kept if k], dropped, reasons
 
 
-# ================================== MAIN ========================================
+# MAIN 
 def clean(path, out, mode="auto", min_words=2):
     text = open(path, encoding="utf-8").read()
     pages = [p for p in text.split(PAGE_MARK) if p.strip()]

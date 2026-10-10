@@ -4,10 +4,7 @@ Nothing in here imports other project files.
 """
 
 import re
-
-# ---------------------------------------------------------------------------
-# Boosters (+) make the next feeling stronger, dampeners (-) make it weaker
-# ---------------------------------------------------------------------------
+# Booster make the  feeling strong
 BOOSTERS = {
     "sobra": 0.35, "sobrang": 0.35, "grabe": 0.40, "grabeng": 0.40,
     "super": 0.35, "very": 0.29, "napaka": 0.40, "pinaka": 0.40,
@@ -138,12 +135,23 @@ SARCASM_MARKERS = {
     "wow": 0.5,
     "great job": 1.0,
     "good job": 1.0,
-    "why": 0.5,
-    "haha": 0.75,
-    "daw": 0.5,
-    "ang sabi": 0.5,
-    "sabi": 0.25,
-    "talaga": 0.7,
+   
+    "thank you for nothing": 3.0,
+    "thank u for nothing": 3.0,
+    "so much for": 2.0,
+    "slow clap": 2.0,
+    "wow naman": 1.5,
+    "wow ha": 1.5,
+    "ayos ha": 1.5,
+    "galing ha": 1.5,
+    "galing mo": 1.0,
+    "5 stars daw": 1.5,
+    "salamat ha": 1.0,
+    "nice job": 1.0,
+    "bravo": 1.0,
+    "kudos": 0.5,
+    "sana all": 0.5,
+    "lol" : 1.5
 }
 
 SARCASM_EMOJIS = {"🙄": 2.0, "🙃": 2.0, "🤡": 2.0, "😒": 1.5, "👏": 1.0}

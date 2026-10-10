@@ -98,7 +98,7 @@ LEXICON = {
     "nakakaawa": -1.5, "nakakadisappoint": -2.7, "mabaho": -2.3,
     "maingay": -1.2, "ordinaryo": -0.2, "lunkot": -1.5, "daya": -1.7,
     "natapon": -2.0, "wala": -1.0, "nadismaya": -2.5, "nakakasama": -1.9,
-    "dugyot": -1.8,
+    "dugyot": -1.8,"indi gumagana": -2.3, "di nagana": -2.3, "tamad": -2.3, "mahina": -2.5,
 
     # ---------- NEGATIVE (English / Taglish slang) ----------
     "bad": -2.5, "worst": -3.2, "terrible": -3.0, "horrible": -3.0,
@@ -111,7 +111,7 @@ LEXICON = {
     "scammed": -3.3, "refund": -1.5, "return": -1.5,"complaint": -1.8, "issue": -1.2,
     "cheap quality": -2.2, "lousy": -2.5, "annoying": -2.5, "sad": -1.4, "stress": -1.5,
     "frustrate": -1.7, "liar": -2.2, "high blood": -2.5, "deceive": -1.5, "yupi": -1.0,
-    "liit": -1.0, "ugly": -2.0, 
+    "liit": -1.0, "ugly": -2.0, "deffective" : -2.7,"not charging": -2.5,
 
     # ---------- DOMAIN PHRASES (same word, different meaning) ----------
     "mabilis maubos": -2.5, "mabilis na maubos": -2.5, "mabilis maubusan": -2.5,
