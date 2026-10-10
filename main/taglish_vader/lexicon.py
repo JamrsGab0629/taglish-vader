@@ -101,7 +101,7 @@ LEXICON = {
     "nakakaawa": -1.5, "nakakadisappoint": -2.7, "mabaho": -2.3,
     "maingay": -1.2, "ordinaryo": -0.2, "lunkot": -1.5, "daya": -1.7,
     "natapon": -2.0, "wala": -1.0, "nadismaya": -2.5, "nakakasama": -1.9,
-    "dugyot": -1.8,"indi gumagana": -2.3, "di nagana": -2.3, "tamad": -2.3, "mahina": -2.5,
+    "dugyot": -1.8,"hindi gumagana": -2.3, "di nagana": -2.3, "tamad": -2.3, "mahina": -2.5,
 
     # ---------- NEGATIVE (English / Taglish slang) ----------
     "bad": -2.5, "worst": -3.2, "terrible": -3.0, "horrible": -3.0,
